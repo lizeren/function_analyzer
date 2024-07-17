@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/lizeren/Desktop/static_analyzer/build",
+  "command": "/usr/bin/c++   -I/usr/lib/llvm-10/include    -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++14 -o CMakeFiles/MyStaticAnalyzer.dir/main.cpp.o -c /home/lizeren/Desktop/static_analyzer/main.cpp",
+  "file": "/home/lizeren/Desktop/static_analyzer/main.cpp"
+}
+]
