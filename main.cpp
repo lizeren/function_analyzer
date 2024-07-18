@@ -7,15 +7,13 @@
 #include <clang/Frontend/CompilerInstance.h>
 #include <clang/Frontend/FrontendActions.h>
 #include <llvm/Support/CommandLine.h>
-
+#include <clang/Basic/SourceLocation.h>
+#include <clang/Basic/SourceManager.h>
 
 using namespace clang;
 using namespace clang::tooling;
 using namespace clang::ast_matchers;
 static llvm::cl::OptionCategory ToolingSampleCategory("My Tooling Sample Options");
-
-#include <clang/Basic/SourceLocation.h>
-#include <clang/Basic/SourceManager.h>
 
 class FunctionAnalyzer : public MatchFinder::MatchCallback {
 public:
@@ -28,30 +26,24 @@ public:
                 std::cout << "Number of parameters: " << FD->getNumParams() << std::endl;
                 std::cout << "Parameters: ";
                 for (const auto *param : FD->parameters()) {
-                    std::cout << param->getNameAsString() << " ";
+                    std::string paramType = param->getType().getAsString();
+                    std::cout << param->getNameAsString() << " (" << paramType << ") ";
                 }
                 std::cout << std::endl;
                 std::cout << "Number of local variables: " << std::endl;
+                // Local variable analysis not implemented yet
             }
         }
     }
 };
 
-
 int main(int argc, const char **argv) {
-    // Parse command-line arguments using CommonOptionsParser
-    CommonOptionsParser OptionsParser(argc, argv, ToolingSampleCategory); // Note: ToolingSampleCategory should be defined or managed accordingly
-
-    // Create a ClangTool to run analysis based on parsed options
+    CommonOptionsParser OptionsParser(argc, argv, ToolingSampleCategory);
     ClangTool Tool(OptionsParser.getCompilations(), OptionsParser.getSourcePathList());
 
-    // Instantiate the analyzer and the matcher
     FunctionAnalyzer Analyzer;
     MatchFinder Finder;
-
-    // Define the AST matcher rule for function declarations and bind them to the analyzer
     Finder.addMatcher(functionDecl().bind("functionDecl"), &Analyzer);
 
-    // Run the tool with the created frontend action factory and return the result
     return Tool.run(newFrontendActionFactory(&Finder).get());
 }
