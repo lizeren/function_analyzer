@@ -2,7 +2,10 @@
 using namespace std;
 
 int add(int a, int b) {
-    return a + b;
+    int c = a;
+    int d = b;
+    float e = 0;
+    return c + d;
 }
 
 void printHello() {
