@@ -22,7 +22,13 @@ class LocalVariableCounter : public RecursiveASTVisitor<LocalVariableCounter> {
 public:
     std::unordered_map<std::string, int> typeCount;
 
-    bool VisitVarDecl(VarDecl *v) {
+    // Override to accept const Decl*
+    bool TraverseDecl(const Decl *D) {
+        if (!D) return true; // Handle null pointers gracefully
+        return RecursiveASTVisitor<LocalVariableCounter>::TraverseDecl(const_cast<Decl*>(D));
+    }
+
+    bool VisitVarDecl(const VarDecl *v) {
         if (v->isLocalVarDecl() && !v->hasGlobalStorage()) {
             std::string typeName = v->getType().getAsString();
             typeCount[typeName]++;
@@ -34,7 +40,6 @@ public:
 class FunctionAnalyzer : public MatchFinder::MatchCallback {
 public:
     void run(const MatchFinder::MatchResult &Result) override {
-        // Inside FunctionAnalyzer::run method
         if (const FunctionDecl *FD = Result.Nodes.getNodeAs<FunctionDecl>("functionDecl")) {
             if (!FD->getLocation().isInvalid() && Result.SourceManager->isInMainFile(FD->getLocation())) {
                 std::cout << "Function name: " << FD->getNameAsString() << std::endl;
@@ -48,7 +53,7 @@ public:
 
                 // Local variable analysis
                 LocalVariableCounter LVC;
-                LVC.TraverseDecl(const_cast<Decl *>(static_cast<const Decl *>(FD)));  // Remove const-ness
+                LVC.TraverseDecl(FD);  // Directly pass const Decl*
                 std::cout << "Local variables: " << std::endl;
                 for (const auto &typePair : LVC.typeCount) {
                     std::cout << "Type: " << typePair.first << ", Count: " << typePair.second << std::endl;
@@ -57,6 +62,7 @@ public:
         }
     }
 };
+
 
 int main(int argc, const char **argv) {
     CommonOptionsParser OptionsParser(argc, argv, ToolingSampleCategory);
