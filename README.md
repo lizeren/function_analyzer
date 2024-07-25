@@ -28,3 +28,20 @@ After building the project, you can run the static analyzer on an example file:
 ```bash
 ./MyStaticAnalyzer ../example.cpp
 ```
+
+
+## Dependencies for pyelftools
+```bash
+pip install pyelftools
+```
+
+## Running the dwarf parser
+
+Build the source file in which you are interested to find the starting memory address of each function.
+```bash
+g++ -O0 -g example.cpp -o example
+```
+Run the parser
+```bash
+python3 dwarf_parser.py
+```
