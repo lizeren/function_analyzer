@@ -12,6 +12,8 @@
 #include <llvm/Support/CommandLine.h>
 #include <clang/Basic/SourceLocation.h>
 #include <clang/Basic/SourceManager.h>
+#include <clang/Analysis/CFG.h>
+#include <clang/Analysis/Analyses/Dominators.h>
 
 using namespace clang;
 using namespace clang::ast_matchers;
@@ -37,6 +39,7 @@ public:
     }
 };
 
+
 class FunctionAnalyzer : public MatchFinder::MatchCallback {
 public:
     void run(const MatchFinder::MatchResult &Result) override {
@@ -50,6 +53,8 @@ public:
                     std::cout << param->getNameAsString() << " (" << paramType << ") ";
                 }
                 std::cout << std::endl;
+                
+
 
                 // Local variable analysis
                 LocalVariableCounter LVC;
@@ -57,6 +62,22 @@ public:
                 std::cout << "Local variables: " << std::endl;
                 for (const auto &typePair : LVC.typeCount) {
                     std::cout << "Type: " << typePair.first << ", Count: " << typePair.second << std::endl;
+                }
+
+
+                // Basic Block counting
+                // BuildCFG - Constructs a CFG from an AST.
+                std::unique_ptr<CFG> cfg = CFG::buildCFG(FD, FD->getBody(), &FD->getASTContext(), CFG::BuildOptions());
+                if (cfg) {
+                    int meaningfulBlocks = 0;
+                    for (auto *block : *cfg) {
+                        if (!block->empty() && block != &cfg->getEntry() && block != &cfg->getExit()) {
+                            meaningfulBlocks++;
+                        }
+                    }
+                    std::cout << "Number of meaningful Basic Blocks: " << meaningfulBlocks << std::endl;
+                } else {
+                    std::cout << "CFG could not be built for this function." << std::endl;
                 }
             }
         }
