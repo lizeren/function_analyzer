@@ -23,7 +23,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Create the executable from the specified source file
-add_executable(MyStaticAnalyzer main.cpp)
+add_executable(MyStaticAnalyzer feature_extraction.cpp)
 
 # Link against Clang and LLVM libraries
 target_link_libraries(MyStaticAnalyzer

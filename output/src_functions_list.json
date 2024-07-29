@@ -1,0 +1,27 @@
+[
+    {
+        "name": "_GLOBAL__sub_I__Z3addii",
+        "entry_point": "0x12d8",
+        "end_address": "0x12f1"
+    },
+    {
+        "name": "__static_initialization_and_destruction_0",
+        "entry_point": "0x128b",
+        "end_address": "0x12d8"
+    },
+    {
+        "name": "main",
+        "entry_point": "0x1229",
+        "end_address": "0x128b"
+    },
+    {
+        "name": "printHello",
+        "entry_point": "0x11f6",
+        "end_address": "0x1229"
+    },
+    {
+        "name": "add",
+        "entry_point": "0x11c9",
+        "end_address": "0x11f6"
+    }
+]

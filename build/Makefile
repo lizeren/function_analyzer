@@ -149,32 +149,32 @@ intrinsics_gen/fast:
 	$(MAKE) -f CMakeFiles/intrinsics_gen.dir/build.make CMakeFiles/intrinsics_gen.dir/build
 .PHONY : intrinsics_gen/fast
 
-main.o: main.cpp.o
+feature_extraction.o: feature_extraction.cpp.o
 
-.PHONY : main.o
+.PHONY : feature_extraction.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/MyStaticAnalyzer.dir/build.make CMakeFiles/MyStaticAnalyzer.dir/main.cpp.o
-.PHONY : main.cpp.o
+feature_extraction.cpp.o:
+	$(MAKE) -f CMakeFiles/MyStaticAnalyzer.dir/build.make CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.o
+.PHONY : feature_extraction.cpp.o
 
-main.i: main.cpp.i
+feature_extraction.i: feature_extraction.cpp.i
 
-.PHONY : main.i
+.PHONY : feature_extraction.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/MyStaticAnalyzer.dir/build.make CMakeFiles/MyStaticAnalyzer.dir/main.cpp.i
-.PHONY : main.cpp.i
+feature_extraction.cpp.i:
+	$(MAKE) -f CMakeFiles/MyStaticAnalyzer.dir/build.make CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.i
+.PHONY : feature_extraction.cpp.i
 
-main.s: main.cpp.s
+feature_extraction.s: feature_extraction.cpp.s
 
-.PHONY : main.s
+.PHONY : feature_extraction.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/MyStaticAnalyzer.dir/build.make CMakeFiles/MyStaticAnalyzer.dir/main.cpp.s
-.PHONY : main.cpp.s
+feature_extraction.cpp.s:
+	$(MAKE) -f CMakeFiles/MyStaticAnalyzer.dir/build.make CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.s
+.PHONY : feature_extraction.cpp.s
 
 # Help Target
 help:
@@ -187,9 +187,9 @@ help:
 	@echo "... MyStaticAnalyzer"
 	@echo "... clang-tablegen-targets"
 	@echo "... intrinsics_gen"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... feature_extraction.o"
+	@echo "... feature_extraction.i"
+	@echo "... feature_extraction.s"
 .PHONY : help
 
 

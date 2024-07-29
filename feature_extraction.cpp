@@ -14,6 +14,10 @@
 #include <clang/Basic/SourceManager.h>
 #include <clang/Analysis/CFG.h>
 #include <clang/Analysis/Analyses/Dominators.h>
+#include <fstream>
+#include <vector>
+#include <sstream>
+
 
 using namespace clang;
 using namespace clang::ast_matchers;
@@ -44,68 +48,67 @@ public:
     }
 };
 
-
 class FunctionAnalyzer : public MatchFinder::MatchCallback {
 public:
+    std::vector<std::string> functionData;  // To store JSON objects as strings
+
     void run(const MatchFinder::MatchResult &Result) override {
         if (const FunctionDecl *FD = Result.Nodes.getNodeAs<FunctionDecl>("functionDecl")) {
             if (!FD->getLocation().isInvalid() && Result.SourceManager->isInMainFile(FD->getLocation())) {
-                std::cout << std::endl;
-                std::cout << "Function name: " << FD->getNameAsString() << std::endl;
-
-                // Parameter analysis
+                std::ostringstream json;
+                json << "{\n";
+                json << "  \"function_name\": \"" << FD->getNameAsString() << "\",\n";
+                json << "  \"number_of_parameters\": " << FD->getNumParams() << ",\n";
 
                 unsigned long long paramStackSize = 0;
-
-
-                std::cout << "Number of parameters: " << FD->getNumParams() << std::endl;
-                std::cout << "Parameters: ";
-                for (const auto *param : FD->parameters()) {
-                    std::string paramType = param->getType().getAsString();
-
-                    unsigned paramSize = FD->getASTContext().getTypeSize(param->getType()) / 8; // Convert bit to byte
-                    paramStackSize += paramSize;
-
-                    std::cout << param->getNameAsString() << " (" << paramType << ") ";
-                }
-                std::cout << "\nTotal Parameter Stack Size (bytes): " << paramStackSize << std::endl;
-                
-
-
-                // Local variable analysis
-                LocalVariableCounter LVC;
-
-                 LVC.TraverseDecl(FD);
-                std::cout << "Total Local Variable Stack Size (bytes): " << LVC.stackSize << std::endl;
-
-                LVC.TraverseDecl(FD);  // Directly pass const Decl*
                 int total_local_variables = 0;
-                std::cout << "Local variables: " << std::endl;
+                unsigned long long localVariableStackSize = 0;
+                int meaningfulBlocks = 0;
+
+                for (const auto *param : FD->parameters()) {
+                    unsigned paramSize = FD->getASTContext().getTypeSize(param->getType()) / 8;
+                    paramStackSize += paramSize;
+                }
+                json << "  \"total_parameter_stack_size_bytes\": " << paramStackSize << ",\n";
+
+                LocalVariableCounter LVC;
+                LVC.TraverseDecl(FD);
+                localVariableStackSize = LVC.stackSize;
                 for (const auto &typePair : LVC.typeCount) {
-                    std::cout << "Type: " << typePair.first << ", Count: " << typePair.second << std::endl;
                     total_local_variables += typePair.second;
                 }
-                std::cout << "Total Local variables: " << total_local_variables << std::endl;
+                json << "  \"total_local_variable_stack_size_bytes\": " << localVariableStackSize << ",\n";
+                json << "  \"total_local_variables\": " << total_local_variables << ",\n";
 
-
-                // Basic Block counting
-                // BuildCFG - Constructs a CFG from an AST.
                 std::unique_ptr<CFG> cfg = CFG::buildCFG(FD, FD->getBody(), &FD->getASTContext(), CFG::BuildOptions());
                 if (cfg) {
-                    int meaningfulBlocks = 0;
                     for (auto *block : *cfg) {
                         if (!block->empty() && block != &cfg->getEntry() && block != &cfg->getExit()) {
                             meaningfulBlocks++;
                         }
                     }
-                    std::cout << "Number of meaningful Basic Blocks: " << meaningfulBlocks << std::endl;
-                } else {
-                    std::cout << "CFG could not be built for this function." << std::endl;
                 }
+                json << "  \"number_of_meaningful_basic_blocks\": " << meaningfulBlocks << "\n";
+                json << "}\n";
+
+                functionData.push_back(json.str());
             }
         }
     }
+
+    ~FunctionAnalyzer() {
+        std::ofstream jsonFile("../output/src_feature.json");
+        jsonFile << "[\n";
+        for (size_t i = 0; i < functionData.size(); ++i) {
+            jsonFile << functionData[i];
+            if (i != functionData.size() - 1) jsonFile << ",";
+            jsonFile << "\n";
+        }
+        jsonFile << "]\n";
+        jsonFile.close();
+    }
 };
+
 
 
 int main(int argc, const char **argv) {

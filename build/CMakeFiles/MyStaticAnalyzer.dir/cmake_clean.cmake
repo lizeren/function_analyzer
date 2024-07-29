@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MyStaticAnalyzer.dir/main.cpp.o"
+  "CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.o"
   "MyStaticAnalyzer"
   "MyStaticAnalyzer.pdb"
 )

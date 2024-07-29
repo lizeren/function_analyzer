@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lizeren/Desktop/static_analyzer/main.cpp" "/home/lizeren/Desktop/static_analyzer/build/CMakeFiles/MyStaticAnalyzer.dir/main.cpp.o"
+  "/home/lizeren/Desktop/static_analyzer/feature_extraction.cpp" "/home/lizeren/Desktop/static_analyzer/build/CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

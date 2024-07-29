@@ -1,0 +1,29 @@
+[
+{
+  "function_name": "add",
+  "number_of_parameters": 2,
+  "total_parameter_stack_size_bytes": 8,
+  "total_local_variable_stack_size_bytes": 12,
+  "total_local_variables": 3,
+  "number_of_meaningful_basic_blocks": 1
+}
+,
+{
+  "function_name": "printHello",
+  "number_of_parameters": 0,
+  "total_parameter_stack_size_bytes": 0,
+  "total_local_variable_stack_size_bytes": 0,
+  "total_local_variables": 0,
+  "number_of_meaningful_basic_blocks": 1
+}
+,
+{
+  "function_name": "main",
+  "number_of_parameters": 0,
+  "total_parameter_stack_size_bytes": 0,
+  "total_local_variable_stack_size_bytes": 4,
+  "total_local_variables": 1,
+  "number_of_meaningful_basic_blocks": 1
+}
+
+]

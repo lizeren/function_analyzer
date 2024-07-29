@@ -57,27 +57,27 @@ include CMakeFiles/MyStaticAnalyzer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MyStaticAnalyzer.dir/flags.make
 
-CMakeFiles/MyStaticAnalyzer.dir/main.cpp.o: CMakeFiles/MyStaticAnalyzer.dir/flags.make
-CMakeFiles/MyStaticAnalyzer.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lizeren/Desktop/static_analyzer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyStaticAnalyzer.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyStaticAnalyzer.dir/main.cpp.o -c /home/lizeren/Desktop/static_analyzer/main.cpp
+CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.o: CMakeFiles/MyStaticAnalyzer.dir/flags.make
+CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.o: ../feature_extraction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lizeren/Desktop/static_analyzer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.o -c /home/lizeren/Desktop/static_analyzer/feature_extraction.cpp
 
-CMakeFiles/MyStaticAnalyzer.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyStaticAnalyzer.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lizeren/Desktop/static_analyzer/main.cpp > CMakeFiles/MyStaticAnalyzer.dir/main.cpp.i
+CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lizeren/Desktop/static_analyzer/feature_extraction.cpp > CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.i
 
-CMakeFiles/MyStaticAnalyzer.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyStaticAnalyzer.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lizeren/Desktop/static_analyzer/main.cpp -o CMakeFiles/MyStaticAnalyzer.dir/main.cpp.s
+CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lizeren/Desktop/static_analyzer/feature_extraction.cpp -o CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.s
 
 # Object files for target MyStaticAnalyzer
 MyStaticAnalyzer_OBJECTS = \
-"CMakeFiles/MyStaticAnalyzer.dir/main.cpp.o"
+"CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.o"
 
 # External object files for target MyStaticAnalyzer
 MyStaticAnalyzer_EXTERNAL_OBJECTS =
 
-MyStaticAnalyzer: CMakeFiles/MyStaticAnalyzer.dir/main.cpp.o
+MyStaticAnalyzer: CMakeFiles/MyStaticAnalyzer.dir/feature_extraction.cpp.o
 MyStaticAnalyzer: CMakeFiles/MyStaticAnalyzer.dir/build.make
 MyStaticAnalyzer: /usr/lib/llvm-10/lib/libclangTooling.a
 MyStaticAnalyzer: /usr/lib/llvm-10/lib/libclangASTMatchers.a
