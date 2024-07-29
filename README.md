@@ -45,3 +45,9 @@ Run the parser
 ```bash
 python3 dwarf_parser.py
 ```
+
+## Dependencies for pyelftools
+compare.py - for finding functions that have the same entry point address
+```bash
+python3 comapre.py
+```
