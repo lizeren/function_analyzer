@@ -97,16 +97,35 @@ public:
     }
 
     ~FunctionAnalyzer() {
-        std::ofstream jsonFile("../output/src_feature.json");
+    std::ifstream existingFile("../output/src_feature.json");
+    std::ofstream jsonFile("../output/src_feature.json", std::ios::app);
+
+    // Check if the file already contains data
+    if (existingFile.peek() == std::ifstream::traits_type::eof()) {
+        // File is empty, start a new JSON array
         jsonFile << "[\n";
-        for (size_t i = 0; i < functionData.size(); ++i) {
-            jsonFile << functionData[i];
-            if (i != functionData.size() - 1) jsonFile << ",";
-            jsonFile << "\n";
-        }
-        jsonFile << "]\n";
-        jsonFile.close();
+    } else {
+        // File is not empty, prepare to append by seeking to the end of the last element
+        existingFile.seekg(-2, std::ios_base::end);  // Move to the position before the last ']'
+        jsonFile.seekp(-2, std::ios_base::end);      // Move to the position before the last ']'
+        jsonFile << ",\n";                          // Add a comma to separate the last element
     }
+
+    // Append the new JSON objects
+    for (size_t i = 0; i < functionData.size(); ++i) {
+        jsonFile << functionData[i];
+        if (i != functionData.size() - 1) {
+            jsonFile << ",";
+        }
+        jsonFile << "\n";
+    }
+
+    // Close the JSON array
+    jsonFile << "]\n";
+    jsonFile.close();
+    existingFile.close();
+}
+
 };
 
 

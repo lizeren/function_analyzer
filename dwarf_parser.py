@@ -46,4 +46,4 @@ def extract_function_addresses(filename, output_file):
             json.dump(functions_data, out, indent=4)
 
 if __name__ == '__main__':
-    extract_function_addresses('example', 'output/src_functions_list.json')
+    extract_function_addresses('example/main', 'output/src_functions_list.json')

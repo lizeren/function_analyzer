@@ -16,13 +16,42 @@
   "total_local_variables": 0,
   "number_of_meaningful_basic_blocks": 1
 }
+
+]
+,
+{
+  "function_name": "maxOfThree",
+  "number_of_parameters": 3,
+  "total_parameter_stack_size_bytes": 12,
+  "total_local_variable_stack_size_bytes": 0,
+  "total_local_variables": 0,
+  "number_of_meaningful_basic_blocks": 7
+}
+,
+{
+  "function_name": "findFirstNegative",
+  "number_of_parameters": 1,
+  "total_parameter_stack_size_bytes": 8,
+  "total_local_variable_stack_size_bytes": 8,
+  "total_local_variables": 1,
+  "number_of_meaningful_basic_blocks": 6
+}
+,
+{
+  "function_name": "countPrimes",
+  "number_of_parameters": 1,
+  "total_parameter_stack_size_bytes": 4,
+  "total_local_variable_stack_size_bytes": 13,
+  "total_local_variables": 4,
+  "number_of_meaningful_basic_blocks": 11
+}
 ,
 {
   "function_name": "main",
   "number_of_parameters": 0,
   "total_parameter_stack_size_bytes": 0,
-  "total_local_variable_stack_size_bytes": 4,
-  "total_local_variables": 1,
+  "total_local_variable_stack_size_bytes": 36,
+  "total_local_variables": 4,
   "number_of_meaningful_basic_blocks": 1
 }
 
