@@ -96,35 +96,47 @@ public:
         }
     }
 
-    ~FunctionAnalyzer() {
-    std::ifstream existingFile("../output/src_feature.json");
-    std::ofstream jsonFile("../output/src_feature.json", std::ios::app);
-
-    // Check if the file already contains data
-    if (existingFile.peek() == std::ifstream::traits_type::eof()) {
-        // File is empty, start a new JSON array
-        jsonFile << "[\n";
+~FunctionAnalyzer() {
+    std::ifstream existingFile("../output/src_feature.json", std::ios::ate); // Open file to check size
+    bool isEmpty = true;
+    if (!existingFile.is_open() || existingFile.tellg() == 0) {
+        // If the file isn't open or the size is 0, it's considered empty
+        isEmpty = true;
     } else {
-        // File is not empty, prepare to append by seeking to the end of the last element
-        existingFile.seekg(-2, std::ios_base::end);  // Move to the position before the last ']'
-        jsonFile.seekp(-2, std::ios_base::end);      // Move to the position before the last ']'
-        jsonFile << ",\n";                          // Add a comma to separate the last element
+        isEmpty = false;
+    }
+    existingFile.close();
+
+    std::ofstream jsonFile;
+    if (isEmpty) {
+        jsonFile.open("../output/src_feature.json", std::ios::out);
+        jsonFile << "[\n"; // Start a new JSON array if the file is empty
+        
+    } else {
+        // If the file is not empty, we prepare it for appending by removing the last "]\n"
+        std::fstream modifyFile("../output/src_feature.json", std::ios::in | std::ios::out);
+        long pos = modifyFile.tellg();
+        modifyFile.seekg(-2, std::ios::end);
+        pos = modifyFile.tellg(); // Find the position before the last "]"
+        modifyFile.seekp(pos); // Position the file pointer here to overwrite "]" with ","
+        modifyFile << "\n,\n"; // Properly format the separation between JSON entries
+        modifyFile.close();
+        
+        jsonFile.open("../output/src_feature.json", std::ios::out | std::ios::app);
     }
 
     // Append the new JSON objects
     for (size_t i = 0; i < functionData.size(); ++i) {
         jsonFile << functionData[i];
         if (i != functionData.size() - 1) {
-            jsonFile << ",";
+            jsonFile << ",\n";
         }
-        jsonFile << "\n";
     }
 
-    // Close the JSON array
-    jsonFile << "]\n";
+    jsonFile << "]"; // Close the JSON array
     jsonFile.close();
-    existingFile.close();
 }
+
 
 };
 
@@ -140,4 +152,3 @@ int main(int argc, const char **argv) {
 
     return Tool.run(newFrontendActionFactory(&Finder).get());
 }
-
