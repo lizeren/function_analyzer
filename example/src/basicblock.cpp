@@ -8,7 +8,7 @@ int maxOfThree(int a, int b, int c) {
     if (a > b) {
         if (a > c) {
             return a;
-        } else {
+        } else { 
             return c;
         }
     } else {

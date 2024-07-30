@@ -1,0 +1,390 @@
+[
+    {
+        "name": "_init", 
+        "entry_point": "0x1000"
+    }, 
+    {
+        "name": "FUN_00101020", 
+        "entry_point": "0x1020"
+    }, 
+    {
+        "name": "__cxa_finalize", 
+        "entry_point": "0x10f0"
+    }, 
+    {
+        "name": "__throw_bad_alloc", 
+        "entry_point": "0x1100"
+    }, 
+    {
+        "name": "__throw_length_error", 
+        "entry_point": "0x1110"
+    }, 
+    {
+        "name": "__cxa_atexit", 
+        "entry_point": "0x1120"
+    }, 
+    {
+        "name": "operator.delete", 
+        "entry_point": "0x1130"
+    }, 
+    {
+        "name": "operator<<", 
+        "entry_point": "0x1140"
+    }, 
+    {
+        "name": "operator.new", 
+        "entry_point": "0x1150"
+    }, 
+    {
+        "name": "operator<<", 
+        "entry_point": "0x1160"
+    }, 
+    {
+        "name": "__stack_chk_fail", 
+        "entry_point": "0x1170"
+    }, 
+    {
+        "name": "Init", 
+        "entry_point": "0x1180"
+    }, 
+    {
+        "name": "memmove", 
+        "entry_point": "0x1190"
+    }, 
+    {
+        "name": "operator<<", 
+        "entry_point": "0x11a0"
+    }, 
+    {
+        "name": "_Unwind_Resume", 
+        "entry_point": "0x11b0"
+    }, 
+    {
+        "name": "_start", 
+        "entry_point": "0x11c0"
+    }, 
+    {
+        "name": "deregister_tm_clones", 
+        "entry_point": "0x11f0"
+    }, 
+    {
+        "name": "register_tm_clones", 
+        "entry_point": "0x1220"
+    }, 
+    {
+        "name": "__do_global_dtors_aux", 
+        "entry_point": "0x1260"
+    }, 
+    {
+        "name": "frame_dummy", 
+        "entry_point": "0x12a0"
+    }, 
+    {
+        "name": "maxOfThree", 
+        "entry_point": "0x12a9"
+    }, 
+    {
+        "name": "findFirstNegative", 
+        "entry_point": "0x12e6"
+    }, 
+    {
+        "name": "countPrimes", 
+        "entry_point": "0x134f"
+    }, 
+    {
+        "name": "main", 
+        "entry_point": "0x13b4"
+    }, 
+    {
+        "name": "__static_initialization_and_destruction_0", 
+        "entry_point": "0x158c"
+    }, 
+    {
+        "name": "_GLOBAL__sub_I_maxOfThree", 
+        "entry_point": "0x15d9"
+    }, 
+    {
+        "name": "size", 
+        "entry_point": "0x15f2"
+    }, 
+    {
+        "name": "operator[]", 
+        "entry_point": "0x161a"
+    }, 
+    {
+        "name": "allocator", 
+        "entry_point": "0x163e"
+    }, 
+    {
+        "name": "~allocator", 
+        "entry_point": "0x165e"
+    }, 
+    {
+        "name": "vector", 
+        "entry_point": "0x167e"
+    }, 
+    {
+        "name": "~vector", 
+        "entry_point": "0x1732"
+    }, 
+    {
+        "name": "new_allocator", 
+        "entry_point": "0x177a"
+    }, 
+    {
+        "name": "~new_allocator", 
+        "entry_point": "0x178a"
+    }, 
+    {
+        "name": "~_Vector_impl", 
+        "entry_point": "0x179a"
+    }, 
+    {
+        "name": "_Vector_base", 
+        "entry_point": "0x17ba"
+    }, 
+    {
+        "name": "~_Vector_base", 
+        "entry_point": "0x17e4"
+    }, 
+    {
+        "name": "begin", 
+        "entry_point": "0x1836"
+    }, 
+    {
+        "name": "end", 
+        "entry_point": "0x184c"
+    }, 
+    {
+        "name": "_M_range_initialize<int_const*>", 
+        "entry_point": "0x1886"
+    }, 
+    {
+        "name": "_M_get_Tp_allocator", 
+        "entry_point": "0x193a"
+    }, 
+    {
+        "name": "_Destroy<int*,int>", 
+        "entry_point": "0x194c"
+    }, 
+    {
+        "name": "_Vector_impl", 
+        "entry_point": "0x197a"
+    }, 
+    {
+        "name": "_M_deallocate", 
+        "entry_point": "0x19b0"
+    }, 
+    {
+        "name": "size", 
+        "entry_point": "0x19ea"
+    }, 
+    {
+        "name": "distance<int_const*>", 
+        "entry_point": "0x1a00"
+    }, 
+    {
+        "name": "_S_check_init_len", 
+        "entry_point": "0x1a58"
+    }, 
+    {
+        "name": "_M_allocate", 
+        "entry_point": "0x1ade"
+    }, 
+    {
+        "name": "__uninitialized_copy_a<int_const*,int*,int>", 
+        "entry_point": "0x1b15"
+    }, 
+    {
+        "name": "_Destroy<int*>", 
+        "entry_point": "0x1b4a"
+    }, 
+    {
+        "name": "allocator", 
+        "entry_point": "0x1b74"
+    }, 
+    {
+        "name": "_Vector_impl_data", 
+        "entry_point": "0x1b9e"
+    }, 
+    {
+        "name": "deallocate", 
+        "entry_point": "0x1bd0"
+    }, 
+    {
+        "name": "__iterator_category<int_const*>", 
+        "entry_point": "0x1c02"
+    }, 
+    {
+        "name": "__distance<int_const*>", 
+        "entry_point": "0x1c10"
+    }, 
+    {
+        "name": "_S_max_size", 
+        "entry_point": "0x1c2e"
+    }, 
+    {
+        "name": "allocate", 
+        "entry_point": "0x1c97"
+    }, 
+    {
+        "name": "uninitialized_copy<int_const*,int*>", 
+        "entry_point": "0x1cc5"
+    }, 
+    {
+        "name": "__destroy<int*>", 
+        "entry_point": "0x1cfa"
+    }, 
+    {
+        "name": "new_allocator", 
+        "entry_point": "0x1d0e"
+    }, 
+    {
+        "name": "deallocate", 
+        "entry_point": "0x1d22"
+    }, 
+    {
+        "name": "max_size", 
+        "entry_point": "0x1d49"
+    }, 
+    {
+        "name": "min<unsigned_long>", 
+        "entry_point": "0x1d67"
+    }, 
+    {
+        "name": "allocate", 
+        "entry_point": "0x1d96"
+    }, 
+    {
+        "name": "__uninit_copy<int_const*,int*>", 
+        "entry_point": "0x1ddc"
+    }, 
+    {
+        "name": "max_size", 
+        "entry_point": "0x1e0e"
+    }, 
+    {
+        "name": "copy<int_const*,int*>", 
+        "entry_point": "0x1e26"
+    }, 
+    {
+        "name": "__miter_base<int_const*>", 
+        "entry_point": "0x1e76"
+    }, 
+    {
+        "name": "__copy_move_a2<false,int_const*,int*>", 
+        "entry_point": "0x1e88"
+    }, 
+    {
+        "name": "__niter_base<int_const*>", 
+        "entry_point": "0x1ef6"
+    }, 
+    {
+        "name": "__niter_base<int*>", 
+        "entry_point": "0x1f08"
+    }, 
+    {
+        "name": "__copy_move_a<false,int_const*,int*>", 
+        "entry_point": "0x1f1a"
+    }, 
+    {
+        "name": "__niter_wrap<int*>", 
+        "entry_point": "0x1f4f"
+    }, 
+    {
+        "name": "__copy_m<int>", 
+        "entry_point": "0x1f65"
+    }, 
+    {
+        "name": "__libc_csu_init", 
+        "entry_point": "0x1fd0"
+    }, 
+    {
+        "name": "__libc_csu_fini", 
+        "entry_point": "0x2040"
+    }, 
+    {
+        "name": "_fini", 
+        "entry_point": "0x2048"
+    }, 
+    {
+        "name": "__throw_bad_alloc", 
+        "entry_point": "0x6000"
+    }, 
+    {
+        "name": "endl<char,std::char_traits<char>>", 
+        "entry_point": "0x6008"
+    }, 
+    {
+        "name": "__throw_length_error", 
+        "entry_point": "0x6010"
+    }, 
+    {
+        "name": "__cxa_atexit", 
+        "entry_point": "0x6018"
+    }, 
+    {
+        "name": "operator.delete", 
+        "entry_point": "0x6020"
+    }, 
+    {
+        "name": "operator<<", 
+        "entry_point": "0x6028"
+    }, 
+    {
+        "name": "operator.new", 
+        "entry_point": "0x6030"
+    }, 
+    {
+        "name": "operator<<", 
+        "entry_point": "0x6038"
+    }, 
+    {
+        "name": "__stack_chk_fail", 
+        "entry_point": "0x6040"
+    }, 
+    {
+        "name": "Init", 
+        "entry_point": "0x6048"
+    }, 
+    {
+        "name": "memmove", 
+        "entry_point": "0x6050"
+    }, 
+    {
+        "name": "__gxx_personality_v0", 
+        "entry_point": "0x6058"
+    }, 
+    {
+        "name": "operator<<", 
+        "entry_point": "0x6060"
+    }, 
+    {
+        "name": "_ITM_deregisterTMCloneTable", 
+        "entry_point": "0x6068"
+    }, 
+    {
+        "name": "_Unwind_Resume", 
+        "entry_point": "0x6070"
+    }, 
+    {
+        "name": "__libc_start_main", 
+        "entry_point": "0x6078"
+    }, 
+    {
+        "name": "__gmon_start__", 
+        "entry_point": "0x6080"
+    }, 
+    {
+        "name": "_ITM_registerTMCloneTable", 
+        "entry_point": "0x6088"
+    }, 
+    {
+        "name": "~Init", 
+        "entry_point": "0x6090"
+    }, 
+    {
+        "name": "__cxa_finalize", 
+        "entry_point": "0x6098"
+    }
+]
