@@ -1,0 +1,52 @@
+[
+    {
+        "name": "_GLOBAL__sub_I__Z3addii",
+        "entry_point": "0x1363",
+        "end_address": "0x137c"
+    },
+    {
+        "name": "__static_initialization_and_destruction_0",
+        "entry_point": "0x1316",
+        "end_address": "0x1363"
+    },
+    {
+        "name": "printHello",
+        "entry_point": "0x12e3",
+        "end_address": "0x1316"
+    },
+    {
+        "name": "add",
+        "entry_point": "0x12a9",
+        "end_address": "0x12e3"
+    },
+    {
+        "name": "_GLOBAL__sub_I__Z10maxOfThreeiii",
+        "entry_point": "0x16b1",
+        "end_address": "0x16ca"
+    },
+    {
+        "name": "__static_initialization_and_destruction_0",
+        "entry_point": "0x1664",
+        "end_address": "0x16b1"
+    },
+    {
+        "name": "main",
+        "entry_point": "0x147d",
+        "end_address": "0x1664"
+    },
+    {
+        "name": "countPrimes",
+        "entry_point": "0x1418",
+        "end_address": "0x147d"
+    },
+    {
+        "name": "findFirstNegative",
+        "entry_point": "0x13b9",
+        "end_address": "0x1418"
+    },
+    {
+        "name": "maxOfThree",
+        "entry_point": "0x137c",
+        "end_address": "0x13b9"
+    }
+]

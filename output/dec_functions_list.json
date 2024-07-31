@@ -80,232 +80,248 @@
         "entry_point": "0x12a0"
     }, 
     {
-        "name": "maxOfThree", 
+        "name": "add", 
         "entry_point": "0x12a9"
     }, 
     {
-        "name": "findFirstNegative", 
-        "entry_point": "0x12e6"
-    }, 
-    {
-        "name": "countPrimes", 
-        "entry_point": "0x134f"
-    }, 
-    {
-        "name": "main", 
-        "entry_point": "0x13b4"
+        "name": "printHello", 
+        "entry_point": "0x12e3"
     }, 
     {
         "name": "__static_initialization_and_destruction_0", 
-        "entry_point": "0x158c"
+        "entry_point": "0x1316"
     }, 
     {
-        "name": "_GLOBAL__sub_I_maxOfThree", 
-        "entry_point": "0x15d9"
+        "name": "_GLOBAL__sub_I__Z3addii", 
+        "entry_point": "0x1363"
+    }, 
+    {
+        "name": "maxOfThree", 
+        "entry_point": "0x137c"
+    }, 
+    {
+        "name": "findFirstNegative", 
+        "entry_point": "0x13b9"
+    }, 
+    {
+        "name": "countPrimes", 
+        "entry_point": "0x1418"
+    }, 
+    {
+        "name": "main", 
+        "entry_point": "0x147d"
+    }, 
+    {
+        "name": "__static_initialization_and_destruction_0", 
+        "entry_point": "0x1664"
+    }, 
+    {
+        "name": "_GLOBAL__sub_I__Z10maxOfThreeiii", 
+        "entry_point": "0x16b1"
     }, 
     {
         "name": "size", 
-        "entry_point": "0x15f2"
+        "entry_point": "0x16ca"
     }, 
     {
         "name": "operator[]", 
-        "entry_point": "0x161a"
+        "entry_point": "0x16f2"
     }, 
     {
         "name": "allocator", 
-        "entry_point": "0x163e"
+        "entry_point": "0x1716"
     }, 
     {
         "name": "~allocator", 
-        "entry_point": "0x165e"
+        "entry_point": "0x1736"
     }, 
     {
         "name": "vector", 
-        "entry_point": "0x167e"
+        "entry_point": "0x1756"
     }, 
     {
         "name": "~vector", 
-        "entry_point": "0x1732"
+        "entry_point": "0x180a"
     }, 
     {
         "name": "new_allocator", 
-        "entry_point": "0x177a"
+        "entry_point": "0x1852"
     }, 
     {
         "name": "~new_allocator", 
-        "entry_point": "0x178a"
+        "entry_point": "0x1862"
     }, 
     {
         "name": "~_Vector_impl", 
-        "entry_point": "0x179a"
+        "entry_point": "0x1872"
     }, 
     {
         "name": "_Vector_base", 
-        "entry_point": "0x17ba"
+        "entry_point": "0x1892"
     }, 
     {
         "name": "~_Vector_base", 
-        "entry_point": "0x17e4"
+        "entry_point": "0x18bc"
     }, 
     {
         "name": "begin", 
-        "entry_point": "0x1836"
+        "entry_point": "0x190e"
     }, 
     {
         "name": "end", 
-        "entry_point": "0x184c"
+        "entry_point": "0x1924"
     }, 
     {
         "name": "_M_range_initialize<int_const*>", 
-        "entry_point": "0x1886"
+        "entry_point": "0x195e"
     }, 
     {
         "name": "_M_get_Tp_allocator", 
-        "entry_point": "0x193a"
+        "entry_point": "0x1a12"
     }, 
     {
-        "name": "_Destroy<int*,int>", 
-        "entry_point": "0x194c"
+        "name": "_Destroy<int*,_int>", 
+        "entry_point": "0x1a24"
     }, 
     {
         "name": "_Vector_impl", 
-        "entry_point": "0x197a"
+        "entry_point": "0x1a52"
     }, 
     {
         "name": "_M_deallocate", 
-        "entry_point": "0x19b0"
+        "entry_point": "0x1a88"
     }, 
     {
         "name": "size", 
-        "entry_point": "0x19ea"
+        "entry_point": "0x1ac2"
     }, 
     {
         "name": "distance<int_const*>", 
-        "entry_point": "0x1a00"
+        "entry_point": "0x1ad8"
     }, 
     {
         "name": "_S_check_init_len", 
-        "entry_point": "0x1a58"
+        "entry_point": "0x1b30"
     }, 
     {
         "name": "_M_allocate", 
-        "entry_point": "0x1ade"
+        "entry_point": "0x1bb6"
     }, 
     {
-        "name": "__uninitialized_copy_a<int_const*,int*,int>", 
-        "entry_point": "0x1b15"
+        "name": "__uninitialized_copy_a<int_const*,_int*,_int>", 
+        "entry_point": "0x1bed"
     }, 
     {
         "name": "_Destroy<int*>", 
-        "entry_point": "0x1b4a"
+        "entry_point": "0x1c22"
     }, 
     {
         "name": "allocator", 
-        "entry_point": "0x1b74"
+        "entry_point": "0x1c4c"
     }, 
     {
         "name": "_Vector_impl_data", 
-        "entry_point": "0x1b9e"
+        "entry_point": "0x1c76"
     }, 
     {
         "name": "deallocate", 
-        "entry_point": "0x1bd0"
+        "entry_point": "0x1ca8"
     }, 
     {
         "name": "__iterator_category<int_const*>", 
-        "entry_point": "0x1c02"
+        "entry_point": "0x1cda"
     }, 
     {
         "name": "__distance<int_const*>", 
-        "entry_point": "0x1c10"
+        "entry_point": "0x1ce8"
     }, 
     {
         "name": "_S_max_size", 
-        "entry_point": "0x1c2e"
+        "entry_point": "0x1d06"
     }, 
     {
         "name": "allocate", 
-        "entry_point": "0x1c97"
+        "entry_point": "0x1d6f"
     }, 
     {
-        "name": "uninitialized_copy<int_const*,int*>", 
-        "entry_point": "0x1cc5"
+        "name": "uninitialized_copy<int_const*,_int*>", 
+        "entry_point": "0x1d9d"
     }, 
     {
         "name": "__destroy<int*>", 
-        "entry_point": "0x1cfa"
+        "entry_point": "0x1dd2"
     }, 
     {
         "name": "new_allocator", 
-        "entry_point": "0x1d0e"
+        "entry_point": "0x1de6"
     }, 
     {
         "name": "deallocate", 
-        "entry_point": "0x1d22"
+        "entry_point": "0x1dfa"
     }, 
     {
         "name": "max_size", 
-        "entry_point": "0x1d49"
+        "entry_point": "0x1e21"
     }, 
     {
-        "name": "min<unsigned_long>", 
-        "entry_point": "0x1d67"
+        "name": "min<long_unsigned_int>", 
+        "entry_point": "0x1e3f"
     }, 
     {
         "name": "allocate", 
-        "entry_point": "0x1d96"
+        "entry_point": "0x1e6e"
     }, 
     {
-        "name": "__uninit_copy<int_const*,int*>", 
-        "entry_point": "0x1ddc"
+        "name": "__uninit_copy<int_const*,_int*>", 
+        "entry_point": "0x1eb4"
     }, 
     {
         "name": "max_size", 
-        "entry_point": "0x1e0e"
+        "entry_point": "0x1ee6"
     }, 
     {
-        "name": "copy<int_const*,int*>", 
-        "entry_point": "0x1e26"
+        "name": "copy<int_const*,_int*>", 
+        "entry_point": "0x1efe"
     }, 
     {
         "name": "__miter_base<int_const*>", 
-        "entry_point": "0x1e76"
+        "entry_point": "0x1f4e"
     }, 
     {
-        "name": "__copy_move_a2<false,int_const*,int*>", 
-        "entry_point": "0x1e88"
+        "name": "__copy_move_a2<false,_int_const*,_int*>", 
+        "entry_point": "0x1f60"
     }, 
     {
         "name": "__niter_base<int_const*>", 
-        "entry_point": "0x1ef6"
+        "entry_point": "0x1fce"
     }, 
     {
         "name": "__niter_base<int*>", 
-        "entry_point": "0x1f08"
+        "entry_point": "0x1fe0"
     }, 
     {
-        "name": "__copy_move_a<false,int_const*,int*>", 
-        "entry_point": "0x1f1a"
+        "name": "__copy_move_a<false,_int_const*,_int*>", 
+        "entry_point": "0x1ff2"
     }, 
     {
         "name": "__niter_wrap<int*>", 
-        "entry_point": "0x1f4f"
+        "entry_point": "0x2027"
     }, 
     {
         "name": "__copy_m<int>", 
-        "entry_point": "0x1f65"
+        "entry_point": "0x203d"
     }, 
     {
         "name": "__libc_csu_init", 
-        "entry_point": "0x1fd0"
+        "entry_point": "0x20a0"
     }, 
     {
         "name": "__libc_csu_fini", 
-        "entry_point": "0x2040"
+        "entry_point": "0x2110"
     }, 
     {
         "name": "_fini", 
-        "entry_point": "0x2048"
+        "entry_point": "0x2118"
     }, 
     {
         "name": "__throw_bad_alloc", 
