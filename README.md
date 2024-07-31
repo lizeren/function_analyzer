@@ -4,12 +4,14 @@ Follow these instructions to install the necessary tools and compile the project
 
 ## Dependencies
 
-First, install LLVM, libclang, and clang tools using the following commands:
+First, install LLVM, libclang, json tools, and clang tools using the following commands:
 
 ```bash
 sudo apt-get install llvm
 sudo apt-get install libclang-10-dev
 sudo apt-get install clang-tools-10
+sudo apt-get install nlohmann-json3-dev
+
 ```
 ## Building the Project
 
