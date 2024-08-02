@@ -1,0 +1,173 @@
+[
+    {
+        "entry_point": "0x2380",
+        "src": "main",
+        "dec": "main",
+        "src_vec": [
+            2,
+            12,
+            48,
+            8,
+            54
+        ],
+        "dec_vec": [
+            2,
+            12,
+            20,
+            3,
+            52
+        ]
+    },
+    {
+        "entry_point": "0x2b10",
+        "src": "pw_phonemes",
+        "dec": "pw_phonemes",
+        "src_vec": [
+            4,
+            24,
+            49,
+            11,
+            49
+        ],
+        "dec_vec": [
+            4,
+            24,
+            56,
+            11,
+            49
+        ]
+    },
+    {
+        "entry_point": "0x2f70",
+        "src": "pw_rand",
+        "dec": "pw_rand",
+        "src_vec": [
+            4,
+            24,
+            29,
+            6,
+            51
+        ],
+        "dec_vec": [
+            4,
+            24,
+            28,
+            5,
+            61
+        ]
+    },
+    {
+        "entry_point": "0x3410",
+        "src": "pw_random_number",
+        "dec": "pw_random_number",
+        "src_vec": [
+            1,
+            4,
+            28,
+            6,
+            11
+        ],
+        "dec_vec": [
+            1,
+            4,
+            12,
+            2,
+            18
+        ]
+    },
+    {
+        "entry_point": "0x5960",
+        "src": "sha1_finish",
+        "dec": "sha1_finish",
+        "src_vec": [
+            2,
+            16,
+            40,
+            5,
+            4
+        ],
+        "dec_vec": [
+            2,
+            16,
+            16,
+            2,
+            6
+        ]
+    },
+    {
+        "entry_point": "0x35c0",
+        "src": "sha1_process",
+        "dec": "sha1_process",
+        "src_vec": [
+            2,
+            16,
+            176,
+            7,
+            1
+        ],
+        "dec_vec": [
+            2,
+            16,
+            176,
+            22,
+            1
+        ]
+    },
+    {
+        "entry_point": "0x3570",
+        "src": "sha1_starts",
+        "dec": "sha1_starts",
+        "src_vec": [
+            1,
+            8,
+            0,
+            0,
+            1
+        ],
+        "dec_vec": [
+            1,
+            8,
+            0,
+            0,
+            1
+        ]
+    },
+    {
+        "entry_point": "0x5c30",
+        "src": "pw_sha1_number",
+        "dec": "pw_sha1_number",
+        "src_vec": [
+            1,
+            4,
+            124,
+            2,
+            3
+        ],
+        "dec_vec": [
+            1,
+            4,
+            128,
+            2,
+            5
+        ]
+    },
+    {
+        "entry_point": "0x5ae0",
+        "src": "pw_sha1_init",
+        "dec": "pw_sha1_init",
+        "src_vec": [
+            1,
+            8,
+            1044,
+            4,
+            13
+        ],
+        "dec_vec": [
+            1,
+            8,
+            1032,
+            2,
+            12
+        ]
+    }
+]

@@ -3,6 +3,7 @@
 # Define the path to the JSON output file
 OUTPUT_JSON="../output/src_feature.json"
 
+
 # Check if the output JSON file exists and delete it
 if [ -f "$OUTPUT_JSON" ]; then
     echo "Removing existing JSON file: $OUTPUT_JSON"
@@ -11,11 +12,13 @@ fi
 
 # Define the directory containing the source files
 
-SRC_DIR="../example/src"
+# SRC_DIR="../example/src"
+SRC_DIR="/home/lizeren/Downloads/pwgen-2.08"
 
 # Define the directory containing the header files
 
-HEADER_DIR="../example/include"
+# HEADER_DIR="../example/include"
+HEADER_DIR="/home/lizeren/Downloads/pwgen-2.08"
 
 
 # Check if the source directory exists
@@ -37,7 +40,8 @@ if [ ! -f "./MyStaticAnalyzer" ]; then
 fi
 
 # Loop through all .cpp files in the source directory
-for src_file in "$SRC_DIR"/*.cpp; do
+# for src_file in "$SRC_DIR"/*.cpp; do
+for src_file in "$SRC_DIR"/*.c; do
     echo "Analyzing file: $src_file"
     ./MyStaticAnalyzer "$src_file" -- -Iinclude -I"$HEADER_DIR" 
     # Include header

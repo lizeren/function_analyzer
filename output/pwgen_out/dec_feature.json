@@ -1,0 +1,317 @@
+[
+    {
+        "function_name": "_init", 
+        "number_of_parameters": 1, 
+        "total_parameter_stack_size_bytes": 8, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 3, 
+        "vector": [
+            1, 
+            8, 
+            0, 
+            0, 
+            3
+        ]
+    }, 
+    {
+        "function_name": "main", 
+        "number_of_parameters": 2, 
+        "total_parameter_stack_size_bytes": 12, 
+        "total_local_variable_stack_size_bytes": 20, 
+        "total_local_variables": 3, 
+        "number_of_meaningful_basic_blocks": 52, 
+        "vector": [
+            2, 
+            12, 
+            20, 
+            3, 
+            52
+        ]
+    }, 
+    {
+        "function_name": "_start", 
+        "number_of_parameters": 2, 
+        "total_parameter_stack_size_bytes": 16, 
+        "total_local_variable_stack_size_bytes": 8, 
+        "total_local_variables": 1, 
+        "number_of_meaningful_basic_blocks": 1, 
+        "vector": [
+            2, 
+            16, 
+            8, 
+            1, 
+            1
+        ]
+    }, 
+    {
+        "function_name": "deregister_tm_clones", 
+        "number_of_parameters": 0, 
+        "total_parameter_stack_size_bytes": 0, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 4, 
+        "vector": [
+            0, 
+            0, 
+            0, 
+            0, 
+            4
+        ]
+    }, 
+    {
+        "function_name": "register_tm_clones", 
+        "number_of_parameters": 0, 
+        "total_parameter_stack_size_bytes": 0, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 4, 
+        "vector": [
+            0, 
+            0, 
+            0, 
+            0, 
+            4
+        ]
+    }, 
+    {
+        "function_name": "__do_global_dtors_aux", 
+        "number_of_parameters": 0, 
+        "total_parameter_stack_size_bytes": 0, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 5, 
+        "vector": [
+            0, 
+            0, 
+            0, 
+            0, 
+            5
+        ]
+    }, 
+    {
+        "function_name": "frame_dummy", 
+        "number_of_parameters": 0, 
+        "total_parameter_stack_size_bytes": 0, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 1, 
+        "vector": [
+            0, 
+            0, 
+            0, 
+            0, 
+            1
+        ]
+    }, 
+    {
+        "function_name": "pw_phonemes", 
+        "number_of_parameters": 4, 
+        "total_parameter_stack_size_bytes": 24, 
+        "total_local_variable_stack_size_bytes": 56, 
+        "total_local_variables": 11, 
+        "number_of_meaningful_basic_blocks": 49, 
+        "vector": [
+            4, 
+            24, 
+            56, 
+            11, 
+            49
+        ]
+    }, 
+    {
+        "function_name": "remove_chars", 
+        "number_of_parameters": 2, 
+        "total_parameter_stack_size_bytes": 16, 
+        "total_local_variable_stack_size_bytes": 8, 
+        "total_local_variables": 1, 
+        "number_of_meaningful_basic_blocks": 6, 
+        "vector": [
+            2, 
+            16, 
+            8, 
+            1, 
+            6
+        ]
+    }, 
+    {
+        "function_name": "pw_rand", 
+        "number_of_parameters": 4, 
+        "total_parameter_stack_size_bytes": 24, 
+        "total_local_variable_stack_size_bytes": 28, 
+        "total_local_variables": 5, 
+        "number_of_meaningful_basic_blocks": 61, 
+        "vector": [
+            4, 
+            24, 
+            28, 
+            5, 
+            61
+        ]
+    }, 
+    {
+        "function_name": "pw_random_number", 
+        "number_of_parameters": 1, 
+        "total_parameter_stack_size_bytes": 4, 
+        "total_local_variable_stack_size_bytes": 12, 
+        "total_local_variables": 2, 
+        "number_of_meaningful_basic_blocks": 18, 
+        "vector": [
+            1, 
+            4, 
+            12, 
+            2, 
+            18
+        ]
+    }, 
+    {
+        "function_name": "sha1_starts", 
+        "number_of_parameters": 1, 
+        "total_parameter_stack_size_bytes": 8, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 1, 
+        "vector": [
+            1, 
+            8, 
+            0, 
+            0, 
+            1
+        ]
+    }, 
+    {
+        "function_name": "sha1_process", 
+        "number_of_parameters": 2, 
+        "total_parameter_stack_size_bytes": 16, 
+        "total_local_variable_stack_size_bytes": 176, 
+        "total_local_variables": 22, 
+        "number_of_meaningful_basic_blocks": 1, 
+        "vector": [
+            2, 
+            16, 
+            176, 
+            22, 
+            1
+        ]
+    }, 
+    {
+        "function_name": "sha1_update", 
+        "number_of_parameters": 3, 
+        "total_parameter_stack_size_bytes": 24, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 32, 
+        "vector": [
+            3, 
+            24, 
+            0, 
+            0, 
+            32
+        ]
+    }, 
+    {
+        "function_name": "sha1_update", 
+        "number_of_parameters": 3, 
+        "total_parameter_stack_size_bytes": 24, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 3, 
+        "vector": [
+            3, 
+            24, 
+            0, 
+            0, 
+            3
+        ]
+    }, 
+    {
+        "function_name": "sha1_finish", 
+        "number_of_parameters": 2, 
+        "total_parameter_stack_size_bytes": 16, 
+        "total_local_variable_stack_size_bytes": 16, 
+        "total_local_variables": 2, 
+        "number_of_meaningful_basic_blocks": 6, 
+        "vector": [
+            2, 
+            16, 
+            16, 
+            2, 
+            6
+        ]
+    }, 
+    {
+        "function_name": "pw_sha1_init", 
+        "number_of_parameters": 1, 
+        "total_parameter_stack_size_bytes": 8, 
+        "total_local_variable_stack_size_bytes": 1032, 
+        "total_local_variables": 2, 
+        "number_of_meaningful_basic_blocks": 12, 
+        "vector": [
+            1, 
+            8, 
+            1032, 
+            2, 
+            12
+        ]
+    }, 
+    {
+        "function_name": "pw_sha1_number", 
+        "number_of_parameters": 1, 
+        "total_parameter_stack_size_bytes": 4, 
+        "total_local_variable_stack_size_bytes": 128, 
+        "total_local_variables": 2, 
+        "number_of_meaningful_basic_blocks": 5, 
+        "vector": [
+            1, 
+            4, 
+            128, 
+            2, 
+            5
+        ]
+    }, 
+    {
+        "function_name": "__libc_csu_init", 
+        "number_of_parameters": 3, 
+        "total_parameter_stack_size_bytes": 24, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 4, 
+        "vector": [
+            3, 
+            24, 
+            0, 
+            0, 
+            4
+        ]
+    }, 
+    {
+        "function_name": "__libc_csu_fini", 
+        "number_of_parameters": 0, 
+        "total_parameter_stack_size_bytes": 0, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 1, 
+        "vector": [
+            0, 
+            0, 
+            0, 
+            0, 
+            1
+        ]
+    }, 
+    {
+        "function_name": "_fini", 
+        "number_of_parameters": 0, 
+        "total_parameter_stack_size_bytes": 0, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 1, 
+        "vector": [
+            0, 
+            0, 
+            0, 
+            0, 
+            1
+        ]
+    }
+]

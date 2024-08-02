@@ -1,0 +1,47 @@
+[
+    {
+        "name": "main",
+        "entry_point": "0x2380",
+        "end_address": "0x2a1a"
+    },
+    {
+        "name": "pw_phonemes",
+        "entry_point": "0x2b10",
+        "end_address": "0x2f0e"
+    },
+    {
+        "name": "pw_rand",
+        "entry_point": "0x2f70",
+        "end_address": "0x340f"
+    },
+    {
+        "name": "pw_random_number",
+        "entry_point": "0x3410",
+        "end_address": "0x3562"
+    },
+    {
+        "name": "sha1_finish",
+        "entry_point": "0x5960",
+        "end_address": "0x5ad5"
+    },
+    {
+        "name": "sha1_process",
+        "entry_point": "0x35c0",
+        "end_address": "0x573d"
+    },
+    {
+        "name": "sha1_starts",
+        "entry_point": "0x3570",
+        "end_address": "0x35b1"
+    },
+    {
+        "name": "pw_sha1_number",
+        "entry_point": "0x5c30",
+        "end_address": "0x5d61"
+    },
+    {
+        "name": "pw_sha1_init",
+        "entry_point": "0x5ae0",
+        "end_address": "0x5c29"
+    }
+]

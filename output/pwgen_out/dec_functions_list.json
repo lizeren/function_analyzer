@@ -1,0 +1,322 @@
+[
+    {
+        "name": "_init", 
+        "entry_point": "0x2000"
+    }, 
+    {
+        "name": "FUN_00102020", 
+        "entry_point": "0x2020"
+    }, 
+    {
+        "name": "FUN_001021d0", 
+        "entry_point": "0x21d0"
+    }, 
+    {
+        "name": "__ctype_toupper_loc", 
+        "entry_point": "0x21e0"
+    }, 
+    {
+        "name": "free", 
+        "entry_point": "0x21f0"
+    }, 
+    {
+        "name": "__errno_location", 
+        "entry_point": "0x2200"
+    }, 
+    {
+        "name": "strcpy", 
+        "entry_point": "0x2210"
+    }, 
+    {
+        "name": "puts", 
+        "entry_point": "0x2220"
+    }, 
+    {
+        "name": "isatty", 
+        "entry_point": "0x2230"
+    }, 
+    {
+        "name": "fread", 
+        "entry_point": "0x2240"
+    }, 
+    {
+        "name": "fclose", 
+        "entry_point": "0x2250"
+    }, 
+    {
+        "name": "strlen", 
+        "entry_point": "0x2260"
+    }, 
+    {
+        "name": "__stack_chk_fail", 
+        "entry_point": "0x2270"
+    }, 
+    {
+        "name": "getopt_long", 
+        "entry_point": "0x2280"
+    }, 
+    {
+        "name": "strchr", 
+        "entry_point": "0x2290"
+    }, 
+    {
+        "name": "gettimeofday", 
+        "entry_point": "0x22a0"
+    }, 
+    {
+        "name": "read", 
+        "entry_point": "0x22b0"
+    }, 
+    {
+        "name": "strtol", 
+        "entry_point": "0x22c0"
+    }, 
+    {
+        "name": "memcpy", 
+        "entry_point": "0x22d0"
+    }, 
+    {
+        "name": "malloc", 
+        "entry_point": "0x22e0"
+    }, 
+    {
+        "name": "strpbrk", 
+        "entry_point": "0x22f0"
+    }, 
+    {
+        "name": "__printf_chk", 
+        "entry_point": "0x2300"
+    }, 
+    {
+        "name": "memmove", 
+        "entry_point": "0x2310"
+    }, 
+    {
+        "name": "open", 
+        "entry_point": "0x2320"
+    }, 
+    {
+        "name": "fopen", 
+        "entry_point": "0x2330"
+    }, 
+    {
+        "name": "exit", 
+        "entry_point": "0x2340"
+    }, 
+    {
+        "name": "fwrite", 
+        "entry_point": "0x2350"
+    }, 
+    {
+        "name": "__fprintf_chk", 
+        "entry_point": "0x2360"
+    }, 
+    {
+        "name": "strdup", 
+        "entry_point": "0x2370"
+    }, 
+    {
+        "name": "main", 
+        "entry_point": "0x2380"
+    }, 
+    {
+        "name": "_start", 
+        "entry_point": "0x2a20"
+    }, 
+    {
+        "name": "deregister_tm_clones", 
+        "entry_point": "0x2a50"
+    }, 
+    {
+        "name": "register_tm_clones", 
+        "entry_point": "0x2a80"
+    }, 
+    {
+        "name": "__do_global_dtors_aux", 
+        "entry_point": "0x2ac0"
+    }, 
+    {
+        "name": "frame_dummy", 
+        "entry_point": "0x2b00"
+    }, 
+    {
+        "name": "pw_phonemes", 
+        "entry_point": "0x2b10"
+    }, 
+    {
+        "name": "remove_chars", 
+        "entry_point": "0x2f10"
+    }, 
+    {
+        "name": "pw_rand", 
+        "entry_point": "0x2f70"
+    }, 
+    {
+        "name": "pw_random_number", 
+        "entry_point": "0x3410"
+    }, 
+    {
+        "name": "sha1_starts", 
+        "entry_point": "0x3570"
+    }, 
+    {
+        "name": "sha1_process", 
+        "entry_point": "0x35c0"
+    }, 
+    {
+        "name": "sha1_update", 
+        "entry_point": "0x5740"
+    }, 
+    {
+        "name": "sha1_update", 
+        "entry_point": "0x5940"
+    }, 
+    {
+        "name": "sha1_finish", 
+        "entry_point": "0x5960"
+    }, 
+    {
+        "name": "pw_sha1_init", 
+        "entry_point": "0x5ae0"
+    }, 
+    {
+        "name": "pw_sha1_number", 
+        "entry_point": "0x5c30"
+    }, 
+    {
+        "name": "__libc_csu_init", 
+        "entry_point": "0x5d70"
+    }, 
+    {
+        "name": "__libc_csu_fini", 
+        "entry_point": "0x5de0"
+    }, 
+    {
+        "name": "_fini", 
+        "entry_point": "0x5de8"
+    }, 
+    {
+        "name": "__ctype_toupper_loc", 
+        "entry_point": "0x9000"
+    }, 
+    {
+        "name": "free", 
+        "entry_point": "0x9008"
+    }, 
+    {
+        "name": "__errno_location", 
+        "entry_point": "0x9010"
+    }, 
+    {
+        "name": "_ITM_deregisterTMCloneTable", 
+        "entry_point": "0x9018"
+    }, 
+    {
+        "name": "strcpy", 
+        "entry_point": "0x9020"
+    }, 
+    {
+        "name": "puts", 
+        "entry_point": "0x9028"
+    }, 
+    {
+        "name": "isatty", 
+        "entry_point": "0x9030"
+    }, 
+    {
+        "name": "fread", 
+        "entry_point": "0x9038"
+    }, 
+    {
+        "name": "fclose", 
+        "entry_point": "0x9040"
+    }, 
+    {
+        "name": "strlen", 
+        "entry_point": "0x9048"
+    }, 
+    {
+        "name": "__stack_chk_fail", 
+        "entry_point": "0x9050"
+    }, 
+    {
+        "name": "getopt_long", 
+        "entry_point": "0x9058"
+    }, 
+    {
+        "name": "strchr", 
+        "entry_point": "0x9060"
+    }, 
+    {
+        "name": "gettimeofday", 
+        "entry_point": "0x9068"
+    }, 
+    {
+        "name": "read", 
+        "entry_point": "0x9070"
+    }, 
+    {
+        "name": "__libc_start_main", 
+        "entry_point": "0x9078"
+    }, 
+    {
+        "name": "__gmon_start__", 
+        "entry_point": "0x9080"
+    }, 
+    {
+        "name": "strtol", 
+        "entry_point": "0x9088"
+    }, 
+    {
+        "name": "memcpy", 
+        "entry_point": "0x9090"
+    }, 
+    {
+        "name": "malloc", 
+        "entry_point": "0x9098"
+    }, 
+    {
+        "name": "strpbrk", 
+        "entry_point": "0x90a0"
+    }, 
+    {
+        "name": "__printf_chk", 
+        "entry_point": "0x90a8"
+    }, 
+    {
+        "name": "memmove", 
+        "entry_point": "0x90b0"
+    }, 
+    {
+        "name": "open", 
+        "entry_point": "0x90b8"
+    }, 
+    {
+        "name": "fopen", 
+        "entry_point": "0x90c0"
+    }, 
+    {
+        "name": "exit", 
+        "entry_point": "0x90c8"
+    }, 
+    {
+        "name": "fwrite", 
+        "entry_point": "0x90d0"
+    }, 
+    {
+        "name": "__fprintf_chk", 
+        "entry_point": "0x90d8"
+    }, 
+    {
+        "name": "_ITM_registerTMCloneTable", 
+        "entry_point": "0x90e0"
+    }, 
+    {
+        "name": "strdup", 
+        "entry_point": "0x90e8"
+    }, 
+    {
+        "name": "__cxa_finalize", 
+        "entry_point": "0x90f0"
+    }
+]
