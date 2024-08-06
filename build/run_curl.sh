@@ -10,7 +10,9 @@ if [ -f "$OUTPUT_JSON" ]; then
 fi
 
 # Define the directory containing the source files
-SRC_DIR="/home/lizeren/Downloads/curl-8.9.1/src"
+# SRC_DIR="/home/lizeren/Downloads/curl-8.9.1/src"
+SRC_DIR="/home/lizeren/Downloads/curl-8.9.1/lib"
+
 
 # Define the directories containing the header files
 HEADER_DIRS=("/home/lizeren/Downloads/curl-8.9.1/include" 
@@ -18,6 +20,7 @@ HEADER_DIRS=("/home/lizeren/Downloads/curl-8.9.1/include"
             "/home/lizeren/Downloads/curl-8.9.1/lib")
 
 # Location of the build directory containing compile_commands.json
+# To generate compile_commands.json,add set(CMAKE_EXPORT_COMPILE_COMMANDS ON) in src/cmakelists.txt
 BUILD_DIR="/home/lizeren/Downloads/curl-8.9.1"
 
 # Ensure build directory is available
@@ -53,7 +56,8 @@ for src_file in "$SRC_DIR"/*.c; do
     for dir in "${HEADER_DIRS[@]}"; do
         include_args+=" -I$dir"
     done
-    ./MyStaticAnalyzer -p "${BUILD_DIR}" "$src_file"  #-- -Iinclude -I"$HEADER_DIR" 
+    ./MyStaticAnalyzer --extra-arg=-w -p "${BUILD_DIR}" "$src_file"
+    # without --extra-arg=-w flags from gcc will give warnings
 done
 
 echo "Analysis complete."

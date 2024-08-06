@@ -1,0 +1,5442 @@
+[
+    {
+        "name": "Curl_altsvc_lookup",
+        "entry_point": "0x12090",
+        "end_address": "0x12168"
+    },
+    {
+        "name": "Curl_altsvc_parse",
+        "entry_point": "0x118e0",
+        "end_address": "0x12082"
+    },
+    {
+        "name": "altsvc_flush",
+        "entry_point": "0x11170",
+        "end_address": "0x1120d"
+    },
+    {
+        "name": "hostcompare",
+        "entry_point": "0x11110",
+        "end_address": "0x1116d"
+    },
+    {
+        "name": "getalnum",
+        "entry_point": "0x11070",
+        "end_address": "0x11109"
+    },
+    {
+        "name": "Curl_altsvc_save",
+        "entry_point": "0x115d0",
+        "end_address": "0x118de"
+    },
+    {
+        "name": "Curl_altsvc_cleanup",
+        "entry_point": "0x11550",
+        "end_address": "0x115c2"
+    },
+    {
+        "name": "Curl_altsvc_ctrl",
+        "entry_point": "0x11540",
+        "end_address": "0x1154b"
+    },
+    {
+        "name": "Curl_altsvc_load",
+        "entry_point": "0x11440",
+        "end_address": "0x1153e"
+    },
+    {
+        "name": "Curl_altsvc_init",
+        "entry_point": "0x11400",
+        "end_address": "0x1143b"
+    },
+    {
+        "name": "altsvc_add",
+        "entry_point": "0x11270",
+        "end_address": "0x113b5"
+    },
+    {
+        "name": "altsvc_createid",
+        "entry_point": "0x10f00",
+        "end_address": "0x1106c"
+    },
+    {
+        "name": "Curl_resolver_getaddrinfo",
+        "entry_point": "0x12850",
+        "end_address": "0x12b38"
+    },
+    {
+        "name": "Curl_resolver_getsock",
+        "entry_point": "0x127a0",
+        "end_address": "0x1284e"
+    },
+    {
+        "name": "Curl_resolver_is_resolved",
+        "entry_point": "0x12620",
+        "end_address": "0x1279e"
+    },
+    {
+        "name": "Curl_resolver_wait_resolv",
+        "entry_point": "0x12610",
+        "end_address": "0x1261e"
+    },
+    {
+        "name": "Curl_resolver_kill",
+        "entry_point": "0x125c0",
+        "end_address": "0x12601"
+    },
+    {
+        "name": "thread_wait_resolv",
+        "entry_point": "0x123e0",
+        "end_address": "0x1250e"
+    },
+    {
+        "name": "getaddrinfo_thread",
+        "entry_point": "0x12200",
+        "end_address": "0x122fc"
+    },
+    {
+        "name": "destroy_thread_sync_data",
+        "entry_point": "0x12170",
+        "end_address": "0x121f1"
+    },
+    {
+        "name": "Curl_resolver_duphandle",
+        "entry_point": "0x12570",
+        "end_address": "0x12599"
+    },
+    {
+        "name": "Curl_resolver_cleanup",
+        "entry_point": "0x12560",
+        "end_address": "0x1256d"
+    },
+    {
+        "name": "Curl_resolver_global_cleanup",
+        "entry_point": "0x12520",
+        "end_address": "0x12525"
+    },
+    {
+        "name": "Curl_resolver_global_init",
+        "entry_point": "0x12510",
+        "end_address": "0x12517"
+    },
+    {
+        "name": "Curl_base64url_encode",
+        "entry_point": "0x12fe0",
+        "end_address": "0x12ffc"
+    },
+    {
+        "name": "Curl_base64_encode",
+        "entry_point": "0x12fc0",
+        "end_address": "0x12fdc"
+    },
+    {
+        "name": "base64_encode",
+        "entry_point": "0x12b80",
+        "end_address": "0x12d5a"
+    },
+    {
+        "name": "Curl_base64_decode",
+        "entry_point": "0x12d60",
+        "end_address": "0x12fc0"
+    },
+    {
+        "name": "Curl_bufq_slurp",
+        "entry_point": "0x13bc0",
+        "end_address": "0x13c51"
+    },
+    {
+        "name": "Curl_bufq_write_pass",
+        "entry_point": "0x139e0",
+        "end_address": "0x13abe"
+    },
+    {
+        "name": "Curl_bufq_pass",
+        "entry_point": "0x138e0",
+        "end_address": "0x139d3"
+    },
+    {
+        "name": "Curl_bufq_skip",
+        "entry_point": "0x13860",
+        "end_address": "0x138da"
+    },
+    {
+        "name": "Curl_bufq_peek_at",
+        "entry_point": "0x13800",
+        "end_address": "0x1385f"
+    },
+    {
+        "name": "Curl_bufq_peek",
+        "entry_point": "0x13780",
+        "end_address": "0x137f4"
+    },
+    {
+        "name": "Curl_bufq_cread",
+        "entry_point": "0x13720",
+        "end_address": "0x13774"
+    },
+    {
+        "name": "Curl_bufq_read",
+        "entry_point": "0x13610",
+        "end_address": "0x13714"
+    },
+    {
+        "name": "Curl_bufq_cwrite",
+        "entry_point": "0x135b0",
+        "end_address": "0x13604"
+    },
+    {
+        "name": "Curl_bufq_write",
+        "entry_point": "0x134b0",
+        "end_address": "0x135a7"
+    },
+    {
+        "name": "get_non_full_tail",
+        "entry_point": "0x130d0",
+        "end_address": "0x13210"
+    },
+    {
+        "name": "prune_head",
+        "entry_point": "0x13000",
+        "end_address": "0x130c6"
+    },
+    {
+        "name": "Curl_bufq_is_empty",
+        "entry_point": "0x13440",
+        "end_address": "0x13462"
+    },
+    {
+        "name": "Curl_bufq_space",
+        "entry_point": "0x133f0",
+        "end_address": "0x13435"
+    },
+    {
+        "name": "Curl_bufq_len",
+        "entry_point": "0x133c0",
+        "end_address": "0x133e9"
+    },
+    {
+        "name": "Curl_bufq_reset",
+        "entry_point": "0x13380",
+        "end_address": "0x133bd"
+    },
+    {
+        "name": "Curl_bufq_free",
+        "entry_point": "0x13300",
+        "end_address": "0x13372"
+    },
+    {
+        "name": "Curl_bufq_initp",
+        "entry_point": "0x132d0",
+        "end_address": "0x132fb"
+    },
+    {
+        "name": "Curl_bufq_init",
+        "entry_point": "0x132a0",
+        "end_address": "0x132cf"
+    },
+    {
+        "name": "Curl_bufq_init2",
+        "entry_point": "0x13270",
+        "end_address": "0x1329b"
+    },
+    {
+        "name": "Curl_bufcp_free",
+        "entry_point": "0x13230",
+        "end_address": "0x13270"
+    },
+    {
+        "name": "Curl_bufcp_init",
+        "entry_point": "0x13210",
+        "end_address": "0x13228"
+    },
+    {
+        "name": "Curl_bufref_memdup",
+        "entry_point": "0x13d30",
+        "end_address": "0x13d8f"
+    },
+    {
+        "name": "Curl_bufref_len",
+        "entry_point": "0x13d20",
+        "end_address": "0x13d29"
+    },
+    {
+        "name": "Curl_bufref_ptr",
+        "entry_point": "0x13d10",
+        "end_address": "0x13d19"
+    },
+    {
+        "name": "Curl_bufref_init",
+        "entry_point": "0x13c60",
+        "end_address": "0x13c7c"
+    },
+    {
+        "name": "Curl_cf_h1_proxy_insert_after",
+        "entry_point": "0x153f0",
+        "end_address": "0x1545c"
+    },
+    {
+        "name": "cf_h1_proxy_close",
+        "entry_point": "0x14130",
+        "end_address": "0x141d7"
+    },
+    {
+        "name": "cf_h1_proxy_destroy",
+        "entry_point": "0x14250",
+        "end_address": "0x142b8"
+    },
+    {
+        "name": "cf_h1_proxy_adjust_pollset",
+        "entry_point": "0x13d90",
+        "end_address": "0x13dfa"
+    },
+    {
+        "name": "cf_h1_proxy_connect",
+        "entry_point": "0x142c0",
+        "end_address": "0x153e2"
+    },
+    {
+        "name": "tunnel_free",
+        "entry_point": "0x141e0",
+        "end_address": "0x14241"
+    },
+    {
+        "name": "h1_tunnel_go_state",
+        "entry_point": "0x13e00",
+        "end_address": "0x14130"
+    },
+    {
+        "name": "Curl_cf_haproxy_insert_after",
+        "entry_point": "0x15800",
+        "end_address": "0x158cb"
+    },
+    {
+        "name": "cf_haproxy_close",
+        "entry_point": "0x15460",
+        "end_address": "0x154f7"
+    },
+    {
+        "name": "cf_haproxy_destroy",
+        "entry_point": "0x15770",
+        "end_address": "0x157f7"
+    },
+    {
+        "name": "cf_haproxy_connect",
+        "entry_point": "0x15550",
+        "end_address": "0x15762"
+    },
+    {
+        "name": "Curl_cf_https_setup",
+        "entry_point": "0x168c0",
+        "end_address": "0x16a63"
+    },
+    {
+        "name": "cf_hc_destroy",
+        "entry_point": "0x16840",
+        "end_address": "0x168ba"
+    },
+    {
+        "name": "cf_hc_close",
+        "entry_point": "0x167a0",
+        "end_address": "0x16837"
+    },
+    {
+        "name": "cf_hc_data_pending",
+        "entry_point": "0x158d0",
+        "end_address": "0x15986"
+    },
+    {
+        "name": "cf_hc_shutdown",
+        "entry_point": "0x15990",
+        "end_address": "0x15b3d"
+    },
+    {
+        "name": "cf_hc_connect",
+        "entry_point": "0x15eb0",
+        "end_address": "0x16474"
+    },
+    {
+        "name": "baller_connected",
+        "entry_point": "0x15c00",
+        "end_address": "0x15ea9"
+    },
+    {
+        "name": "cf_hc_baller_init",
+        "entry_point": "0x15b90",
+        "end_address": "0x15c00"
+    },
+    {
+        "name": "cf_hc_baller_reset",
+        "entry_point": "0x15b40",
+        "end_address": "0x15b83"
+    },
+    {
+        "name": "Curl_cf_socket_peek",
+        "entry_point": "0x19a40",
+        "end_address": "0x19b2a"
+    },
+    {
+        "name": "Curl_conn_tcp_accepted_set",
+        "entry_point": "0x19910",
+        "end_address": "0x19a3e"
+    },
+    {
+        "name": "Curl_conn_tcp_listen_set",
+        "entry_point": "0x19780",
+        "end_address": "0x19910"
+    },
+    {
+        "name": "cf_tcp_accept_connect",
+        "entry_point": "0x16aa0",
+        "end_address": "0x16ab6"
+    },
+    {
+        "name": "Curl_cf_unix_create",
+        "entry_point": "0x196a0",
+        "end_address": "0x19774"
+    },
+    {
+        "name": "Curl_cf_udp_create",
+        "entry_point": "0x195c0",
+        "end_address": "0x19694"
+    },
+    {
+        "name": "cf_udp_connect",
+        "entry_point": "0x188c0",
+        "end_address": "0x18bf5"
+    },
+    {
+        "name": "Curl_cf_tcp_create",
+        "entry_point": "0x194e0",
+        "end_address": "0x195b4"
+    },
+    {
+        "name": "cf_socket_query",
+        "entry_point": "0x16b60",
+        "end_address": "0x16c4a"
+    },
+    {
+        "name": "cf_socket_conn_is_alive",
+        "entry_point": "0x16c50",
+        "end_address": "0x16e33"
+    },
+    {
+        "name": "cf_socket_cntrl",
+        "entry_point": "0x18000",
+        "end_address": "0x181c7"
+    },
+    {
+        "name": "cf_socket_recv",
+        "entry_point": "0x16e40",
+        "end_address": "0x16fd7"
+    },
+    {
+        "name": "cf_socket_send",
+        "entry_point": "0x16fe0",
+        "end_address": "0x17165"
+    },
+    {
+        "name": "cf_socket_data_pending",
+        "entry_point": "0x17170",
+        "end_address": "0x171a7"
+    },
+    {
+        "name": "cf_socket_adjust_pollset",
+        "entry_point": "0x171b0",
+        "end_address": "0x172a9"
+    },
+    {
+        "name": "cf_socket_get_host",
+        "entry_point": "0x16a70",
+        "end_address": "0x16a97"
+    },
+    {
+        "name": "cf_tcp_connect",
+        "entry_point": "0x18c00",
+        "end_address": "0x19066"
+    },
+    {
+        "name": "cf_socket_open",
+        "entry_point": "0x181d0",
+        "end_address": "0x18820"
+    },
+    {
+        "name": "cf_socket_destroy",
+        "entry_point": "0x17670",
+        "end_address": "0x176e6"
+    },
+    {
+        "name": "cf_socket_shutdown",
+        "entry_point": "0x172b0",
+        "end_address": "0x1738c"
+    },
+    {
+        "name": "cf_socket_close",
+        "entry_point": "0x17560",
+        "end_address": "0x17666"
+    },
+    {
+        "name": "cf_socket_ctx_init",
+        "entry_point": "0x19280",
+        "end_address": "0x192c8"
+    },
+    {
+        "name": "verifyconnect",
+        "entry_point": "0x17450",
+        "end_address": "0x174c6"
+    },
+    {
+        "name": "bindlocal",
+        "entry_point": "0x176f0",
+        "end_address": "0x17eab"
+    },
+    {
+        "name": "Curl_parse_interface",
+        "entry_point": "0x19350",
+        "end_address": "0x194d4"
+    },
+    {
+        "name": "Curl_socket_close",
+        "entry_point": "0x19340",
+        "end_address": "0x1934d"
+    },
+    {
+        "name": "Curl_socket_open",
+        "entry_point": "0x192d0",
+        "end_address": "0x19336"
+    },
+    {
+        "name": "socket_open",
+        "entry_point": "0x16ac0",
+        "end_address": "0x16b5a"
+    },
+    {
+        "name": "Curl_sock_assign_addr",
+        "entry_point": "0x191a0",
+        "end_address": "0x19280"
+    },
+    {
+        "name": "tcpnodelay",
+        "entry_point": "0x17390",
+        "end_address": "0x1744d"
+    },
+    {
+        "name": "Curl_pollset_check",
+        "entry_point": "0x1b0a0",
+        "end_address": "0x1b0e8"
+    },
+    {
+        "name": "Curl_pollset_add_socks",
+        "entry_point": "0x1afd0",
+        "end_address": "0x1b096"
+    },
+    {
+        "name": "Curl_pollset_set",
+        "entry_point": "0x1af90",
+        "end_address": "0x1afc8"
+    },
+    {
+        "name": "Curl_pollset_reset",
+        "entry_point": "0x1af30",
+        "end_address": "0x1af53"
+    },
+    {
+        "name": "Curl_conn_send",
+        "entry_point": "0x1aec0",
+        "end_address": "0x1af26"
+    },
+    {
+        "name": "Curl_conn_recv",
+        "entry_point": "0x1ae50",
+        "end_address": "0x1aeb6"
+    },
+    {
+        "name": "Curl_conn_sockindex",
+        "entry_point": "0x1ae10",
+        "end_address": "0x1ae43"
+    },
+    {
+        "name": "Curl_conn_get_stream_error",
+        "entry_point": "0x1ad90",
+        "end_address": "0x1ae0a"
+    },
+    {
+        "name": "Curl_conn_get_max_concurrent",
+        "entry_point": "0x1ad10",
+        "end_address": "0x1ad90"
+    },
+    {
+        "name": "Curl_conn_keep_alive",
+        "entry_point": "0x1ace0",
+        "end_address": "0x1ad0b"
+    },
+    {
+        "name": "Curl_conn_is_alive",
+        "entry_point": "0x1aca0",
+        "end_address": "0x1acd3"
+    },
+    {
+        "name": "Curl_conn_ev_data_pause",
+        "entry_point": "0x1ac60",
+        "end_address": "0x1ac7e"
+    },
+    {
+        "name": "Curl_conn_ev_data_done",
+        "entry_point": "0x1ac30",
+        "end_address": "0x1ac51"
+    },
+    {
+        "name": "Curl_conn_ev_data_done_send",
+        "entry_point": "0x1ac10",
+        "end_address": "0x1ac2d"
+    },
+    {
+        "name": "Curl_conn_ev_data_idle",
+        "entry_point": "0x1abf0",
+        "end_address": "0x1ac0a"
+    },
+    {
+        "name": "Curl_conn_ev_data_setup",
+        "entry_point": "0x1abd0",
+        "end_address": "0x1abea"
+    },
+    {
+        "name": "Curl_conn_ev_data_detach",
+        "entry_point": "0x1abb0",
+        "end_address": "0x1abc6"
+    },
+    {
+        "name": "Curl_conn_ev_data_attach",
+        "entry_point": "0x1ab90",
+        "end_address": "0x1aba6"
+    },
+    {
+        "name": "Curl_conn_forget_socket",
+        "entry_point": "0x1ab00",
+        "end_address": "0x1ab81"
+    },
+    {
+        "name": "Curl_conn_get_socket",
+        "entry_point": "0x1aa70",
+        "end_address": "0x1aaff"
+    },
+    {
+        "name": "Curl_cf_def_cntrl",
+        "entry_point": "0x19b30",
+        "end_address": "0x19b37"
+    },
+    {
+        "name": "Curl_conn_get_host",
+        "entry_point": "0x1a930",
+        "end_address": "0x1a978"
+    },
+    {
+        "name": "Curl_conn_cf_poll",
+        "entry_point": "0x1a850",
+        "end_address": "0x1a922"
+    },
+    {
+        "name": "Curl_conn_adjust_pollset",
+        "entry_point": "0x1a800",
+        "end_address": "0x1a844"
+    },
+    {
+        "name": "Curl_conn_cf_adjust_pollset",
+        "entry_point": "0x1a780",
+        "end_address": "0x1a7f2"
+    },
+    {
+        "name": "Curl_conn_data_pending",
+        "entry_point": "0x1a730",
+        "end_address": "0x1a773"
+    },
+    {
+        "name": "Curl_conn_is_multiplex",
+        "entry_point": "0x1a6e0",
+        "end_address": "0x1a72f"
+    },
+    {
+        "name": "Curl_conn_is_ssl",
+        "entry_point": "0x1a690",
+        "end_address": "0x1a6df"
+    },
+    {
+        "name": "Curl_conn_is_ip_connected",
+        "entry_point": "0x1a600",
+        "end_address": "0x1a649"
+    },
+    {
+        "name": "Curl_conn_is_connected",
+        "entry_point": "0x1a5e0",
+        "end_address": "0x1a5fe"
+    },
+    {
+        "name": "Curl_conn_connect",
+        "entry_point": "0x1a500",
+        "end_address": "0x1a5d9"
+    },
+    {
+        "name": "Curl_conn_cf_recv",
+        "entry_point": "0x1a4e0",
+        "end_address": "0x1a4ff"
+    },
+    {
+        "name": "Curl_conn_cf_send",
+        "entry_point": "0x1a4c0",
+        "end_address": "0x1a4df"
+    },
+    {
+        "name": "Curl_conn_cf_close",
+        "entry_point": "0x1a4a0",
+        "end_address": "0x1a4b1"
+    },
+    {
+        "name": "Curl_conn_cf_connect",
+        "entry_point": "0x1a480",
+        "end_address": "0x1a49e"
+    },
+    {
+        "name": "Curl_conn_cf_discard_sub",
+        "entry_point": "0x1a3e0",
+        "end_address": "0x1a475"
+    },
+    {
+        "name": "Curl_conn_cf_insert_after",
+        "entry_point": "0x1a3b0",
+        "end_address": "0x1a3df"
+    },
+    {
+        "name": "Curl_conn_cf_add",
+        "entry_point": "0x1a340",
+        "end_address": "0x1a3a1"
+    },
+    {
+        "name": "Curl_cf_create",
+        "entry_point": "0x1a2e0",
+        "end_address": "0x1a339"
+    },
+    {
+        "name": "Curl_cf_send",
+        "entry_point": "0x1a260",
+        "end_address": "0x1a2da"
+    },
+    {
+        "name": "Curl_cf_recv",
+        "entry_point": "0x1a1e0",
+        "end_address": "0x1a25a"
+    },
+    {
+        "name": "Curl_conn_shutdown",
+        "entry_point": "0x19fb0",
+        "end_address": "0x1a1d8"
+    },
+    {
+        "name": "Curl_conn_close",
+        "entry_point": "0x19f70",
+        "end_address": "0x19fb0"
+    },
+    {
+        "name": "Curl_conn_cf_discard_all",
+        "entry_point": "0x19f50",
+        "end_address": "0x19f6a"
+    },
+    {
+        "name": "Curl_conn_cf_discard_chain",
+        "entry_point": "0x19ee0",
+        "end_address": "0x19f43"
+    },
+    {
+        "name": "Curl_cf_def_query",
+        "entry_point": "0x19ec0",
+        "end_address": "0x19ede"
+    },
+    {
+        "name": "Curl_cf_def_conn_keep_alive",
+        "entry_point": "0x19ea0",
+        "end_address": "0x19ebb"
+    },
+    {
+        "name": "Curl_cf_def_conn_is_alive",
+        "entry_point": "0x19e80",
+        "end_address": "0x19e9b"
+    },
+    {
+        "name": "Curl_cf_def_recv",
+        "entry_point": "0x19e60",
+        "end_address": "0x19e7e"
+    },
+    {
+        "name": "Curl_cf_def_send",
+        "entry_point": "0x19e40",
+        "end_address": "0x19e5e"
+    },
+    {
+        "name": "Curl_cf_def_data_pending",
+        "entry_point": "0x19e20",
+        "end_address": "0x19e3b"
+    },
+    {
+        "name": "Curl_cf_def_adjust_pollset",
+        "entry_point": "0x19e10",
+        "end_address": "0x19e15"
+    },
+    {
+        "name": "Curl_cf_def_get_host",
+        "entry_point": "0x19dd0",
+        "end_address": "0x19e0c"
+    },
+    {
+        "name": "Curl_cf_def_shutdown",
+        "entry_point": "0x19dc0",
+        "end_address": "0x19dca"
+    },
+    {
+        "name": "Curl_conncache_multi_close_all",
+        "entry_point": "0x1ca30",
+        "end_address": "0x1ca40"
+    },
+    {
+        "name": "Curl_conncache_multi_socket",
+        "entry_point": "0x1c910",
+        "end_address": "0x1ca2b"
+    },
+    {
+        "name": "connc_update_shutdown_ev",
+        "entry_point": "0x1b730",
+        "end_address": "0x1b7e0"
+    },
+    {
+        "name": "connc_disconnect",
+        "entry_point": "0x1b450",
+        "end_address": "0x1b561"
+    },
+    {
+        "name": "Curl_conncache_multi_perform",
+        "entry_point": "0x1c900",
+        "end_address": "0x1c910"
+    },
+    {
+        "name": "connc_perform",
+        "entry_point": "0x1b5d0",
+        "end_address": "0x1b721"
+    },
+    {
+        "name": "Curl_conncache_add_waitfds",
+        "entry_point": "0x1c840",
+        "end_address": "0x1c8fc"
+    },
+    {
+        "name": "Curl_conncache_add_pollfds",
+        "entry_point": "0x1c500",
+        "end_address": "0x1c5db"
+    },
+    {
+        "name": "Curl_conncache_disconnect",
+        "entry_point": "0x1c420",
+        "end_address": "0x1c4ff"
+    },
+    {
+        "name": "connc_discard_conn",
+        "entry_point": "0x1b9b0",
+        "end_address": "0x1bbd5"
+    },
+    {
+        "name": "Curl_conncache_close_all_connections",
+        "entry_point": "0x1c830",
+        "end_address": "0x1c839"
+    },
+    {
+        "name": "connc_close_all",
+        "entry_point": "0x1c5e0",
+        "end_address": "0x1c821"
+    },
+    {
+        "name": "connc_shutdown_discard_all",
+        "entry_point": "0x1b570",
+        "end_address": "0x1b5c1"
+    },
+    {
+        "name": "Curl_conncache_extract_oldest",
+        "entry_point": "0x1c1b0",
+        "end_address": "0x1c349"
+    },
+    {
+        "name": "Curl_conncache_extract_bundle",
+        "entry_point": "0x1c0e0",
+        "end_address": "0x1c1ad"
+    },
+    {
+        "name": "Curl_conncache_return_conn",
+        "entry_point": "0x1c350",
+        "end_address": "0x1c41e"
+    },
+    {
+        "name": "connc_find_first_connection",
+        "entry_point": "0x1b170",
+        "end_address": "0x1b1da"
+    },
+    {
+        "name": "Curl_conncache_foreach",
+        "entry_point": "0x1bfd0",
+        "end_address": "0x1c0da"
+    },
+    {
+        "name": "Curl_conncache_add_conn",
+        "entry_point": "0x1bdd0",
+        "end_address": "0x1bf4f"
+    },
+    {
+        "name": "Curl_conncache_find_bundle",
+        "entry_point": "0x1bd00",
+        "end_address": "0x1bdc2"
+    },
+    {
+        "name": "Curl_conncache_size",
+        "entry_point": "0x1bc90",
+        "end_address": "0x1bcfe"
+    },
+    {
+        "name": "Curl_conncache_destroy",
+        "entry_point": "0x1bc60",
+        "end_address": "0x1bc81"
+    },
+    {
+        "name": "Curl_conncache_init",
+        "entry_point": "0x1bbe0",
+        "end_address": "0x1bc5a"
+    },
+    {
+        "name": "free_bundle_hash_entry",
+        "entry_point": "0x1b0f0",
+        "end_address": "0x1b0fd"
+    },
+    {
+        "name": "bundle_remove_conn",
+        "entry_point": "0x1b100",
+        "end_address": "0x1b161"
+    },
+    {
+        "name": "sigpipe_apply",
+        "entry_point": "0x1b860",
+        "end_address": "0x1b9a3"
+    },
+    {
+        "name": "Curl_conn_setup",
+        "entry_point": "0x1ef50",
+        "end_address": "0x1f03c"
+    },
+    {
+        "name": "Curl_cf_setup_insert_after",
+        "entry_point": "0x1eee0",
+        "end_address": "0x1ef45"
+    },
+    {
+        "name": "cf_setup_destroy",
+        "entry_point": "0x1cd40",
+        "end_address": "0x1cdb1"
+    },
+    {
+        "name": "cf_setup_close",
+        "entry_point": "0x1ce00",
+        "end_address": "0x1ce8e"
+    },
+    {
+        "name": "cf_setup_connect",
+        "entry_point": "0x1d650",
+        "end_address": "0x1daec"
+    },
+    {
+        "name": "cf_he_destroy",
+        "entry_point": "0x1d520",
+        "end_address": "0x1d59b"
+    },
+    {
+        "name": "cf_he_query",
+        "entry_point": "0x1d240",
+        "end_address": "0x1d400"
+    },
+    {
+        "name": "cf_he_close",
+        "entry_point": "0x1d5a0",
+        "end_address": "0x1d642"
+    },
+    {
+        "name": "cf_he_connect",
+        "entry_point": "0x1dce0",
+        "end_address": "0x1e88e"
+    },
+    {
+        "name": "cf_he_shutdown",
+        "entry_point": "0x1cb60",
+        "end_address": "0x1cd31"
+    },
+    {
+        "name": "baller_start",
+        "entry_point": "0x1ce90",
+        "end_address": "0x1d0e5"
+    },
+    {
+        "name": "baller_free",
+        "entry_point": "0x1cdc0",
+        "end_address": "0x1cdf1"
+    },
+    {
+        "name": "eyeballer_new",
+        "entry_point": "0x1ca60",
+        "end_address": "0x1cb5c"
+    },
+    {
+        "name": "Curl_conncontrol",
+        "entry_point": "0x1ee70",
+        "end_address": "0x1eedd"
+    },
+    {
+        "name": "Curl_getconnectinfo",
+        "entry_point": "0x1ed80",
+        "end_address": "0x1ee6f"
+    },
+    {
+        "name": "conn_is_conn",
+        "entry_point": "0x1ca40",
+        "end_address": "0x1ca5a"
+    },
+    {
+        "name": "Curl_addr2string",
+        "entry_point": "0x1ec90",
+        "end_address": "0x1ed74"
+    },
+    {
+        "name": "Curl_persistconninfo",
+        "entry_point": "0x1eb90",
+        "end_address": "0x1ec8a"
+    },
+    {
+        "name": "Curl_shutdown_started",
+        "entry_point": "0x1eb60",
+        "end_address": "0x1eb8c"
+    },
+    {
+        "name": "Curl_shutdown_clear",
+        "entry_point": "0x1eb40",
+        "end_address": "0x1eb5c"
+    },
+    {
+        "name": "Curl_conn_shutdown_timeleft",
+        "entry_point": "0x1e9f0",
+        "end_address": "0x1eb31"
+    },
+    {
+        "name": "Curl_shutdown_start",
+        "entry_point": "0x1e890",
+        "end_address": "0x1e918"
+    },
+    {
+        "name": "Curl_timeleft",
+        "entry_point": "0x1dbb0",
+        "end_address": "0x1dcda"
+    },
+    {
+        "name": "Curl_build_unencoding_stack",
+        "entry_point": "0x1fad0",
+        "end_address": "0x1fff0"
+    },
+    {
+        "name": "error_do_close",
+        "entry_point": "0x1f080",
+        "end_address": "0x1f085"
+    },
+    {
+        "name": "error_do_write",
+        "entry_point": "0x1fa20",
+        "end_address": "0x1fad0"
+    },
+    {
+        "name": "error_do_init",
+        "entry_point": "0x1f070",
+        "end_address": "0x1f077"
+    },
+    {
+        "name": "gzip_do_write",
+        "entry_point": "0x1f4d0",
+        "end_address": "0x1f761"
+    },
+    {
+        "name": "deflate_do_close",
+        "entry_point": "0x1f270",
+        "end_address": "0x1f283"
+    },
+    {
+        "name": "inflate_stream",
+        "entry_point": "0x1f2a0",
+        "end_address": "0x1f4cd"
+    },
+    {
+        "name": "process_trailer",
+        "entry_point": "0x1f210",
+        "end_address": "0x1f26a"
+    },
+    {
+        "name": "zfree_cb",
+        "entry_point": "0x1f060",
+        "end_address": "0x1f070"
+    },
+    {
+        "name": "zalloc_cb",
+        "entry_point": "0x1f040",
+        "end_address": "0x1f058"
+    },
+    {
+        "name": "Curl_flush_cookies",
+        "entry_point": "0x22320",
+        "end_address": "0x226f8"
+    },
+    {
+        "name": "Curl_cookie_list",
+        "entry_point": "0x22230",
+        "end_address": "0x2231d"
+    },
+    {
+        "name": "get_netscape_format",
+        "entry_point": "0x203b0",
+        "end_address": "0x20469"
+    },
+    {
+        "name": "Curl_cookie_clearsess",
+        "entry_point": "0x22160",
+        "end_address": "0x22206"
+    },
+    {
+        "name": "Curl_cookie_clearall",
+        "entry_point": "0x220c0",
+        "end_address": "0x22128"
+    },
+    {
+        "name": "Curl_cookie_getlist",
+        "entry_point": "0x21c30",
+        "end_address": "0x220b2"
+    },
+    {
+        "name": "cookie_sort_ct",
+        "entry_point": "0x20030",
+        "end_address": "0x2004b"
+    },
+    {
+        "name": "cookie_sort",
+        "entry_point": "0x20130",
+        "end_address": "0x20258"
+    },
+    {
+        "name": "Curl_cookie_init",
+        "entry_point": "0x21920",
+        "end_address": "0x21b57"
+    },
+    {
+        "name": "Curl_cookie_add",
+        "entry_point": "0x205d0",
+        "end_address": "0x2191b"
+    },
+    {
+        "name": "remove_expired",
+        "entry_point": "0x20050",
+        "end_address": "0x2012d"
+    },
+    {
+        "name": "Curl_cookie_loadfiles",
+        "entry_point": "0x21b60",
+        "end_address": "0x21c25"
+    },
+    {
+        "name": "sanitize_cookie_path",
+        "entry_point": "0x202d0",
+        "end_address": "0x203a4"
+    },
+    {
+        "name": "cookie_tailmatch",
+        "entry_point": "0x20260",
+        "end_address": "0x202c8"
+    },
+    {
+        "name": "freecookie",
+        "entry_point": "0x1fff0",
+        "end_address": "0x2002c"
+    },
+    {
+        "name": "Curl_unix2addr",
+        "entry_point": "0x22cd0",
+        "end_address": "0x22db0"
+    },
+    {
+        "name": "Curl_str2addr",
+        "entry_point": "0x22c20",
+        "end_address": "0x22cca"
+    },
+    {
+        "name": "Curl_ip2addr",
+        "entry_point": "0x22b00",
+        "end_address": "0x22c11"
+    },
+    {
+        "name": "Curl_getaddrinfo_ex",
+        "entry_point": "0x228b0",
+        "end_address": "0x22adc"
+    },
+    {
+        "name": "Curl_read16_be",
+        "entry_point": "0x22de0",
+        "end_address": "0x22df3"
+    },
+    {
+        "name": "Curl_read32_le",
+        "entry_point": "0x22dd0",
+        "end_address": "0x22dd7"
+    },
+    {
+        "name": "Curl_read16_le",
+        "entry_point": "0x22db0",
+        "end_address": "0x22dc3"
+    },
+    {
+        "name": "Curl_fnmatch",
+        "entry_point": "0x22e00",
+        "end_address": "0x22e3e"
+    },
+    {
+        "name": "Curl_get_line",
+        "entry_point": "0x22e40",
+        "end_address": "0x22f23"
+    },
+    {
+        "name": "Curl_gethostname",
+        "entry_point": "0x22f30",
+        "end_address": "0x22f6f"
+    },
+    {
+        "name": "Curl_memrchr",
+        "entry_point": "0x22f70",
+        "end_address": "0x22fa3"
+    },
+    {
+        "name": "Curl_ntlm_core_mk_lmv2_resp",
+        "entry_point": "0x23690",
+        "end_address": "0x23712"
+    },
+    {
+        "name": "Curl_ntlm_core_mk_ntlmv2_resp",
+        "entry_point": "0x234e0",
+        "end_address": "0x2368d"
+    },
+    {
+        "name": "Curl_ntlm_core_mk_ntlmv2_hash",
+        "entry_point": "0x233b0",
+        "end_address": "0x234d8"
+    },
+    {
+        "name": "Curl_ntlm_core_mk_nt_hash",
+        "entry_point": "0x232e0",
+        "end_address": "0x233a5"
+    },
+    {
+        "name": "Curl_ntlm_core_mk_lm_hash",
+        "entry_point": "0x23140",
+        "end_address": "0x232d9"
+    },
+    {
+        "name": "Curl_ntlm_core_lm_resp",
+        "entry_point": "0x23080",
+        "end_address": "0x23131"
+    },
+    {
+        "name": "setup_des_key",
+        "entry_point": "0x22fb0",
+        "end_address": "0x23074"
+    },
+    {
+        "name": "Curl_range",
+        "entry_point": "0x23720",
+        "end_address": "0x23898"
+    },
+    {
+        "name": "Curl_sasl_continue",
+        "entry_point": "0x242c0",
+        "end_address": "0x247ac"
+    },
+    {
+        "name": "Curl_sasl_start",
+        "entry_point": "0x23d10",
+        "end_address": "0x242bd"
+    },
+    {
+        "name": "Curl_sasl_can_authenticate",
+        "entry_point": "0x23ce0",
+        "end_address": "0x23d08"
+    },
+    {
+        "name": "Curl_sasl_init",
+        "entry_point": "0x23c40",
+        "end_address": "0x23cd3"
+    },
+    {
+        "name": "Curl_sasl_parse_url_auth_option",
+        "entry_point": "0x23b70",
+        "end_address": "0x23c33"
+    },
+    {
+        "name": "Curl_sasl_decode_mech",
+        "entry_point": "0x23a90",
+        "end_address": "0x23b61"
+    },
+    {
+        "name": "Curl_sasl_cleanup",
+        "entry_point": "0x23a70",
+        "end_address": "0x23a8c"
+    },
+    {
+        "name": "Curl_sha512_256_finish_v",
+        "entry_point": "0x24860",
+        "end_address": "0x24866"
+    },
+    {
+        "name": "Curl_sha512_256_update_i",
+        "entry_point": "0x24810",
+        "end_address": "0x2481e"
+    },
+    {
+        "name": "Curl_sha512_256it",
+        "entry_point": "0x24870",
+        "end_address": "0x24901"
+    },
+    {
+        "name": "Curl_sha512_256_finish",
+        "entry_point": "0x24820",
+        "end_address": "0x2485b"
+    },
+    {
+        "name": "Curl_sha512_256_init",
+        "entry_point": "0x247b0",
+        "end_address": "0x24807"
+    },
+    {
+        "name": "Curl_thread_join",
+        "entry_point": "0x24a10",
+        "end_address": "0x24a4d"
+    },
+    {
+        "name": "Curl_thread_destroy",
+        "entry_point": "0x249e0",
+        "end_address": "0x24a09"
+    },
+    {
+        "name": "Curl_thread_create",
+        "entry_point": "0x24940",
+        "end_address": "0x249d2"
+    },
+    {
+        "name": "curl_thread_create_thunk",
+        "entry_point": "0x24910",
+        "end_address": "0x24938"
+    },
+    {
+        "name": "Curl_trc_init",
+        "entry_point": "0x25470",
+        "end_address": "0x25477"
+    },
+    {
+        "name": "Curl_trc_opt",
+        "entry_point": "0x252f0",
+        "end_address": "0x2546b"
+    },
+    {
+        "name": "Curl_trc_ftp",
+        "entry_point": "0x25200",
+        "end_address": "0x252ef"
+    },
+    {
+        "name": "Curl_trc_write",
+        "entry_point": "0x25110",
+        "end_address": "0x251ff"
+    },
+    {
+        "name": "Curl_trc_read",
+        "entry_point": "0x25020",
+        "end_address": "0x2510f"
+    },
+    {
+        "name": "Curl_trc_cf_infof",
+        "entry_point": "0x24e20",
+        "end_address": "0x25015"
+    },
+    {
+        "name": "Curl_infof",
+        "entry_point": "0x24d40",
+        "end_address": "0x24e1d"
+    },
+    {
+        "name": "trc_infof",
+        "entry_point": "0x24b20",
+        "end_address": "0x24be1"
+    },
+    {
+        "name": "Curl_failf",
+        "entry_point": "0x24bf0",
+        "end_address": "0x24d3e"
+    },
+    {
+        "name": "Curl_cw_out_done",
+        "entry_point": "0x25e10",
+        "end_address": "0x25e7c"
+    },
+    {
+        "name": "Curl_cw_out_unpause",
+        "entry_point": "0x25da0",
+        "end_address": "0x25e0c"
+    },
+    {
+        "name": "cw_out_flush",
+        "entry_point": "0x25c50",
+        "end_address": "0x25cf7"
+    },
+    {
+        "name": "Curl_cw_out_is_paused",
+        "entry_point": "0x25d00",
+        "end_address": "0x25d91"
+    },
+    {
+        "name": "cw_out_write",
+        "entry_point": "0x25ba0",
+        "end_address": "0x25c48"
+    },
+    {
+        "name": "cw_out_do_write",
+        "entry_point": "0x25a40",
+        "end_address": "0x25b95"
+    },
+    {
+        "name": "cw_out_append",
+        "entry_point": "0x254a0",
+        "end_address": "0x255a8"
+    },
+    {
+        "name": "cw_out_flush_chain",
+        "entry_point": "0x258e0",
+        "end_address": "0x25a37"
+    },
+    {
+        "name": "cw_out_close",
+        "entry_point": "0x255d0",
+        "end_address": "0x2560b"
+    },
+    {
+        "name": "cw_out_init",
+        "entry_point": "0x25480",
+        "end_address": "0x25493"
+    },
+    {
+        "name": "dict_do",
+        "entry_point": "0x260a0",
+        "end_address": "0x26538"
+    },
+    {
+        "name": "sendf",
+        "entry_point": "0x25f40",
+        "end_address": "0x2609d"
+    },
+    {
+        "name": "unescape_word",
+        "entry_point": "0x25e80",
+        "end_address": "0x25f3f"
+    },
+    {
+        "name": "Curl_doh_cleanup",
+        "entry_point": "0x27d90",
+        "end_address": "0x27de0"
+    },
+    {
+        "name": "Curl_doh_close",
+        "entry_point": "0x26e90",
+        "end_address": "0x26ef2"
+    },
+    {
+        "name": "Curl_doh_is_resolved",
+        "entry_point": "0x26f00",
+        "end_address": "0x27d82"
+    },
+    {
+        "name": "skipqname",
+        "entry_point": "0x26540",
+        "end_address": "0x265b3"
+    },
+    {
+        "name": "Curl_doh",
+        "entry_point": "0x27de0",
+        "end_address": "0x27f11"
+    },
+    {
+        "name": "dohprobe",
+        "entry_point": "0x266f0",
+        "end_address": "0x26e82"
+    },
+    {
+        "name": "doh_done",
+        "entry_point": "0x265c0",
+        "end_address": "0x266b6"
+    },
+    {
+        "name": "doh_write_cb",
+        "entry_point": "0x266c0",
+        "end_address": "0x266ef"
+    },
+    {
+        "name": "Curl_dyn_setlen",
+        "entry_point": "0x282d0",
+        "end_address": "0x282ed"
+    },
+    {
+        "name": "Curl_dyn_len",
+        "entry_point": "0x282c0",
+        "end_address": "0x282c9"
+    },
+    {
+        "name": "Curl_dyn_uptr",
+        "entry_point": "0x282b0",
+        "end_address": "0x282b8"
+    },
+    {
+        "name": "Curl_dyn_ptr",
+        "entry_point": "0x282a0",
+        "end_address": "0x282a8"
+    },
+    {
+        "name": "Curl_dyn_addf",
+        "entry_point": "0x281c0",
+        "end_address": "0x28291"
+    },
+    {
+        "name": "Curl_dyn_add",
+        "entry_point": "0x28160",
+        "end_address": "0x2818e"
+    },
+    {
+        "name": "Curl_dyn_addn",
+        "entry_point": "0x28150",
+        "end_address": "0x28159"
+    },
+    {
+        "name": "Curl_dyn_tail",
+        "entry_point": "0x280d0",
+        "end_address": "0x28145"
+    },
+    {
+        "name": "dyn_nappend",
+        "entry_point": "0x27f20",
+        "end_address": "0x28055"
+    },
+    {
+        "name": "Curl_dyn_init",
+        "entry_point": "0x28060",
+        "end_address": "0x28080"
+    },
+    {
+        "name": "Curl_dynhds_h1_dprint",
+        "entry_point": "0x28960",
+        "end_address": "0x289e3"
+    },
+    {
+        "name": "Curl_dynhds_h1_cadd_line",
+        "entry_point": "0x28900",
+        "end_address": "0x28953"
+    },
+    {
+        "name": "Curl_dynhds_cadd",
+        "entry_point": "0x28890",
+        "end_address": "0x288d8"
+    },
+    {
+        "name": "Curl_dynhds_cget",
+        "entry_point": "0x284c0",
+        "end_address": "0x284ee"
+    },
+    {
+        "name": "Curl_dynhds_get",
+        "entry_point": "0x28440",
+        "end_address": "0x284b6"
+    },
+    {
+        "name": "Curl_dynhds_getn",
+        "entry_point": "0x28420",
+        "end_address": "0x28434"
+    },
+    {
+        "name": "Curl_dynhds_set_opts",
+        "entry_point": "0x28410",
+        "end_address": "0x28418"
+    },
+    {
+        "name": "Curl_dynhds_count",
+        "entry_point": "0x28400",
+        "end_address": "0x28409"
+    },
+    {
+        "name": "Curl_dynhds_reset",
+        "entry_point": "0x283a0",
+        "end_address": "0x283f3"
+    },
+    {
+        "name": "Curl_dynhds_free",
+        "entry_point": "0x28330",
+        "end_address": "0x2839f"
+    },
+    {
+        "name": "Curl_dynhds_init",
+        "entry_point": "0x282f0",
+        "end_address": "0x28323"
+    },
+    {
+        "name": "curl_easy_upkeep",
+        "entry_point": "0x29c50",
+        "end_address": "0x29ce5"
+    },
+    {
+        "name": "curl_easy_send",
+        "entry_point": "0x29bd0",
+        "end_address": "0x29c4c"
+    },
+    {
+        "name": "curl_easy_recv",
+        "entry_point": "0x29a00",
+        "end_address": "0x29ab4"
+    },
+    {
+        "name": "curl_easy_pause",
+        "entry_point": "0x29800",
+        "end_address": "0x299fb"
+    },
+    {
+        "name": "curl_easy_reset",
+        "entry_point": "0x29710",
+        "end_address": "0x297f8"
+    },
+    {
+        "name": "curl_easy_duphandle",
+        "entry_point": "0x292e0",
+        "end_address": "0x29704"
+    },
+    {
+        "name": "curl_easy_getinfo",
+        "entry_point": "0x29280",
+        "end_address": "0x292d9"
+    },
+    {
+        "name": "curl_easy_cleanup",
+        "entry_point": "0x291d0",
+        "end_address": "0x29271"
+    },
+    {
+        "name": "curl_easy_perform",
+        "entry_point": "0x28f90",
+        "end_address": "0x291d0"
+    },
+    {
+        "name": "curl_easy_init",
+        "entry_point": "0x28ee0",
+        "end_address": "0x28f83"
+    },
+    {
+        "name": "curl_global_sslset",
+        "entry_point": "0x28e90",
+        "end_address": "0x28ed4"
+    },
+    {
+        "name": "curl_global_trace",
+        "entry_point": "0x28e40",
+        "end_address": "0x28e84"
+    },
+    {
+        "name": "curl_global_cleanup",
+        "entry_point": "0x28dc0",
+        "end_address": "0x28e33"
+    },
+    {
+        "name": "curl_global_init_mem",
+        "entry_point": "0x28cf0",
+        "end_address": "0x28db6"
+    },
+    {
+        "name": "curl_global_init",
+        "entry_point": "0x28ca0",
+        "end_address": "0x28ce9"
+    },
+    {
+        "name": "curl_easy_option_next",
+        "entry_point": "0x29d90",
+        "end_address": "0x29dc0"
+    },
+    {
+        "name": "curl_easy_option_by_id",
+        "entry_point": "0x29d50",
+        "end_address": "0x29d87"
+    },
+    {
+        "name": "curl_easy_option_by_name",
+        "entry_point": "0x29cf0",
+        "end_address": "0x29d4a"
+    },
+    {
+        "name": "Curl_hexencode",
+        "entry_point": "0x2a1d0",
+        "end_address": "0x2a253"
+    },
+    {
+        "name": "curl_free",
+        "entry_point": "0x2a1c0",
+        "end_address": "0x2a1cd"
+    },
+    {
+        "name": "curl_easy_unescape",
+        "entry_point": "0x2a0f0",
+        "end_address": "0x2a19b"
+    },
+    {
+        "name": "Curl_urldecode",
+        "entry_point": "0x29f70",
+        "end_address": "0x2a0eb"
+    },
+    {
+        "name": "curl_easy_escape",
+        "entry_point": "0x29dc0",
+        "end_address": "0x29f5f"
+    },
+    {
+        "name": "curl_unescape",
+        "entry_point": "0x2a1a0",
+        "end_address": "0x2a1b2"
+    },
+    {
+        "name": "curl_escape",
+        "entry_point": "0x29f60",
+        "end_address": "0x29f70"
+    },
+    {
+        "name": "file_disconnect",
+        "entry_point": "0x2a2e0",
+        "end_address": "0x2a2ea"
+    },
+    {
+        "name": "file_done",
+        "entry_point": "0x2a290",
+        "end_address": "0x2a2d7"
+    },
+    {
+        "name": "file_connect",
+        "entry_point": "0x2a2f0",
+        "end_address": "0x2a422"
+    },
+    {
+        "name": "file_setup_connection",
+        "entry_point": "0x2a260",
+        "end_address": "0x2a28d"
+    },
+    {
+        "name": "Curl_fileinfo_cleanup",
+        "entry_point": "0x2acf0",
+        "end_address": "0x2ad21"
+    },
+    {
+        "name": "Curl_fileinfo_alloc",
+        "entry_point": "0x2acd0",
+        "end_address": "0x2acea"
+    },
+    {
+        "name": "Curl_fopen",
+        "entry_point": "0x2ad30",
+        "end_address": "0x2afd0"
+    },
+    {
+        "name": "fseeko_wrapper",
+        "entry_point": "0x2afd0",
+        "end_address": "0x2afd9"
+    },
+    {
+        "name": "curl_formfree",
+        "entry_point": "0x2c180",
+        "end_address": "0x2c1f1"
+    },
+    {
+        "name": "curl_formget",
+        "entry_point": "0x2c040",
+        "end_address": "0x2c173"
+    },
+    {
+        "name": "curl_formadd",
+        "entry_point": "0x2b340",
+        "end_address": "0x2c040"
+    },
+    {
+        "name": "ftp_setup_connection",
+        "entry_point": "0x2e490",
+        "end_address": "0x2e69d"
+    },
+    {
+        "name": "ftp_doing",
+        "entry_point": "0x2fc40",
+        "end_address": "0x2fd63"
+    },
+    {
+        "name": "ftp_dophase_done",
+        "entry_point": "0x2fb90",
+        "end_address": "0x2fc37"
+    },
+    {
+        "name": "ftp_parse_url_path",
+        "entry_point": "0x2e030",
+        "end_address": "0x2e48d"
+    },
+    {
+        "name": "ftp_disconnect",
+        "entry_point": "0x2c640",
+        "end_address": "0x2c7de"
+    },
+    {
+        "name": "wc_data_dtor",
+        "entry_point": "0x2dfe0",
+        "end_address": "0x2e021"
+    },
+    {
+        "name": "ftp_do_more",
+        "entry_point": "0x2f870",
+        "end_address": "0x2fb8b"
+    },
+    {
+        "name": "ftp_done",
+        "entry_point": "0x32320",
+        "end_address": "0x32aae"
+    },
+    {
+        "name": "ftp_connect",
+        "entry_point": "0x2c980",
+        "end_address": "0x2ca43"
+    },
+    {
+        "name": "ftp_statemachine",
+        "entry_point": "0x2fd70",
+        "end_address": "0x31987"
+    },
+    {
+        "name": "ftp_state_user_resp",
+        "entry_point": "0x2c4d0",
+        "end_address": "0x2c638"
+    },
+    {
+        "name": "ftp_state_loggedin",
+        "entry_point": "0x2c460",
+        "end_address": "0x2c4cb"
+    },
+    {
+        "name": "ftp_state_retr",
+        "entry_point": "0x2ca50",
+        "end_address": "0x2cd01"
+    },
+    {
+        "name": "ftp_epsv_disable",
+        "entry_point": "0x2cd10",
+        "end_address": "0x2cdfd"
+    },
+    {
+        "name": "ftp_state_quote",
+        "entry_point": "0x2ea10",
+        "end_address": "0x2ed23"
+    },
+    {
+        "name": "ftp_state_ul_setup",
+        "entry_point": "0x2ce00",
+        "end_address": "0x2d0b8"
+    },
+    {
+        "name": "ftp_state_mdtm",
+        "entry_point": "0x2e990",
+        "end_address": "0x2ea0b"
+    },
+    {
+        "name": "ftp_state_type",
+        "entry_point": "0x2e920",
+        "end_address": "0x2e985"
+    },
+    {
+        "name": "ftp_state_size",
+        "entry_point": "0x2e8b0",
+        "end_address": "0x2e914"
+    },
+    {
+        "name": "ftp_state_prepare_transfer",
+        "entry_point": "0x2ed30",
+        "end_address": "0x2ee63"
+    },
+    {
+        "name": "ftp_state_use_port",
+        "entry_point": "0x2d0c0",
+        "end_address": "0x2da64"
+    },
+    {
+        "name": "ftp_domore_getsock",
+        "entry_point": "0x2c820",
+        "end_address": "0x2c8d6"
+    },
+    {
+        "name": "ftp_getsock",
+        "entry_point": "0x2c8e0",
+        "end_address": "0x2c8f0"
+    },
+    {
+        "name": "ftp_state_pwd",
+        "entry_point": "0x2c410",
+        "end_address": "0x2c45b"
+    },
+    {
+        "name": "ftp_state_user",
+        "entry_point": "0x2c3a0",
+        "end_address": "0x2c40b"
+    },
+    {
+        "name": "Curl_GetFTPResponse",
+        "entry_point": "0x2f1c0",
+        "end_address": "0x2f3e4"
+    },
+    {
+        "name": "AllowServerConnect",
+        "entry_point": "0x2f710",
+        "end_address": "0x2f861"
+    },
+    {
+        "name": "InitiateTransfer",
+        "entry_point": "0x2dce0",
+        "end_address": "0x2de42"
+    },
+    {
+        "name": "ReceivedServerConnect",
+        "entry_point": "0x2f3f0",
+        "end_address": "0x2f703"
+    },
+    {
+        "name": "ftp_timeleft_accept",
+        "entry_point": "0x2da70",
+        "end_address": "0x2db18"
+    },
+    {
+        "name": "AcceptServerConnect",
+        "entry_point": "0x2db20",
+        "end_address": "0x2dcd8"
+    },
+    {
+        "name": "ftp_cw_lc_write",
+        "entry_point": "0x2de50",
+        "end_address": "0x2dfdf"
+    },
+    {
+        "name": "freedirs",
+        "entry_point": "0x2c260",
+        "end_address": "0x2c319"
+    },
+    {
+        "name": "close_secondarysocket",
+        "entry_point": "0x2c8f0",
+        "end_address": "0x2c975"
+    },
+    {
+        "name": "_ftp_state",
+        "entry_point": "0x2c320",
+        "end_address": "0x2c392"
+    },
+    {
+        "name": "Curl_ftp_parselist",
+        "entry_point": "0x32d20",
+        "end_address": "0x33b90"
+    },
+    {
+        "name": "ftp_pl_insert_finfo",
+        "entry_point": "0x32ac0",
+        "end_address": "0x32c04"
+    },
+    {
+        "name": "Curl_ftp_parselist_geterror",
+        "entry_point": "0x32d10",
+        "end_address": "0x32d18"
+    },
+    {
+        "name": "Curl_ftp_parselist_data_free",
+        "entry_point": "0x32cd0",
+        "end_address": "0x32d08"
+    },
+    {
+        "name": "Curl_ftp_parselist_data_alloc",
+        "entry_point": "0x32cb0",
+        "end_address": "0x32cca"
+    },
+    {
+        "name": "Curl_wildcard_dtor",
+        "entry_point": "0x32c30",
+        "end_address": "0x32cab"
+    },
+    {
+        "name": "Curl_wildcard_init",
+        "entry_point": "0x32c10",
+        "end_address": "0x32c30"
+    },
+    {
+        "name": "fileinfo_dtor",
+        "entry_point": "0x32ab0",
+        "end_address": "0x32abc"
+    },
+    {
+        "name": "curl_getenv",
+        "entry_point": "0x33b90",
+        "end_address": "0x33bc7"
+    },
+    {
+        "name": "Curl_getinfo",
+        "entry_point": "0x33d10",
+        "end_address": "0x34619"
+    },
+    {
+        "name": "Curl_initinfo",
+        "entry_point": "0x33bd0",
+        "end_address": "0x33d07"
+    },
+    {
+        "name": "gopher_do",
+        "entry_point": "0x34630",
+        "end_address": "0x348f0"
+    },
+    {
+        "name": "gopher_connecting",
+        "entry_point": "0x348f0",
+        "end_address": "0x3493f"
+    },
+    {
+        "name": "gopher_connect",
+        "entry_point": "0x34620",
+        "end_address": "0x34627"
+    },
+    {
+        "name": "Curl_hash_offt_get",
+        "entry_point": "0x34f80",
+        "end_address": "0x34fa1"
+    },
+    {
+        "name": "Curl_hash_offt_remove",
+        "entry_point": "0x34f50",
+        "end_address": "0x34f71"
+    },
+    {
+        "name": "Curl_hash_offt_set",
+        "entry_point": "0x34f20",
+        "end_address": "0x34f47"
+    },
+    {
+        "name": "Curl_hash_offt_init",
+        "entry_point": "0x34ee0",
+        "end_address": "0x34f12"
+    },
+    {
+        "name": "Curl_hash_next_element",
+        "entry_point": "0x34e70",
+        "end_address": "0x34edb"
+    },
+    {
+        "name": "Curl_hash_start_iterate",
+        "entry_point": "0x34e50",
+        "end_address": "0x34e68"
+    },
+    {
+        "name": "Curl_hash_str",
+        "entry_point": "0x349a0",
+        "end_address": "0x349dc"
+    },
+    {
+        "name": "Curl_hash_clean",
+        "entry_point": "0x34e00",
+        "end_address": "0x34e21"
+    },
+    {
+        "name": "Curl_hash_destroy",
+        "entry_point": "0x34d90",
+        "end_address": "0x34df6"
+    },
+    {
+        "name": "Curl_hash_pick",
+        "entry_point": "0x34d00",
+        "end_address": "0x34d83"
+    },
+    {
+        "name": "Curl_hash_delete",
+        "entry_point": "0x34c70",
+        "end_address": "0x34cfe"
+    },
+    {
+        "name": "Curl_hash_add2",
+        "entry_point": "0x34ae0",
+        "end_address": "0x34c57"
+    },
+    {
+        "name": "hash_element_dtor",
+        "entry_point": "0x34940",
+        "end_address": "0x34993"
+    },
+    {
+        "name": "Curl_headers_cleanup",
+        "entry_point": "0x35830",
+        "end_address": "0x35881"
+    },
+    {
+        "name": "Curl_headers_init",
+        "entry_point": "0x35780",
+        "end_address": "0x3582e"
+    },
+    {
+        "name": "hds_cw_collect_write",
+        "entry_point": "0x35680",
+        "end_address": "0x35772"
+    },
+    {
+        "name": "Curl_headers_push",
+        "entry_point": "0x35330",
+        "end_address": "0x35680"
+    },
+    {
+        "name": "curl_easy_nextheader",
+        "entry_point": "0x351c0",
+        "end_address": "0x35328"
+    },
+    {
+        "name": "curl_easy_header",
+        "entry_point": "0x34fb0",
+        "end_address": "0x351ba"
+    },
+    {
+        "name": "Curl_hmacit",
+        "entry_point": "0x35a90",
+        "end_address": "0x35b0f"
+    },
+    {
+        "name": "Curl_HMAC_final",
+        "entry_point": "0x35a30",
+        "end_address": "0x35a8a"
+    },
+    {
+        "name": "Curl_HMAC_init",
+        "entry_point": "0x35890",
+        "end_address": "0x35a01"
+    },
+    {
+        "name": "Curl_getaddrinfo",
+        "entry_point": "0x35bc0",
+        "end_address": "0x35bc9"
+    },
+    {
+        "name": "Curl_addrinfo_callback",
+        "entry_point": "0x35b10",
+        "end_address": "0x35bba"
+    },
+    {
+        "name": "Curl_resolver_error",
+        "entry_point": "0x37490",
+        "end_address": "0x374df"
+    },
+    {
+        "name": "Curl_once_resolved",
+        "entry_point": "0x37410",
+        "end_address": "0x37490"
+    },
+    {
+        "name": "Curl_resolv_getsock",
+        "entry_point": "0x373f0",
+        "end_address": "0x3740d"
+    },
+    {
+        "name": "Curl_resolv_check",
+        "entry_point": "0x36dd0",
+        "end_address": "0x36e1a"
+    },
+    {
+        "name": "show_resolve_info",
+        "entry_point": "0x36430",
+        "end_address": "0x366b8"
+    },
+    {
+        "name": "Curl_loadhostpairs",
+        "entry_point": "0x367f0",
+        "end_address": "0x36dcb"
+    },
+    {
+        "name": "Curl_hostcache_clean",
+        "entry_point": "0x36780",
+        "end_address": "0x367ef"
+    },
+    {
+        "name": "Curl_init_dnscache",
+        "entry_point": "0x36760",
+        "end_address": "0x3677e"
+    },
+    {
+        "name": "Curl_resolv_unlock",
+        "entry_point": "0x366c0",
+        "end_address": "0x36757"
+    },
+    {
+        "name": "Curl_resolv_timeout",
+        "entry_point": "0x373c0",
+        "end_address": "0x373e6"
+    },
+    {
+        "name": "Curl_resolv",
+        "entry_point": "0x36e20",
+        "end_address": "0x373c0"
+    },
+    {
+        "name": "Curl_host_is_ipnum",
+        "entry_point": "0x363c0",
+        "end_address": "0x3642d"
+    },
+    {
+        "name": "Curl_cache_addr",
+        "entry_point": "0x36050",
+        "end_address": "0x36340"
+    },
+    {
+        "name": "Curl_fetch_addr",
+        "entry_point": "0x35fe0",
+        "end_address": "0x36046"
+    },
+    {
+        "name": "fetch_addr",
+        "entry_point": "0x35cc0",
+        "end_address": "0x35e9b"
+    },
+    {
+        "name": "Curl_hostcache_prune",
+        "entry_point": "0x35ef0",
+        "end_address": "0x35fdf"
+    },
+    {
+        "name": "Curl_printable_address",
+        "entry_point": "0x35ea0",
+        "end_address": "0x35eef"
+    },
+    {
+        "name": "Curl_ipvalid",
+        "entry_point": "0x374e0",
+        "end_address": "0x374fd"
+    },
+    {
+        "name": "Curl_hsts_loadfiles",
+        "entry_point": "0x381d0",
+        "end_address": "0x38237"
+    },
+    {
+        "name": "Curl_hsts_loadcb",
+        "entry_point": "0x381b0",
+        "end_address": "0x381c5"
+    },
+    {
+        "name": "hsts_load",
+        "entry_point": "0x37cb0",
+        "end_address": "0x37db6"
+    },
+    {
+        "name": "hsts_pull",
+        "entry_point": "0x375d0",
+        "end_address": "0x376dc"
+    },
+    {
+        "name": "hsts_add",
+        "entry_point": "0x37bb0",
+        "end_address": "0x37cab"
+    },
+    {
+        "name": "Curl_hsts_save",
+        "entry_point": "0x37dc0",
+        "end_address": "0x38194"
+    },
+    {
+        "name": "Curl_hsts",
+        "entry_point": "0x37790",
+        "end_address": "0x37911"
+    },
+    {
+        "name": "Curl_hsts_parse",
+        "entry_point": "0x37920",
+        "end_address": "0x37bac"
+    },
+    {
+        "name": "hsts_create",
+        "entry_point": "0x37500",
+        "end_address": "0x375c3"
+    },
+    {
+        "name": "Curl_hsts_cleanup",
+        "entry_point": "0x37720",
+        "end_address": "0x3778b"
+    },
+    {
+        "name": "Curl_hsts_init",
+        "entry_point": "0x376e0",
+        "end_address": "0x37711"
+    },
+    {
+        "name": "Curl_http_exp100_got100",
+        "entry_point": "0x3d9c0",
+        "end_address": "0x3da14"
+    },
+    {
+        "name": "cr_exp100_done",
+        "entry_point": "0x38650",
+        "end_address": "0x38673"
+    },
+    {
+        "name": "cr_exp100_read",
+        "entry_point": "0x38680",
+        "end_address": "0x38818"
+    },
+    {
+        "name": "Curl_http_resp_free",
+        "entry_point": "0x3d8a0",
+        "end_address": "0x3d8f1"
+    },
+    {
+        "name": "Curl_http_resp_make",
+        "entry_point": "0x3d900",
+        "end_address": "0x3d9b3"
+    },
+    {
+        "name": "Curl_http_req_to_h2",
+        "entry_point": "0x3d4c0",
+        "end_address": "0x3d8a0"
+    },
+    {
+        "name": "Curl_http_req_free",
+        "entry_point": "0x3ce80",
+        "end_address": "0x3ced1"
+    },
+    {
+        "name": "Curl_http_req_make2",
+        "entry_point": "0x3cff0",
+        "end_address": "0x3d4b2"
+    },
+    {
+        "name": "Curl_http_req_make",
+        "entry_point": "0x3cee0",
+        "end_address": "0x3cfec"
+    },
+    {
+        "name": "Curl_http_decode_status",
+        "entry_point": "0x3ce30",
+        "end_address": "0x3ce75"
+    },
+    {
+        "name": "Curl_http_write_resp",
+        "entry_point": "0x3e9c0",
+        "end_address": "0x3ea78"
+    },
+    {
+        "name": "Curl_http_write_resp_hd",
+        "entry_point": "0x3e5b0",
+        "end_address": "0x3e61b"
+    },
+    {
+        "name": "Curl_bump_headersize",
+        "entry_point": "0x3cd10",
+        "end_address": "0x3cd91"
+    },
+    {
+        "name": "Curl_http_statusline",
+        "entry_point": "0x3ca10",
+        "end_address": "0x3cc6b"
+    },
+    {
+        "name": "Curl_http_header",
+        "entry_point": "0x3be10",
+        "end_address": "0x3ca09"
+    },
+    {
+        "name": "checkprefixmax",
+        "entry_point": "0x38510",
+        "end_address": "0x38541"
+    },
+    {
+        "name": "Curl_http",
+        "entry_point": "0x3b760",
+        "end_address": "0x3be06"
+    },
+    {
+        "name": "Curl_http_firstwrite",
+        "entry_point": "0x3b4f0",
+        "end_address": "0x3b67b"
+    },
+    {
+        "name": "Curl_http_cookies",
+        "entry_point": "0x3afe0",
+        "end_address": "0x3b38f"
+    },
+    {
+        "name": "Curl_http_req_complete",
+        "entry_point": "0x3ac70",
+        "end_address": "0x3afdf"
+    },
+    {
+        "name": "Curl_http_target",
+        "entry_point": "0x3a4f0",
+        "end_address": "0x3a77d"
+    },
+    {
+        "name": "Curl_http_host",
+        "entry_point": "0x3a290",
+        "end_address": "0x3a4ec"
+    },
+    {
+        "name": "Curl_http_useragent",
+        "entry_point": "0x3a250",
+        "end_address": "0x3a28d"
+    },
+    {
+        "name": "Curl_http_method",
+        "entry_point": "0x3a160",
+        "end_address": "0x3a242"
+    },
+    {
+        "name": "Curl_add_custom_headers",
+        "entry_point": "0x39d50",
+        "end_address": "0x3a134"
+    },
+    {
+        "name": "Curl_dynhds_add_custom",
+        "entry_point": "0x39950",
+        "end_address": "0x39d50"
+    },
+    {
+        "name": "Curl_http_done",
+        "entry_point": "0x385b0",
+        "end_address": "0x3864f"
+    },
+    {
+        "name": "Curl_http_getsock_do",
+        "entry_point": "0x38590",
+        "end_address": "0x385a8"
+    },
+    {
+        "name": "Curl_http_connect",
+        "entry_point": "0x38550",
+        "end_address": "0x38582"
+    },
+    {
+        "name": "Curl_http_input_auth",
+        "entry_point": "0x39550",
+        "end_address": "0x39822"
+    },
+    {
+        "name": "Curl_http_output_auth",
+        "entry_point": "0x393d0",
+        "end_address": "0x39543"
+    },
+    {
+        "name": "output_auth_headers",
+        "entry_point": "0x38be0",
+        "end_address": "0x39040"
+    },
+    {
+        "name": "Curl_http_auth_act",
+        "entry_point": "0x39130",
+        "end_address": "0x393ca"
+    },
+    {
+        "name": "http_perhapsrewind",
+        "entry_point": "0x38320",
+        "end_address": "0x3850c"
+    },
+    {
+        "name": "pickoneauth",
+        "entry_point": "0x38240",
+        "end_address": "0x38317"
+    },
+    {
+        "name": "Curl_copy_header_value",
+        "entry_point": "0x39040",
+        "end_address": "0x39122"
+    },
+    {
+        "name": "Curl_checkProxyheaders",
+        "entry_point": "0x38b60",
+        "end_address": "0x38bd1"
+    },
+    {
+        "name": "Curl_h1_req_write_head",
+        "entry_point": "0x3f080",
+        "end_address": "0x3f115"
+    },
+    {
+        "name": "Curl_h1_req_parse_read",
+        "entry_point": "0x3edb0",
+        "end_address": "0x3f079"
+    },
+    {
+        "name": "start_req",
+        "entry_point": "0x3eaa0",
+        "end_address": "0x3ed37"
+    },
+    {
+        "name": "Curl_h1_req_parse_free",
+        "entry_point": "0x3ed70",
+        "end_address": "0x3eda1"
+    },
+    {
+        "name": "Curl_h1_req_parse_init",
+        "entry_point": "0x3ed40",
+        "end_address": "0x3ed69"
+    },
+    {
+        "name": "curl_pushheader_byname",
+        "entry_point": "0x3f130",
+        "end_address": "0x3f137"
+    },
+    {
+        "name": "curl_pushheader_bynum",
+        "entry_point": "0x3f120",
+        "end_address": "0x3f127"
+    },
+    {
+        "name": "Curl_output_aws_sigv4",
+        "entry_point": "0x3f450",
+        "end_address": "0x40b0e"
+    },
+    {
+        "name": "canon_string",
+        "entry_point": "0x3f140",
+        "end_address": "0x3f37c"
+    },
+    {
+        "name": "compare_func",
+        "entry_point": "0x3f380",
+        "end_address": "0x3f3c6"
+    },
+    {
+        "name": "Curl_httpchunk_add_reader",
+        "entry_point": "0x41af0",
+        "end_address": "0x41b80"
+    },
+    {
+        "name": "cr_chunked_total_length",
+        "entry_point": "0x40b10",
+        "end_address": "0x40b1c"
+    },
+    {
+        "name": "cr_chunked_read",
+        "entry_point": "0x41030",
+        "end_address": "0x4110d"
+    },
+    {
+        "name": "add_chunk",
+        "entry_point": "0x40bd0",
+        "end_address": "0x41028"
+    },
+    {
+        "name": "cr_chunked_close",
+        "entry_point": "0x40b80",
+        "end_address": "0x40b91"
+    },
+    {
+        "name": "cr_chunked_init",
+        "entry_point": "0x40ba0",
+        "end_address": "0x40bcb"
+    },
+    {
+        "name": "cw_chunked_write",
+        "entry_point": "0x41820",
+        "end_address": "0x41a01"
+    },
+    {
+        "name": "cw_chunked_close",
+        "entry_point": "0x40b60",
+        "end_address": "0x40b71"
+    },
+    {
+        "name": "cw_chunked_init",
+        "entry_point": "0x40b20",
+        "end_address": "0x40b52"
+    },
+    {
+        "name": "Curl_httpchunk_read",
+        "entry_point": "0x41ab0",
+        "end_address": "0x41aee"
+    },
+    {
+        "name": "Curl_httpchunk_is_done",
+        "entry_point": "0x41aa0",
+        "end_address": "0x41aac"
+    },
+    {
+        "name": "Curl_http_auth_cleanup_digest",
+        "entry_point": "0x41e20",
+        "end_address": "0x41e41"
+    },
+    {
+        "name": "Curl_output_digest",
+        "entry_point": "0x41c10",
+        "end_address": "0x41e20"
+    },
+    {
+        "name": "Curl_input_digest",
+        "entry_point": "0x41b80",
+        "end_address": "0x41c04"
+    },
+    {
+        "name": "Curl_output_ntlm",
+        "entry_point": "0x420a0",
+        "end_address": "0x423bc"
+    },
+    {
+        "name": "Curl_input_ntlm",
+        "entry_point": "0x41e50",
+        "end_address": "0x42095"
+    },
+    {
+        "name": "Curl_cf_http_proxy_insert_after",
+        "entry_point": "0x42b30",
+        "end_address": "0x42bcd"
+    },
+    {
+        "name": "http_proxy_cf_close",
+        "entry_point": "0x42470",
+        "end_address": "0x42540"
+    },
+    {
+        "name": "http_proxy_cf_destroy",
+        "entry_point": "0x423f0",
+        "end_address": "0x42461"
+    },
+    {
+        "name": "http_proxy_cf_connect",
+        "entry_point": "0x42540",
+        "end_address": "0x4274f"
+    },
+    {
+        "name": "Curl_http_proxy_create_CONNECT",
+        "entry_point": "0x42850",
+        "end_address": "0x42b2e"
+    },
+    {
+        "name": "Curl_http_proxy_get_destination",
+        "entry_point": "0x42790",
+        "end_address": "0x42842"
+    },
+    {
+        "name": "Curl_idnconvert_hostname",
+        "entry_point": "0x42c00",
+        "end_address": "0x42c0f"
+    },
+    {
+        "name": "Curl_is_ASCII_name",
+        "entry_point": "0x42bd0",
+        "end_address": "0x42bfb"
+    },
+    {
+        "name": "Curl_if2ip",
+        "entry_point": "0x42cd0",
+        "end_address": "0x42eaa"
+    },
+    {
+        "name": "imap_sendf",
+        "entry_point": "0x42f00",
+        "end_address": "0x43086"
+    },
+    {
+        "name": "imap_setup_connection",
+        "entry_point": "0x42eb0",
+        "end_address": "0x42efc"
+    },
+    {
+        "name": "imap_disconnect",
+        "entry_point": "0x43090",
+        "end_address": "0x43174"
+    },
+    {
+        "name": "imap_done",
+        "entry_point": "0x43350",
+        "end_address": "0x4354f"
+    },
+    {
+        "name": "imap_connect",
+        "entry_point": "0x43b00",
+        "end_address": "0x43dac"
+    },
+    {
+        "name": "imap_getsock",
+        "entry_point": "0x43180",
+        "end_address": "0x43190"
+    },
+    {
+        "name": "imap_multi_statemach",
+        "entry_point": "0x43190",
+        "end_address": "0x43248"
+    },
+    {
+        "name": "imap_statemachine",
+        "entry_point": "0x443d0",
+        "end_address": "0x44f49"
+    },
+    {
+        "name": "imap_perform_search",
+        "entry_point": "0x43590",
+        "end_address": "0x435e5"
+    },
+    {
+        "name": "imap_perform_fetch",
+        "entry_point": "0x435f0",
+        "end_address": "0x436c5"
+    },
+    {
+        "name": "imap_perform_list",
+        "entry_point": "0x44120",
+        "end_address": "0x441df"
+    },
+    {
+        "name": "imap_cancel_authenticate",
+        "entry_point": "0x43330",
+        "end_address": "0x4334d"
+    },
+    {
+        "name": "imap_continue_authenticate",
+        "entry_point": "0x43550",
+        "end_address": "0x4358a"
+    },
+    {
+        "name": "imap_get_message",
+        "entry_point": "0x43250",
+        "end_address": "0x4332c"
+    },
+    {
+        "name": "imap_endofresp",
+        "entry_point": "0x43790",
+        "end_address": "0x43aff"
+    },
+    {
+        "name": "imap_matchresp",
+        "entry_point": "0x436d0",
+        "end_address": "0x43784"
+    },
+    {
+        "name": "Curl_llist_count",
+        "entry_point": "0x45a70",
+        "end_address": "0x45a79"
+    },
+    {
+        "name": "Curl_llist_destroy",
+        "entry_point": "0x45a20",
+        "end_address": "0x45a61"
+    },
+    {
+        "name": "Curl_llist_remove",
+        "entry_point": "0x45970",
+        "end_address": "0x45a1a"
+    },
+    {
+        "name": "Curl_llist_append",
+        "entry_point": "0x45950",
+        "end_address": "0x45966"
+    },
+    {
+        "name": "Curl_llist_insert_next",
+        "entry_point": "0x458c0",
+        "end_address": "0x45946"
+    },
+    {
+        "name": "Curl_llist_init",
+        "entry_point": "0x458a0",
+        "end_address": "0x458c0"
+    },
+    {
+        "name": "Curl_md4it",
+        "entry_point": "0x45a80",
+        "end_address": "0x45b03"
+    },
+    {
+        "name": "Curl_MD5_final",
+        "entry_point": "0x45c90",
+        "end_address": "0x45cc6"
+    },
+    {
+        "name": "Curl_MD5_update",
+        "entry_point": "0x45c70",
+        "end_address": "0x45c8c"
+    },
+    {
+        "name": "Curl_MD5_init",
+        "entry_point": "0x45be0",
+        "end_address": "0x45c61"
+    },
+    {
+        "name": "Curl_md5it",
+        "entry_point": "0x45b50",
+        "end_address": "0x45bd3"
+    },
+    {
+        "name": "Curl_creader_set_mime",
+        "entry_point": "0x48e70",
+        "end_address": "0x48f20"
+    },
+    {
+        "name": "cr_mime_is_paused",
+        "entry_point": "0x46310",
+        "end_address": "0x46332"
+    },
+    {
+        "name": "cr_mime_unpause",
+        "entry_point": "0x462f0",
+        "end_address": "0x4630c"
+    },
+    {
+        "name": "cr_mime_rewind",
+        "entry_point": "0x467b0",
+        "end_address": "0x467ee"
+    },
+    {
+        "name": "cr_mime_resume_from",
+        "entry_point": "0x47530",
+        "end_address": "0x47669"
+    },
+    {
+        "name": "cr_mime_total_length",
+        "entry_point": "0x462e0",
+        "end_address": "0x462ed"
+    },
+    {
+        "name": "cr_mime_needs_rewind",
+        "entry_point": "0x462c0",
+        "end_address": "0x462d1"
+    },
+    {
+        "name": "cr_mime_read",
+        "entry_point": "0x47670",
+        "end_address": "0x478fd"
+    },
+    {
+        "name": "cr_mime_init",
+        "entry_point": "0x462a0",
+        "end_address": "0x462bb"
+    },
+    {
+        "name": "mime_unpause",
+        "entry_point": "0x46230",
+        "end_address": "0x46293"
+    },
+    {
+        "name": "Curl_mime_prepare_headers",
+        "entry_point": "0x48880",
+        "end_address": "0x48e64"
+    },
+    {
+        "name": "Curl_mime_contenttype",
+        "entry_point": "0x487d0",
+        "end_address": "0x48873"
+    },
+    {
+        "name": "Curl_mime_add_header",
+        "entry_point": "0x486d0",
+        "end_address": "0x487cb"
+    },
+    {
+        "name": "mime_size",
+        "entry_point": "0x46a50",
+        "end_address": "0x46bbb"
+    },
+    {
+        "name": "curl_mime_subparts",
+        "entry_point": "0x484a0",
+        "end_address": "0x484ae"
+    },
+    {
+        "name": "Curl_mime_set_subparts",
+        "entry_point": "0x48350",
+        "end_address": "0x48496"
+    },
+    {
+        "name": "curl_mime_data_cb",
+        "entry_point": "0x48260",
+        "end_address": "0x48346"
+    },
+    {
+        "name": "curl_mime_headers",
+        "entry_point": "0x481f0",
+        "end_address": "0x48256"
+    },
+    {
+        "name": "curl_mime_encoder",
+        "entry_point": "0x48140",
+        "end_address": "0x481e4"
+    },
+    {
+        "name": "curl_mime_addpart",
+        "entry_point": "0x47c50",
+        "end_address": "0x47cf7"
+    },
+    {
+        "name": "curl_mime_init",
+        "entry_point": "0x47b40",
+        "end_address": "0x47be9"
+    },
+    {
+        "name": "mime_subparts_unbind",
+        "entry_point": "0x461a0",
+        "end_address": "0x4622f"
+    },
+    {
+        "name": "mime_subparts_free",
+        "entry_point": "0x47ab0",
+        "end_address": "0x47b38"
+    },
+    {
+        "name": "mime_part_rewind",
+        "entry_point": "0x460f0",
+        "end_address": "0x46197"
+    },
+    {
+        "name": "readback_part",
+        "entry_point": "0x46c40",
+        "end_address": "0x471de"
+    },
+    {
+        "name": "mime_file_free",
+        "entry_point": "0x46680",
+        "end_address": "0x466b5"
+    },
+    {
+        "name": "mime_file_seek",
+        "entry_point": "0x46bc0",
+        "end_address": "0x46c3c"
+    },
+    {
+        "name": "mime_file_read",
+        "entry_point": "0x46910",
+        "end_address": "0x46998"
+    },
+    {
+        "name": "mime_mem_free",
+        "entry_point": "0x460d0",
+        "end_address": "0x460ef"
+    },
+    {
+        "name": "mime_mem_seek",
+        "entry_point": "0x46090",
+        "end_address": "0x460c9"
+    },
+    {
+        "name": "mime_mem_read",
+        "entry_point": "0x46600",
+        "end_address": "0x4667d"
+    },
+    {
+        "name": "encoder_qp_size",
+        "entry_point": "0x46070",
+        "end_address": "0x46082"
+    },
+    {
+        "name": "encoder_qp_read",
+        "entry_point": "0x463b0",
+        "end_address": "0x46600"
+    },
+    {
+        "name": "qp_lookahead_eol",
+        "entry_point": "0x46000",
+        "end_address": "0x46061"
+    },
+    {
+        "name": "encoder_base64_size",
+        "entry_point": "0x45fb0",
+        "end_address": "0x45ff6"
+    },
+    {
+        "name": "encoder_base64_read",
+        "entry_point": "0x45d60",
+        "end_address": "0x45fa3"
+    },
+    {
+        "name": "encoder_7bit_read",
+        "entry_point": "0x45ce0",
+        "end_address": "0x45d54"
+    },
+    {
+        "name": "encoder_nop_size",
+        "entry_point": "0x45cd0",
+        "end_address": "0x45cd9"
+    },
+    {
+        "name": "encoder_nop_read",
+        "entry_point": "0x46340",
+        "end_address": "0x463a9"
+    },
+    {
+        "name": "escape_string",
+        "entry_point": "0x466c0",
+        "end_address": "0x467a7"
+    },
+    {
+        "name": "curl_mvfprintf",
+        "entry_point": "0x4ac10",
+        "end_address": "0x4ac26"
+    },
+    {
+        "name": "curl_mvprintf",
+        "entry_point": "0x4abf0",
+        "end_address": "0x4ac10"
+    },
+    {
+        "name": "curl_mvsprintf",
+        "entry_point": "0x4abb0",
+        "end_address": "0x4abe1"
+    },
+    {
+        "name": "curl_mfprintf",
+        "entry_point": "0x4aae0",
+        "end_address": "0x4aba2"
+    },
+    {
+        "name": "curl_mprintf",
+        "entry_point": "0x4aa00",
+        "end_address": "0x4aad1"
+    },
+    {
+        "name": "fputc_wrapper",
+        "entry_point": "0x48f90",
+        "end_address": "0x48faf"
+    },
+    {
+        "name": "curl_msprintf",
+        "entry_point": "0x4a920",
+        "end_address": "0x4a9fa"
+    },
+    {
+        "name": "storebuffer",
+        "entry_point": "0x48f20",
+        "end_address": "0x48f31"
+    },
+    {
+        "name": "curl_maprintf",
+        "entry_point": "0x4a860",
+        "end_address": "0x4a91a"
+    },
+    {
+        "name": "Curl_dyn_vprintf",
+        "entry_point": "0x4a740",
+        "end_address": "0x4a7ad"
+    },
+    {
+        "name": "alloc_addbyter",
+        "entry_point": "0x48f40",
+        "end_address": "0x48f85"
+    },
+    {
+        "name": "curl_msnprintf",
+        "entry_point": "0x49040",
+        "end_address": "0x490f0"
+    },
+    {
+        "name": "curl_mvsnprintf",
+        "entry_point": "0x4a6c0",
+        "end_address": "0x4a73e"
+    },
+    {
+        "name": "formatf",
+        "entry_point": "0x490f0",
+        "end_address": "0x4a6b8"
+    },
+    {
+        "name": "mqtt_doing",
+        "entry_point": "0x4b840",
+        "end_address": "0x4bf89"
+    },
+    {
+        "name": "mqtt_done",
+        "entry_point": "0x4ade0",
+        "end_address": "0x4ae0c"
+    },
+    {
+        "name": "mqtt_do",
+        "entry_point": "0x4ae10",
+        "end_address": "0x4b356"
+    },
+    {
+        "name": "mqtt_read_publish",
+        "entry_point": "0x4b410",
+        "end_address": "0x4b791"
+    },
+    {
+        "name": "mqtt_recv_atleast",
+        "entry_point": "0x4ad20",
+        "end_address": "0x4addd"
+    },
+    {
+        "name": "mqtt_getsock",
+        "entry_point": "0x4ac30",
+        "end_address": "0x4ac42"
+    },
+    {
+        "name": "mqtt_send",
+        "entry_point": "0x4ac50",
+        "end_address": "0x4ad18"
+    },
+    {
+        "name": "mqtt_setup_conn",
+        "entry_point": "0x4b360",
+        "end_address": "0x4b3bc"
+    },
+    {
+        "name": "Curl_multi_xfer_ulbuf_release",
+        "entry_point": "0x510d0",
+        "end_address": "0x510e3"
+    },
+    {
+        "name": "Curl_multi_xfer_ulbuf_borrow",
+        "entry_point": "0x50f60",
+        "end_address": "0x510c9"
+    },
+    {
+        "name": "Curl_multi_xfer_buf_release",
+        "entry_point": "0x50f40",
+        "end_address": "0x50f53"
+    },
+    {
+        "name": "Curl_multi_xfer_buf_borrow",
+        "entry_point": "0x50dd0",
+        "end_address": "0x50f39"
+    },
+    {
+        "name": "curl_multi_get_handles",
+        "entry_point": "0x50d60",
+        "end_address": "0x50dc5"
+    },
+    {
+        "name": "Curl_multi_max_concurrent_streams",
+        "entry_point": "0x50d50",
+        "end_address": "0x50d5b"
+    },
+    {
+        "name": "Curl_is_in_callback",
+        "entry_point": "0x50d20",
+        "end_address": "0x50d45"
+    },
+    {
+        "name": "move_pending_to_connect",
+        "entry_point": "0x4e060",
+        "end_address": "0x4e0da"
+    },
+    {
+        "name": "Curl_multiuse_state",
+        "entry_point": "0x50cb0",
+        "end_address": "0x50ce1"
+    },
+    {
+        "name": "Curl_multi_max_total_connections",
+        "entry_point": "0x50c90",
+        "end_address": "0x50ca3"
+    },
+    {
+        "name": "Curl_multi_max_host_connections",
+        "entry_point": "0x50c70",
+        "end_address": "0x50c83"
+    },
+    {
+        "name": "curl_multi_assign",
+        "entry_point": "0x50c00",
+        "end_address": "0x50c70"
+    },
+    {
+        "name": "Curl_expire_clear",
+        "entry_point": "0x50820",
+        "end_address": "0x508f1"
+    },
+    {
+        "name": "Curl_expire_done",
+        "entry_point": "0x50810",
+        "end_address": "0x50819"
+    },
+    {
+        "name": "Curl_expire",
+        "entry_point": "0x4de20",
+        "end_address": "0x4e057"
+    },
+    {
+        "name": "multi_deltimeout",
+        "entry_point": "0x4c2f0",
+        "end_address": "0x4c321"
+    },
+    {
+        "name": "curl_multi_socket_all",
+        "entry_point": "0x507a0",
+        "end_address": "0x50804"
+    },
+    {
+        "name": "curl_multi_socket_action",
+        "entry_point": "0x50740",
+        "end_address": "0x50794"
+    },
+    {
+        "name": "curl_multi_socket",
+        "entry_point": "0x506e0",
+        "end_address": "0x50734"
+    },
+    {
+        "name": "curl_multi_setopt",
+        "entry_point": "0x4d650",
+        "end_address": "0x4d999"
+    },
+    {
+        "name": "multi_socket",
+        "entry_point": "0x503f0",
+        "end_address": "0x506d8"
+    },
+    {
+        "name": "Curl_multi_closed",
+        "entry_point": "0x4d520",
+        "end_address": "0x4d643"
+    },
+    {
+        "name": "Curl_updatesocket",
+        "entry_point": "0x4d4f0",
+        "end_address": "0x4d516"
+    },
+    {
+        "name": "Curl_multi_pollset_ev",
+        "entry_point": "0x4cfb0",
+        "end_address": "0x4d456"
+    },
+    {
+        "name": "singlesocket",
+        "entry_point": "0x4d460",
+        "end_address": "0x4d4e8"
+    },
+    {
+        "name": "curl_multi_info_read",
+        "entry_point": "0x4cf30",
+        "end_address": "0x4cfab"
+    },
+    {
+        "name": "curl_multi_perform",
+        "entry_point": "0x50190",
+        "end_address": "0x503e1"
+    },
+    {
+        "name": "Curl_multi_add_perform",
+        "entry_point": "0x4eb70",
+        "end_address": "0x4ebd9"
+    },
+    {
+        "name": "Curl_multi_connchanged",
+        "entry_point": "0x4cf20",
+        "end_address": "0x4cf2c"
+    },
+    {
+        "name": "curl_multi_wakeup",
+        "entry_point": "0x4ce70",
+        "end_address": "0x4cf1d"
+    },
+    {
+        "name": "curl_multi_poll",
+        "entry_point": "0x4dd40",
+        "end_address": "0x4dd91"
+    },
+    {
+        "name": "curl_multi_wait",
+        "entry_point": "0x4dda0",
+        "end_address": "0x4dde9"
+    },
+    {
+        "name": "curl_multi_waitfds",
+        "entry_point": "0x4cd60",
+        "end_address": "0x4ce64"
+    },
+    {
+        "name": "curl_multi_fdset",
+        "entry_point": "0x4cbc0",
+        "end_address": "0x4cd54"
+    },
+    {
+        "name": "multi_getsock",
+        "entry_point": "0x4c330",
+        "end_address": "0x4c474"
+    },
+    {
+        "name": "perform_getsock",
+        "entry_point": "0x4c1b0",
+        "end_address": "0x4c244"
+    },
+    {
+        "name": "doing_getsock",
+        "entry_point": "0x4c150",
+        "end_address": "0x4c1a3"
+    },
+    {
+        "name": "domore_getsock",
+        "entry_point": "0x4c0f0",
+        "end_address": "0x4c143"
+    },
+    {
+        "name": "Curl_attach_connection",
+        "entry_point": "0x4cb60",
+        "end_address": "0x4cbba"
+    },
+    {
+        "name": "Curl_detach_connection",
+        "entry_point": "0x4cb10",
+        "end_address": "0x4cb52"
+    },
+    {
+        "name": "Curl_multiplex_wanted",
+        "entry_point": "0x4caf0",
+        "end_address": "0x4cb06"
+    },
+    {
+        "name": "curl_multi_remove_handle",
+        "entry_point": "0x50920",
+        "end_address": "0x50bfe"
+    },
+    {
+        "name": "multi_done",
+        "entry_point": "0x4e0e0",
+        "end_address": "0x4e4f7"
+    },
+    {
+        "name": "curl_multi_init",
+        "entry_point": "0x4cad0",
+        "end_address": "0x4cae8"
+    },
+    {
+        "name": "Curl_multi_handle",
+        "entry_point": "0x4c960",
+        "end_address": "0x4cac1"
+    },
+    {
+        "name": "hash_fd",
+        "entry_point": "0x4c0d0",
+        "end_address": "0x4c0e1"
+    },
+    {
+        "name": "fd_key_compare",
+        "entry_point": "0x4c0c0",
+        "end_address": "0x4c0cf"
+    },
+    {
+        "name": "sh_freeentry",
+        "entry_point": "0x4c0b0",
+        "end_address": "0x4c0bd"
+    },
+    {
+        "name": "sockhash_destroy",
+        "entry_point": "0x4c250",
+        "end_address": "0x4c2c2"
+    },
+    {
+        "name": "trhash_compare",
+        "entry_point": "0x4c080",
+        "end_address": "0x4c091"
+    },
+    {
+        "name": "trhash",
+        "entry_point": "0x4c060",
+        "end_address": "0x4c073"
+    },
+    {
+        "name": "init_completed",
+        "entry_point": "0x50900",
+        "end_address": "0x50916"
+    },
+    {
+        "name": "before_perform",
+        "entry_point": "0x4c2d0",
+        "end_address": "0x4c2e5"
+    },
+    {
+        "name": "sigpipe_apply",
+        "entry_point": "0x4c810",
+        "end_address": "0x4c953"
+    },
+    {
+        "name": "Curl_parsenetrc",
+        "entry_point": "0x516e0",
+        "end_address": "0x51819"
+    },
+    {
+        "name": "parsenetrc",
+        "entry_point": "0x510f0",
+        "end_address": "0x516dc"
+    },
+    {
+        "name": "curlx_nonblock",
+        "entry_point": "0x51820",
+        "end_address": "0x51888"
+    },
+    {
+        "name": "Curl_check_noproxy",
+        "entry_point": "0x51890",
+        "end_address": "0x51e2f"
+    },
+    {
+        "name": "Curl_gmtime",
+        "entry_point": "0x526b0",
+        "end_address": "0x526d5"
+    },
+    {
+        "name": "Curl_getdate_capped",
+        "entry_point": "0x52640",
+        "end_address": "0x526a8"
+    },
+    {
+        "name": "curl_getdate",
+        "entry_point": "0x525d0",
+        "end_address": "0x52636"
+    },
+    {
+        "name": "Curl_pp_moredata",
+        "entry_point": "0x52f90",
+        "end_address": "0x52fb9"
+    },
+    {
+        "name": "Curl_pp_disconnect",
+        "entry_point": "0x52f70",
+        "end_address": "0x52f8e"
+    },
+    {
+        "name": "Curl_pp_flushsend",
+        "entry_point": "0x52eb0",
+        "end_address": "0x52f61"
+    },
+    {
+        "name": "Curl_pp_getsock",
+        "entry_point": "0x52e80",
+        "end_address": "0x52ea2"
+    },
+    {
+        "name": "Curl_pp_readresp",
+        "entry_point": "0x52bf0",
+        "end_address": "0x52e7b"
+    },
+    {
+        "name": "Curl_pp_sendf",
+        "entry_point": "0x52b40",
+        "end_address": "0x52bf0"
+    },
+    {
+        "name": "Curl_pp_vsendf",
+        "entry_point": "0x529d0",
+        "end_address": "0x52b3f"
+    },
+    {
+        "name": "Curl_pp_init",
+        "entry_point": "0x52990",
+        "end_address": "0x529cd"
+    },
+    {
+        "name": "Curl_pp_statemach",
+        "entry_point": "0x52790",
+        "end_address": "0x52987"
+    },
+    {
+        "name": "Curl_pp_state_timeout",
+        "entry_point": "0x526e0",
+        "end_address": "0x52782"
+    },
+    {
+        "name": "Curl_pop3_write",
+        "entry_point": "0x53ca0",
+        "end_address": "0x53f74"
+    },
+    {
+        "name": "pop3_setup_connection",
+        "entry_point": "0x52fc0",
+        "end_address": "0x5300c"
+    },
+    {
+        "name": "pop3_doing",
+        "entry_point": "0x53240",
+        "end_address": "0x53249"
+    },
+    {
+        "name": "pop3_disconnect",
+        "entry_point": "0x530a0",
+        "end_address": "0x5316c"
+    },
+    {
+        "name": "pop3_done",
+        "entry_point": "0x53250",
+        "end_address": "0x532b7"
+    },
+    {
+        "name": "pop3_getsock",
+        "entry_point": "0x53170",
+        "end_address": "0x53180"
+    },
+    {
+        "name": "pop3_multi_statemach",
+        "entry_point": "0x53180",
+        "end_address": "0x53237"
+    },
+    {
+        "name": "pop3_statemachine",
+        "entry_point": "0x53f80",
+        "end_address": "0x547bf"
+    },
+    {
+        "name": "pop3_cancel_auth",
+        "entry_point": "0x53010",
+        "end_address": "0x5302d"
+    },
+    {
+        "name": "pop3_continue_auth",
+        "entry_point": "0x533a0",
+        "end_address": "0x533da"
+    },
+    {
+        "name": "pop3_perform_auth",
+        "entry_point": "0x533e0",
+        "end_address": "0x53440"
+    },
+    {
+        "name": "pop3_perform_user",
+        "entry_point": "0x53030",
+        "end_address": "0x53092"
+    },
+    {
+        "name": "pop3_get_message",
+        "entry_point": "0x532c0",
+        "end_address": "0x5339c"
+    },
+    {
+        "name": "Curl_pgrsUpdate_nometer",
+        "entry_point": "0x557e0",
+        "end_address": "0x557f9"
+    },
+    {
+        "name": "Curl_pgrsUpdate",
+        "entry_point": "0x55220",
+        "end_address": "0x55761"
+    },
+    {
+        "name": "progress_calc",
+        "entry_point": "0x547c0",
+        "end_address": "0x54a9e"
+    },
+    {
+        "name": "Curl_pgrsSetUploadCounter",
+        "entry_point": "0x55190",
+        "end_address": "0x5519c"
+    },
+    {
+        "name": "Curl_ratelimit",
+        "entry_point": "0x55030",
+        "end_address": "0x550f2"
+    },
+    {
+        "name": "Curl_pgrsSetDownloadCounter",
+        "entry_point": "0x55020",
+        "end_address": "0x5502e"
+    },
+    {
+        "name": "Curl_pgrsLimitWaitTime",
+        "entry_point": "0x54f80",
+        "end_address": "0x55020"
+    },
+    {
+        "name": "Curl_pgrsStartNow",
+        "entry_point": "0x55100",
+        "end_address": "0x55190"
+    },
+    {
+        "name": "Curl_pgrsTime",
+        "entry_point": "0x54f30",
+        "end_address": "0x54f73"
+    },
+    {
+        "name": "Curl_pgrsTimeWas",
+        "entry_point": "0x54dd0",
+        "end_address": "0x54f21"
+    },
+    {
+        "name": "Curl_pgrsResetTransferSizes",
+        "entry_point": "0x54da0",
+        "end_address": "0x54dc2"
+    },
+    {
+        "name": "Curl_pgrsDone",
+        "entry_point": "0x55770",
+        "end_address": "0x557d8"
+    },
+    {
+        "name": "Curl_rand_alnum",
+        "entry_point": "0x55a60",
+        "end_address": "0x55b32"
+    },
+    {
+        "name": "Curl_rand_hex",
+        "entry_point": "0x559c0",
+        "end_address": "0x55a60"
+    },
+    {
+        "name": "Curl_rand",
+        "entry_point": "0x55900",
+        "end_address": "0x559b6"
+    },
+    {
+        "name": "Curl_rename",
+        "entry_point": "0x55b40",
+        "end_address": "0x55b5a"
+    },
+    {
+        "name": "Curl_req_abort_sending",
+        "entry_point": "0x564a0",
+        "end_address": "0x564d0"
+    },
+    {
+        "name": "Curl_req_send_more",
+        "entry_point": "0x562e0",
+        "end_address": "0x56376"
+    },
+    {
+        "name": "Curl_req_done_sending",
+        "entry_point": "0x562d0",
+        "end_address": "0x562df"
+    },
+    {
+        "name": "Curl_req_want_send",
+        "entry_point": "0x562a0",
+        "end_address": "0x562c8"
+    },
+    {
+        "name": "Curl_req_send",
+        "entry_point": "0x56380",
+        "end_address": "0x56493"
+    },
+    {
+        "name": "add_from_client",
+        "entry_point": "0x55ca0",
+        "end_address": "0x55d1e"
+    },
+    {
+        "name": "req_set_upload_done",
+        "entry_point": "0x55b60",
+        "end_address": "0x55c9d"
+    },
+    {
+        "name": "Curl_req_free",
+        "entry_point": "0x56230",
+        "end_address": "0x5629b"
+    },
+    {
+        "name": "Curl_req_hard_reset",
+        "entry_point": "0x56110",
+        "end_address": "0x5622e"
+    },
+    {
+        "name": "Curl_req_done",
+        "entry_point": "0x560d0",
+        "end_address": "0x56104"
+    },
+    {
+        "name": "Curl_req_start",
+        "entry_point": "0x560a0",
+        "end_address": "0x560d0"
+    },
+    {
+        "name": "Curl_req_init",
+        "entry_point": "0x55f80",
+        "end_address": "0x55fb3"
+    },
+    {
+        "name": "Curl_rtsp_parseheader",
+        "entry_point": "0x57900",
+        "end_address": "0x57cbf"
+    },
+    {
+        "name": "rtsp_rtp_write_resp",
+        "entry_point": "0x57720",
+        "end_address": "0x578fb"
+    },
+    {
+        "name": "rtsp_filter_rtp",
+        "entry_point": "0x57210",
+        "end_address": "0x5771e"
+    },
+    {
+        "name": "rtsp_do",
+        "entry_point": "0x56680",
+        "end_address": "0x57151"
+    },
+    {
+        "name": "rtsp_done",
+        "entry_point": "0x56560",
+        "end_address": "0x56613"
+    },
+    {
+        "name": "rtsp_disconnect",
+        "entry_point": "0x564f0",
+        "end_address": "0x5650b"
+    },
+    {
+        "name": "rtsp_connect",
+        "entry_point": "0x56510",
+        "end_address": "0x56557"
+    },
+    {
+        "name": "rtsp_setup_connection",
+        "entry_point": "0x56620",
+        "end_address": "0x5667c"
+    },
+    {
+        "name": "rtsp_getsock_do",
+        "entry_point": "0x564d0",
+        "end_address": "0x564e2"
+    },
+    {
+        "name": "Curl_waitfds_add_ps",
+        "entry_point": "0x58140",
+        "end_address": "0x58200"
+    },
+    {
+        "name": "Curl_waitfds_init",
+        "entry_point": "0x58120",
+        "end_address": "0x58133"
+    },
+    {
+        "name": "Curl_pollfds_add_ps",
+        "entry_point": "0x580a0",
+        "end_address": "0x5811d"
+    },
+    {
+        "name": "Curl_pollfds_add_sock",
+        "entry_point": "0x58090",
+        "end_address": "0x5809e"
+    },
+    {
+        "name": "cpfds_add_sock",
+        "entry_point": "0x57cc0",
+        "end_address": "0x57da7"
+    },
+    {
+        "name": "Curl_pollfds_cleanup",
+        "entry_point": "0x58060",
+        "end_address": "0x5808b"
+    },
+    {
+        "name": "Curl_pollfds_init",
+        "entry_point": "0x58030",
+        "end_address": "0x58053"
+    },
+    {
+        "name": "Curl_socket_check",
+        "entry_point": "0x57f00",
+        "end_address": "0x5802f"
+    },
+    {
+        "name": "Curl_creader_get_by_type",
+        "entry_point": "0x5a420",
+        "end_address": "0x5a447"
+    },
+    {
+        "name": "Curl_creader_done",
+        "entry_point": "0x5a3e0",
+        "end_address": "0x5a41d"
+    },
+    {
+        "name": "Curl_creader_is_paused",
+        "entry_point": "0x5a390",
+        "end_address": "0x5a3d9"
+    },
+    {
+        "name": "Curl_creader_unpause",
+        "entry_point": "0x5a340",
+        "end_address": "0x5a389"
+    },
+    {
+        "name": "Curl_creader_resume_from",
+        "entry_point": "0x5a300",
+        "end_address": "0x5a336"
+    },
+    {
+        "name": "Curl_creader_client_length",
+        "entry_point": "0x5a2c0",
+        "end_address": "0x5a2f8"
+    },
+    {
+        "name": "Curl_creader_total_length",
+        "entry_point": "0x5a2a0",
+        "end_address": "0x5a2be"
+    },
+    {
+        "name": "Curl_creader_set_buf",
+        "entry_point": "0x5a1b0",
+        "end_address": "0x5a29e"
+    },
+    {
+        "name": "cr_buf_resume_from",
+        "entry_point": "0x58400",
+        "end_address": "0x5843e"
+    },
+    {
+        "name": "cr_buf_total_length",
+        "entry_point": "0x583f0",
+        "end_address": "0x583fd"
+    },
+    {
+        "name": "cr_buf_needs_rewind",
+        "entry_point": "0x583d0",
+        "end_address": "0x583e1"
+    },
+    {
+        "name": "Curl_creader_set_null",
+        "entry_point": "0x5a140",
+        "end_address": "0x5a1a6"
+    },
+    {
+        "name": "cr_null_total_length",
+        "entry_point": "0x583c0",
+        "end_address": "0x583c7"
+    },
+    {
+        "name": "cr_null_read",
+        "entry_point": "0x583a0",
+        "end_address": "0x583b2"
+    },
+    {
+        "name": "Curl_creader_needs_rewind",
+        "entry_point": "0x5a0b0",
+        "end_address": "0x5a13b"
+    },
+    {
+        "name": "Curl_client_read",
+        "entry_point": "0x59fb0",
+        "end_address": "0x5a0a1"
+    },
+    {
+        "name": "Curl_creader_set",
+        "entry_point": "0x59f50",
+        "end_address": "0x59fa3"
+    },
+    {
+        "name": "Curl_creader_add",
+        "entry_point": "0x59d20",
+        "end_address": "0x59d92"
+    },
+    {
+        "name": "Curl_creader_set_fread",
+        "entry_point": "0x59e70",
+        "end_address": "0x59f46"
+    },
+    {
+        "name": "cr_lc_total_length",
+        "entry_point": "0x58390",
+        "end_address": "0x5839c"
+    },
+    {
+        "name": "cr_lc_read",
+        "entry_point": "0x58e60",
+        "end_address": "0x59198"
+    },
+    {
+        "name": "cr_lc_close",
+        "entry_point": "0x58e40",
+        "end_address": "0x58e51"
+    },
+    {
+        "name": "cr_lc_init",
+        "entry_point": "0x591a0",
+        "end_address": "0x591cb"
+    },
+    {
+        "name": "Curl_creader_create",
+        "entry_point": "0x59c60",
+        "end_address": "0x59cf0"
+    },
+    {
+        "name": "cr_in_is_paused",
+        "entry_point": "0x58370",
+        "end_address": "0x58383"
+    },
+    {
+        "name": "cr_in_unpause",
+        "entry_point": "0x58360",
+        "end_address": "0x5836f"
+    },
+    {
+        "name": "cr_in_resume_from",
+        "entry_point": "0x58c80",
+        "end_address": "0x58e3d"
+    },
+    {
+        "name": "cr_in_total_length",
+        "entry_point": "0x58350",
+        "end_address": "0x5835d"
+    },
+    {
+        "name": "cr_in_needs_rewind",
+        "entry_point": "0x58330",
+        "end_address": "0x58343"
+    },
+    {
+        "name": "cr_in_read",
+        "entry_point": "0x58900",
+        "end_address": "0x58c77"
+    },
+    {
+        "name": "cr_in_init",
+        "entry_point": "0x582f0",
+        "end_address": "0x58321"
+    },
+    {
+        "name": "Curl_creader_def_done",
+        "entry_point": "0x582e0",
+        "end_address": "0x582e5"
+    },
+    {
+        "name": "Curl_creader_def_resume_from",
+        "entry_point": "0x582d0",
+        "end_address": "0x582da"
+    },
+    {
+        "name": "Curl_creader_def_total_length",
+        "entry_point": "0x59c40",
+        "end_address": "0x59c5b"
+    },
+    {
+        "name": "Curl_creader_def_read",
+        "entry_point": "0x59c10",
+        "end_address": "0x59c39"
+    },
+    {
+        "name": "Curl_cwriter_unpause",
+        "entry_point": "0x59bd0",
+        "end_address": "0x59bd9"
+    },
+    {
+        "name": "Curl_cwriter_is_paused",
+        "entry_point": "0x59bc0",
+        "end_address": "0x59bc9"
+    },
+    {
+        "name": "Curl_cwriter_remove_by_name",
+        "entry_point": "0x59b40",
+        "end_address": "0x59bbe"
+    },
+    {
+        "name": "Curl_cwriter_get_by_type",
+        "entry_point": "0x59b10",
+        "end_address": "0x59b37"
+    },
+    {
+        "name": "Curl_cwriter_get_by_name",
+        "entry_point": "0x59ac0",
+        "end_address": "0x59b08"
+    },
+    {
+        "name": "Curl_cwriter_add",
+        "entry_point": "0x59860",
+        "end_address": "0x598cb"
+    },
+    {
+        "name": "Curl_cwriter_count",
+        "entry_point": "0x59830",
+        "end_address": "0x59860"
+    },
+    {
+        "name": "Curl_cwriter_create",
+        "entry_point": "0x59770",
+        "end_address": "0x59800"
+    },
+    {
+        "name": "cw_raw_write",
+        "entry_point": "0x58440",
+        "end_address": "0x584c7"
+    },
+    {
+        "name": "cw_download_write",
+        "entry_point": "0x584d0",
+        "end_address": "0x588f7"
+    },
+    {
+        "name": "Curl_cwriter_def_write",
+        "entry_point": "0x59750",
+        "end_address": "0x5976e"
+    },
+    {
+        "name": "Curl_creader_set_rewind",
+        "entry_point": "0x59710",
+        "end_address": "0x59730"
+    },
+    {
+        "name": "Curl_creader_will_rewind",
+        "entry_point": "0x596f0",
+        "end_address": "0x59702"
+    },
+    {
+        "name": "Curl_client_start",
+        "entry_point": "0x59620",
+        "end_address": "0x596e2"
+    },
+    {
+        "name": "Curl_client_reset",
+        "entry_point": "0x59560",
+        "end_address": "0x5961a"
+    },
+    {
+        "name": "Curl_client_cleanup",
+        "entry_point": "0x59530",
+        "end_address": "0x5955c"
+    },
+    {
+        "name": "cl_reset_reader",
+        "entry_point": "0x58250",
+        "end_address": "0x582a0"
+    },
+    {
+        "name": "cl_reset_writer",
+        "entry_point": "0x58200",
+        "end_address": "0x58250"
+    },
+    {
+        "name": "Curl_client_write",
+        "entry_point": "0x599f0",
+        "end_address": "0x59ab7"
+    },
+    {
+        "name": "curl_easy_setopt",
+        "entry_point": "0x60570",
+        "end_address": "0x60634"
+    },
+    {
+        "name": "Curl_vsetopt",
+        "entry_point": "0x5a700",
+        "end_address": "0x6056a"
+    },
+    {
+        "name": "setstropt_userpwd",
+        "entry_point": "0x5a450",
+        "end_address": "0x5a4fc"
+    },
+    {
+        "name": "Curl_setblobopt",
+        "entry_point": "0x5a650",
+        "end_address": "0x5a6f6"
+    },
+    {
+        "name": "Curl_sha256it",
+        "entry_point": "0x606d0",
+        "end_address": "0x60764"
+    },
+    {
+        "name": "my_sha256_init",
+        "entry_point": "0x60640",
+        "end_address": "0x60697"
+    },
+    {
+        "name": "Curl_share_unlock",
+        "entry_point": "0x60d00",
+        "end_address": "0x60d56"
+    },
+    {
+        "name": "Curl_share_lock",
+        "entry_point": "0x60ca0",
+        "end_address": "0x60cf6"
+    },
+    {
+        "name": "curl_share_cleanup",
+        "entry_point": "0x60b30",
+        "end_address": "0x60c94"
+    },
+    {
+        "name": "curl_share_setopt",
+        "entry_point": "0x607c0",
+        "end_address": "0x60b29"
+    },
+    {
+        "name": "curl_share_init",
+        "entry_point": "0x60770",
+        "end_address": "0x607b2"
+    },
+    {
+        "name": "Curl_slist_duplicate",
+        "entry_point": "0x60eb0",
+        "end_address": "0x60f08"
+    },
+    {
+        "name": "curl_slist_append",
+        "entry_point": "0x60dc0",
+        "end_address": "0x60e4d"
+    },
+    {
+        "name": "smb_do",
+        "entry_point": "0x60fb0",
+        "end_address": "0x60fc9"
+    },
+    {
+        "name": "smb_getsock",
+        "entry_point": "0x60f90",
+        "end_address": "0x60fa2"
+    },
+    {
+        "name": "smb_disconnect",
+        "entry_point": "0x60f10",
+        "end_address": "0x60f81"
+    },
+    {
+        "name": "smb_request_state",
+        "entry_point": "0x61c80",
+        "end_address": "0x622dd"
+    },
+    {
+        "name": "smb_connection_state",
+        "entry_point": "0x61930",
+        "end_address": "0x61b3c"
+    },
+    {
+        "name": "smb_send_and_recv",
+        "entry_point": "0x61120",
+        "end_address": "0x61385"
+    },
+    {
+        "name": "smb_send_open",
+        "entry_point": "0x61620",
+        "end_address": "0x61727"
+    },
+    {
+        "name": "smb_send_tree_connect",
+        "entry_point": "0x61b40",
+        "end_address": "0x61c7c"
+    },
+    {
+        "name": "smb_send_setup",
+        "entry_point": "0x61730",
+        "end_address": "0x61924"
+    },
+    {
+        "name": "smb_send_message",
+        "entry_point": "0x610c0",
+        "end_address": "0x61115"
+    },
+    {
+        "name": "smb_send",
+        "entry_point": "0x61040",
+        "end_address": "0x610b8"
+    },
+    {
+        "name": "smb_format_message",
+        "entry_point": "0x60fd0",
+        "end_address": "0x6103e"
+    },
+    {
+        "name": "smb_connect",
+        "entry_point": "0x61390",
+        "end_address": "0x6149a"
+    },
+    {
+        "name": "smb_setup_connection",
+        "entry_point": "0x614a0",
+        "end_address": "0x61618"
+    },
+    {
+        "name": "cr_eob_total_length",
+        "entry_point": "0x62320",
+        "end_address": "0x6232c"
+    },
+    {
+        "name": "cr_eob_read",
+        "entry_point": "0x628e0",
+        "end_address": "0x62c0b"
+    },
+    {
+        "name": "cr_eob_close",
+        "entry_point": "0x628c0",
+        "end_address": "0x628d1"
+    },
+    {
+        "name": "cr_eob_init",
+        "entry_point": "0x62c10",
+        "end_address": "0x62c43"
+    },
+    {
+        "name": "smtp_setup_connection",
+        "entry_point": "0x622e0",
+        "end_address": "0x62314"
+    },
+    {
+        "name": "smtp_disconnect",
+        "entry_point": "0x623b0",
+        "end_address": "0x6247c"
+    },
+    {
+        "name": "smtp_do",
+        "entry_point": "0x63da0",
+        "end_address": "0x644f9"
+    },
+    {
+        "name": "smtp_done",
+        "entry_point": "0x62550",
+        "end_address": "0x62655"
+    },
+    {
+        "name": "smtp_getsock",
+        "entry_point": "0x62480",
+        "end_address": "0x62490"
+    },
+    {
+        "name": "smtp_multi_statemach",
+        "entry_point": "0x62490",
+        "end_address": "0x62547"
+    },
+    {
+        "name": "smtp_statemachine",
+        "entry_point": "0x63490",
+        "end_address": "0x63d9b"
+    },
+    {
+        "name": "smtp_perform_rcpt_to",
+        "entry_point": "0x63160",
+        "end_address": "0x6325b"
+    },
+    {
+        "name": "smtp_perform_command",
+        "entry_point": "0x63260",
+        "end_address": "0x6348e"
+    },
+    {
+        "name": "smtp_cancel_auth",
+        "entry_point": "0x62330",
+        "end_address": "0x6234d"
+    },
+    {
+        "name": "smtp_continue_auth",
+        "entry_point": "0x62740",
+        "end_address": "0x6277a"
+    },
+    {
+        "name": "smtp_perform_auth",
+        "entry_point": "0x62780",
+        "end_address": "0x627e0"
+    },
+    {
+        "name": "smtp_perform_upgrade_tls",
+        "entry_point": "0x627e0",
+        "end_address": "0x628b8"
+    },
+    {
+        "name": "smtp_perform_ehlo",
+        "entry_point": "0x62350",
+        "end_address": "0x623a1"
+    },
+    {
+        "name": "smtp_get_message",
+        "entry_point": "0x62660",
+        "end_address": "0x6273c"
+    },
+    {
+        "name": "Curl_socketpair",
+        "entry_point": "0x645c0",
+        "end_address": "0x645e7"
+    },
+    {
+        "name": "Curl_pipe",
+        "entry_point": "0x64500",
+        "end_address": "0x645b8"
+    },
+    {
+        "name": "Curl_cf_socks_proxy_insert_after",
+        "entry_point": "0x661c0",
+        "end_address": "0x6622c"
+    },
+    {
+        "name": "socks_proxy_cf_destroy",
+        "entry_point": "0x64640",
+        "end_address": "0x64664"
+    },
+    {
+        "name": "socks_proxy_cf_close",
+        "entry_point": "0x645f0",
+        "end_address": "0x64634"
+    },
+    {
+        "name": "socks_cf_adjust_pollset",
+        "entry_point": "0x64670",
+        "end_address": "0x646d9"
+    },
+    {
+        "name": "socks_proxy_cf_connect",
+        "entry_point": "0x648a0",
+        "end_address": "0x661bc"
+    },
+    {
+        "name": "Curl_speedcheck",
+        "entry_point": "0x66240",
+        "end_address": "0x66315"
+    },
+    {
+        "name": "Curl_speedinit",
+        "entry_point": "0x66230",
+        "end_address": "0x66240"
+    },
+    {
+        "name": "Curl_splayremove",
+        "entry_point": "0x665e0",
+        "end_address": "0x666e3"
+    },
+    {
+        "name": "Curl_splaygetbest",
+        "entry_point": "0x66530",
+        "end_address": "0x665de"
+    },
+    {
+        "name": "Curl_splayinsert",
+        "entry_point": "0x66460",
+        "end_address": "0x66524"
+    },
+    {
+        "name": "Curl_splay",
+        "entry_point": "0x66320",
+        "end_address": "0x66456"
+    },
+    {
+        "name": "Curl_timestrcmp",
+        "entry_point": "0x66920",
+        "end_address": "0x66986"
+    },
+    {
+        "name": "Curl_safecmp",
+        "entry_point": "0x668f0",
+        "end_address": "0x6691f"
+    },
+    {
+        "name": "Curl_strntolower",
+        "entry_point": "0x668b0",
+        "end_address": "0x668e6"
+    },
+    {
+        "name": "Curl_strntoupper",
+        "entry_point": "0x66870",
+        "end_address": "0x668a6"
+    },
+    {
+        "name": "curl_strnequal",
+        "entry_point": "0x667d0",
+        "end_address": "0x66863"
+    },
+    {
+        "name": "curl_strequal",
+        "entry_point": "0x66730",
+        "end_address": "0x667cf"
+    },
+    {
+        "name": "Curl_saferealloc",
+        "entry_point": "0x66a30",
+        "end_address": "0x66a68"
+    },
+    {
+        "name": "Curl_memdup0",
+        "entry_point": "0x669e0",
+        "end_address": "0x66a24"
+    },
+    {
+        "name": "Curl_memdup",
+        "entry_point": "0x66990",
+        "end_address": "0x669d1"
+    },
+    {
+        "name": "Curl_strerror",
+        "entry_point": "0x67100",
+        "end_address": "0x671c1"
+    },
+    {
+        "name": "curl_url_strerror",
+        "entry_point": "0x66ee0",
+        "end_address": "0x67100"
+    },
+    {
+        "name": "curl_share_strerror",
+        "entry_point": "0x66e60",
+        "end_address": "0x66ee0"
+    },
+    {
+        "name": "curl_multi_strerror",
+        "entry_point": "0x66d60",
+        "end_address": "0x66e60"
+    },
+    {
+        "name": "curl_easy_strerror",
+        "entry_point": "0x66a70",
+        "end_address": "0x66d60"
+    },
+    {
+        "name": "curlx_strtoofft",
+        "entry_point": "0x671d0",
+        "end_address": "0x672b4"
+    },
+    {
+        "name": "telnet_do",
+        "entry_point": "0x68420",
+        "end_address": "0x696ae"
+    },
+    {
+        "name": "telnet_done",
+        "entry_point": "0x672c0",
+        "end_address": "0x672f8"
+    },
+    {
+        "name": "send_telnet_data",
+        "entry_point": "0x67300",
+        "end_address": "0x674f5"
+    },
+    {
+        "name": "sendsuboption",
+        "entry_point": "0x680d0",
+        "end_address": "0x68235"
+    },
+    {
+        "name": "suboption",
+        "entry_point": "0x67d50",
+        "end_address": "0x680c1"
+    },
+    {
+        "name": "send_negotiation",
+        "entry_point": "0x68370",
+        "end_address": "0x6841f"
+    },
+    {
+        "name": "tftp_setup_connection",
+        "entry_point": "0x6a3b0",
+        "end_address": "0x6a43e"
+    },
+    {
+        "name": "tftp_do",
+        "entry_point": "0x6b1a0",
+        "end_address": "0x6b25c"
+    },
+    {
+        "name": "tftp_multi_statemach",
+        "entry_point": "0x6aab0",
+        "end_address": "0x6b19d"
+    },
+    {
+        "name": "tftp_getsock",
+        "entry_point": "0x69710",
+        "end_address": "0x69722"
+    },
+    {
+        "name": "tftp_done",
+        "entry_point": "0x6a4c0",
+        "end_address": "0x6a4ff"
+    },
+    {
+        "name": "tftp_connect",
+        "entry_point": "0x6a1a0",
+        "end_address": "0x6a3a9"
+    },
+    {
+        "name": "tftp_disconnect",
+        "entry_point": "0x696b0",
+        "end_address": "0x69703"
+    },
+    {
+        "name": "tftp_state_machine",
+        "entry_point": "0x6aa00",
+        "end_address": "0x6aaa5"
+    },
+    {
+        "name": "tftp_tx",
+        "entry_point": "0x69cf0",
+        "end_address": "0x6a11a"
+    },
+    {
+        "name": "tftp_rx",
+        "entry_point": "0x69890",
+        "end_address": "0x69c70"
+    },
+    {
+        "name": "tftp_send_first",
+        "entry_point": "0x6a560",
+        "end_address": "0x6a9f9"
+    },
+    {
+        "name": "tftp_connect_for_rx",
+        "entry_point": "0x69c70",
+        "end_address": "0x69cea"
+    },
+    {
+        "name": "tftp_connect_for_tx",
+        "entry_point": "0x6a120",
+        "end_address": "0x6a19a"
+    },
+    {
+        "name": "tftp_set_timeouts",
+        "entry_point": "0x69730",
+        "end_address": "0x69882"
+    },
+    {
+        "name": "curlx_tvtoms",
+        "entry_point": "0x6b330",
+        "end_address": "0x6b356"
+    },
+    {
+        "name": "curlx_mstotv",
+        "entry_point": "0x6b2c0",
+        "end_address": "0x6b32b"
+    },
+    {
+        "name": "Curl_timediff_us",
+        "entry_point": "0x6b4d0",
+        "end_address": "0x6b51f"
+    },
+    {
+        "name": "Curl_timediff_ceil",
+        "entry_point": "0x6b460",
+        "end_address": "0x6b4c2"
+    },
+    {
+        "name": "Curl_timediff",
+        "entry_point": "0x6b400",
+        "end_address": "0x6b45c"
+    },
+    {
+        "name": "Curl_now",
+        "entry_point": "0x6b360",
+        "end_address": "0x6b3fa"
+    },
+    {
+        "name": "Curl_xfer_is_blocked",
+        "entry_point": "0x6d0a0",
+        "end_address": "0x6d0ed"
+    },
+    {
+        "name": "Curl_xfer_send_shutdown",
+        "entry_point": "0x6d060",
+        "end_address": "0x6d09e"
+    },
+    {
+        "name": "Curl_xfer_send_close",
+        "entry_point": "0x6d040",
+        "end_address": "0x6d054"
+    },
+    {
+        "name": "Curl_xfer_recv",
+        "entry_point": "0x6c890",
+        "end_address": "0x6c8ee"
+    },
+    {
+        "name": "Curl_xfer_send",
+        "entry_point": "0x6c7f0",
+        "end_address": "0x6c887"
+    },
+    {
+        "name": "Curl_xfer_write_done",
+        "entry_point": "0x6c7e0",
+        "end_address": "0x6c7e9"
+    },
+    {
+        "name": "Curl_xfer_write_resp_hd",
+        "entry_point": "0x6c7b0",
+        "end_address": "0x6c7d5"
+    },
+    {
+        "name": "Curl_xfer_write_resp",
+        "entry_point": "0x6c680",
+        "end_address": "0x6c7a2"
+    },
+    {
+        "name": "Curl_xfer_setup2",
+        "entry_point": "0x6c650",
+        "end_address": "0x6c67f"
+    },
+    {
+        "name": "Curl_xfer_setup1",
+        "entry_point": "0x6c620",
+        "end_address": "0x6c643"
+    },
+    {
+        "name": "Curl_xfer_setup_nop",
+        "entry_point": "0x6c600",
+        "end_address": "0x6c620"
+    },
+    {
+        "name": "xfer_setup",
+        "entry_point": "0x6b520",
+        "end_address": "0x6b68b"
+    },
+    {
+        "name": "Curl_retry_request",
+        "entry_point": "0x6c440",
+        "end_address": "0x6c5fa"
+    },
+    {
+        "name": "Curl_follow",
+        "entry_point": "0x6bc90",
+        "end_address": "0x6c434"
+    },
+    {
+        "name": "Curl_pretransfer",
+        "entry_point": "0x6b800",
+        "end_address": "0x6bc88"
+    },
+    {
+        "name": "Curl_init_CONNECT",
+        "entry_point": "0x6b7c0",
+        "end_address": "0x6b800"
+    },
+    {
+        "name": "Curl_readwrite",
+        "entry_point": "0x6c8f0",
+        "end_address": "0x6d040"
+    },
+    {
+        "name": "Curl_meets_timecondition",
+        "entry_point": "0x6b6f0",
+        "end_address": "0x6b7b3"
+    },
+    {
+        "name": "Curl_checkheaders",
+        "entry_point": "0x6b690",
+        "end_address": "0x6b6e5"
+    },
+    {
+        "name": "Curl_connect",
+        "entry_point": "0x6f960",
+        "end_address": "0x72331"
+    },
+    {
+        "name": "Curl_setup_conn",
+        "entry_point": "0x6f810",
+        "end_address": "0x6f8b0"
+    },
+    {
+        "name": "Curl_parse_login_details",
+        "entry_point": "0x6f5a0",
+        "end_address": "0x6f810"
+    },
+    {
+        "name": "parse_proxy",
+        "entry_point": "0x6d3d0",
+        "end_address": "0x6da9e"
+    },
+    {
+        "name": "setup_range",
+        "entry_point": "0x6d1d0",
+        "end_address": "0x6d2a7"
+    },
+    {
+        "name": "Curl_get_scheme_handler",
+        "entry_point": "0x6f530",
+        "end_address": "0x6f55c"
+    },
+    {
+        "name": "Curl_verboseconnect",
+        "entry_point": "0x6f460",
+        "end_address": "0x6f526"
+    },
+    {
+        "name": "ConnectionExists",
+        "entry_point": "0x6e7d0",
+        "end_address": "0x6f456"
+    },
+    {
+        "name": "Curl_disconnect",
+        "entry_point": "0x6e750",
+        "end_address": "0x6e7c1"
+    },
+    {
+        "name": "Curl_conn_free",
+        "entry_point": "0x6e5d0",
+        "end_address": "0x6e74c"
+    },
+    {
+        "name": "Curl_open",
+        "entry_point": "0x6e4b0",
+        "end_address": "0x6e5ca"
+    },
+    {
+        "name": "Curl_init_userdefined",
+        "entry_point": "0x6e250",
+        "end_address": "0x6e4b0"
+    },
+    {
+        "name": "Curl_close",
+        "entry_point": "0x6deb0",
+        "end_address": "0x6e243"
+    },
+    {
+        "name": "up_free",
+        "entry_point": "0x6d0f0",
+        "end_address": "0x6d1c6"
+    },
+    {
+        "name": "Curl_freeset",
+        "entry_point": "0x6ddc0",
+        "end_address": "0x6dea9"
+    },
+    {
+        "name": "curl_url_dup",
+        "entry_point": "0x73ca0",
+        "end_address": "0x73e56"
+    },
+    {
+        "name": "curl_url",
+        "entry_point": "0x73c50",
+        "end_address": "0x73c6a"
+    },
+    {
+        "name": "parseurl_and_replace",
+        "entry_point": "0x72f30",
+        "end_address": "0x73b70"
+    },
+    {
+        "name": "Curl_url_set_authority",
+        "entry_point": "0x73ba0",
+        "end_address": "0x73c4f"
+    },
+    {
+        "name": "urlencode_str",
+        "entry_point": "0x723a0",
+        "end_address": "0x72584"
+    },
+    {
+        "name": "free_urlhandle",
+        "entry_point": "0x72340",
+        "end_address": "0x7239e"
+    },
+    {
+        "name": "curl_version_info",
+        "entry_point": "0x75610",
+        "end_address": "0x756b4"
+    },
+    {
+        "name": "https_proxy_present",
+        "entry_point": "0x75380",
+        "end_address": "0x7539c"
+    },
+    {
+        "name": "curl_version",
+        "entry_point": "0x753a0",
+        "end_address": "0x7560b"
+    },
+    {
+        "name": "curlx_sitouz",
+        "entry_point": "0x75790",
+        "end_address": "0x75798"
+    },
+    {
+        "name": "curlx_uitous",
+        "entry_point": "0x75780",
+        "end_address": "0x75787"
+    },
+    {
+        "name": "curlx_sotouz",
+        "entry_point": "0x75760",
+        "end_address": "0x75768"
+    },
+    {
+        "name": "curlx_sltous",
+        "entry_point": "0x75740",
+        "end_address": "0x75748"
+    },
+    {
+        "name": "curlx_sltoui",
+        "entry_point": "0x75730",
+        "end_address": "0x75738"
+    },
+    {
+        "name": "curlx_uztoui",
+        "entry_point": "0x75710",
+        "end_address": "0x75718"
+    },
+    {
+        "name": "curlx_uztoul",
+        "entry_point": "0x75700",
+        "end_address": "0x75708"
+    },
+    {
+        "name": "curlx_uztosi",
+        "entry_point": "0x756f0",
+        "end_address": "0x756fc"
+    },
+    {
+        "name": "curlx_ultouc",
+        "entry_point": "0x756d0",
+        "end_address": "0x756d8"
+    },
+    {
+        "name": "curlx_ultous",
+        "entry_point": "0x756c0",
+        "end_address": "0x756c8"
+    },
+    {
+        "name": "curl_ws_meta",
+        "entry_point": "0x757c0",
+        "end_address": "0x757c7"
+    },
+    {
+        "name": "curl_ws_send",
+        "entry_point": "0x757b0",
+        "end_address": "0x757ba"
+    },
+    {
+        "name": "curl_ws_recv",
+        "entry_point": "0x757a0",
+        "end_address": "0x757aa"
+    },
+    {
+        "name": "Curl_auth_create_external_message",
+        "entry_point": "0x75950",
+        "end_address": "0x75956"
+    },
+    {
+        "name": "Curl_auth_create_login_message",
+        "entry_point": "0x75920",
+        "end_address": "0x7594d"
+    },
+    {
+        "name": "Curl_auth_create_plain_message",
+        "entry_point": "0x757d0",
+        "end_address": "0x75912"
+    },
+    {
+        "name": "Curl_auth_create_cram_md5_message",
+        "entry_point": "0x75960",
+        "end_address": "0x75ad3"
+    },
+    {
+        "name": "Curl_auth_digest_cleanup",
+        "entry_point": "0x76d90",
+        "end_address": "0x76e10"
+    },
+    {
+        "name": "Curl_auth_create_digest_http_message",
+        "entry_point": "0x76d20",
+        "end_address": "0x76d8f"
+    },
+    {
+        "name": "auth_create_digest_http_message",
+        "entry_point": "0x75ce0",
+        "end_address": "0x7638d"
+    },
+    {
+        "name": "Curl_auth_decode_digest_http_message",
+        "entry_point": "0x76e10",
+        "end_address": "0x772f7"
+    },
+    {
+        "name": "Curl_auth_create_digest_md5_message",
+        "entry_point": "0x764a0",
+        "end_address": "0x76d17"
+    },
+    {
+        "name": "Curl_auth_is_digest_supported",
+        "entry_point": "0x76490",
+        "end_address": "0x7649a"
+    },
+    {
+        "name": "auth_digest_get_key_value",
+        "entry_point": "0x75c30",
+        "end_address": "0x75cd1"
+    },
+    {
+        "name": "auth_digest_string_quoted",
+        "entry_point": "0x75ae0",
+        "end_address": "0x75b8f"
+    },
+    {
+        "name": "auth_digest_sha256_to_ascii",
+        "entry_point": "0x75b90",
+        "end_address": "0x75bde"
+    },
+    {
+        "name": "auth_digest_md5_to_ascii",
+        "entry_point": "0x75be0",
+        "end_address": "0x75c2e"
+    },
+    {
+        "name": "Curl_auth_digest_get_pair",
+        "entry_point": "0x76390",
+        "end_address": "0x76488"
+    },
+    {
+        "name": "Curl_auth_create_ntlm_type3_message",
+        "entry_point": "0x775c0",
+        "end_address": "0x77c0a"
+    },
+    {
+        "name": "Curl_auth_create_ntlm_type1_message",
+        "entry_point": "0x77510",
+        "end_address": "0x775b7"
+    },
+    {
+        "name": "Curl_auth_decode_ntlm_type2_message",
+        "entry_point": "0x77310",
+        "end_address": "0x7750e"
+    },
+    {
+        "name": "Curl_auth_is_ntlm_supported",
+        "entry_point": "0x77300",
+        "end_address": "0x7730a"
+    },
+    {
+        "name": "Curl_auth_create_xoauth_bearer_message",
+        "entry_point": "0x77ce0",
+        "end_address": "0x77d45"
+    },
+    {
+        "name": "Curl_auth_create_oauth_bearer_message",
+        "entry_point": "0x77c40",
+        "end_address": "0x77cd9"
+    },
+    {
+        "name": "Curl_auth_allowed_to_host",
+        "entry_point": "0x77e30",
+        "end_address": "0x77eb0"
+    },
+    {
+        "name": "Curl_auth_user_contains_domain",
+        "entry_point": "0x77dd0",
+        "end_address": "0x77e29"
+    },
+    {
+        "name": "Curl_auth_build_spn",
+        "entry_point": "0x77d50",
+        "end_address": "0x77dc3"
+    },
+    {
+        "name": "Curl_cert_hostcheck",
+        "entry_point": "0x77eb0",
+        "end_address": "0x77fe1"
+    },
+    {
+        "name": "Curl_tls_keylog_write",
+        "entry_point": "0x781b0",
+        "end_address": "0x78320"
+    },
+    {
+        "name": "Curl_tls_keylog_write_line",
+        "entry_point": "0x780e0",
+        "end_address": "0x781aa"
+    },
+    {
+        "name": "Curl_tls_keylog_enabled",
+        "entry_point": "0x780d0",
+        "end_address": "0x780e0"
+    },
+    {
+        "name": "Curl_tls_keylog_close",
+        "entry_point": "0x78090",
+        "end_address": "0x780c1"
+    },
+    {
+        "name": "Curl_tls_keylog_open",
+        "entry_point": "0x77ff0",
+        "end_address": "0x78088"
+    },
+    {
+        "name": "ossl_get_internals",
+        "entry_point": "0x78410",
+        "end_address": "0x78427"
+    },
+    {
+        "name": "ossl_cert_status_request",
+        "entry_point": "0x78400",
+        "end_address": "0x7840a"
+    },
+    {
+        "name": "ossl_sha256sum",
+        "entry_point": "0x790d0",
+        "end_address": "0x79184"
+    },
+    {
+        "name": "ossl_random",
+        "entry_point": "0x7a940",
+        "end_address": "0x7a99b"
+    },
+    {
+        "name": "ossl_version",
+        "entry_point": "0x785d0",
+        "end_address": "0x786e1"
+    },
+    {
+        "name": "ossl_recv",
+        "entry_point": "0x78f10",
+        "end_address": "0x790d0"
+    },
+    {
+        "name": "ossl_send",
+        "entry_point": "0x78d40",
+        "end_address": "0x78f0a"
+    },
+    {
+        "name": "ossl_data_pending",
+        "entry_point": "0x79460",
+        "end_address": "0x79493"
+    },
+    {
+        "name": "ossl_connect",
+        "entry_point": "0x7e550",
+        "end_address": "0x7e593"
+    },
+    {
+        "name": "ossl_connect_nonblocking",
+        "entry_point": "0x7e530",
+        "end_address": "0x7e541"
+    },
+    {
+        "name": "ossl_connect_common",
+        "entry_point": "0x7e150",
+        "end_address": "0x7e525"
+    },
+    {
+        "name": "Curl_oss_check_peer_cert",
+        "entry_point": "0x7d340",
+        "end_address": "0x7e14b"
+    },
+    {
+        "name": "ossl_connect_step2",
+        "entry_point": "0x7c540",
+        "end_address": "0x7c95b"
+    },
+    {
+        "name": "Curl_ossl_ctx_init",
+        "entry_point": "0x7c960",
+        "end_address": "0x7d339"
+    },
+    {
+        "name": "Curl_ssl_setup_x509_store",
+        "entry_point": "0x7bbb0",
+        "end_address": "0x7c38c"
+    },
+    {
+        "name": "oss_x509_share_free",
+        "entry_point": "0x788f0",
+        "end_address": "0x78926"
+    },
+    {
+        "name": "ossl_new_session_cb",
+        "entry_point": "0x7bb50",
+        "end_address": "0x7bba4"
+    },
+    {
+        "name": "ossl_trace",
+        "entry_point": "0x78940",
+        "end_address": "0x78d38"
+    },
+    {
+        "name": "Curl_ossl_verifyhost",
+        "entry_point": "0x7b4b0",
+        "end_address": "0x7bab8"
+    },
+    {
+        "name": "ossl_close_all",
+        "entry_point": "0x78790",
+        "end_address": "0x787c2"
+    },
+    {
+        "name": "ossl_close",
+        "entry_point": "0x79200",
+        "end_address": "0x79253"
+    },
+    {
+        "name": "ossl_shutdown",
+        "entry_point": "0x794a0",
+        "end_address": "0x79a3b"
+    },
+    {
+        "name": "ossl_engines_list",
+        "entry_point": "0x79190",
+        "end_address": "0x791f4"
+    },
+    {
+        "name": "ossl_set_engine",
+        "entry_point": "0x787d0",
+        "end_address": "0x788d3"
+    },
+    {
+        "name": "ossl_cleanup",
+        "entry_point": "0x79a40",
+        "end_address": "0x79a49"
+    },
+    {
+        "name": "ossl_init",
+        "entry_point": "0x79a50",
+        "end_address": "0x79a73"
+    },
+    {
+        "name": "Curl_ossl_set_client_cert",
+        "entry_point": "0x7b480",
+        "end_address": "0x7b4ae"
+    },
+    {
+        "name": "cert_stuff",
+        "entry_point": "0x79b70",
+        "end_address": "0x7a8d4"
+    },
+    {
+        "name": "ssl_ui_writer",
+        "entry_point": "0x784e0",
+        "end_address": "0x78546"
+    },
+    {
+        "name": "ssl_ui_reader",
+        "entry_point": "0x78550",
+        "end_address": "0x785c5"
+    },
+    {
+        "name": "ossl_strerror",
+        "entry_point": "0x786f0",
+        "end_address": "0x78788"
+    },
+    {
+        "name": "SSL_ERROR_to_str",
+        "entry_point": "0x78330",
+        "end_address": "0x78400"
+    },
+    {
+        "name": "ossl_keylog_callback",
+        "entry_point": "0x78930",
+        "end_address": "0x7893c"
+    },
+    {
+        "name": "ossl_bio_cf_in_read",
+        "entry_point": "0x7c390",
+        "end_address": "0x7c531"
+    },
+    {
+        "name": "ossl_bio_cf_out_write",
+        "entry_point": "0x79320",
+        "end_address": "0x79459"
+    },
+    {
+        "name": "ossl_bio_cf_ctrl",
+        "entry_point": "0x79290",
+        "end_address": "0x79315"
+    },
+    {
+        "name": "ossl_bio_cf_destroy",
+        "entry_point": "0x78320",
+        "end_address": "0x7832d"
+    },
+    {
+        "name": "ossl_bio_cf_create",
+        "entry_point": "0x79260",
+        "end_address": "0x79290"
+    },
+    {
+        "name": "Curl_ossl_certchain",
+        "entry_point": "0x7ab50",
+        "end_address": "0x7b47c"
+    },
+    {
+        "name": "pubkey_show",
+        "entry_point": "0x78430",
+        "end_address": "0x784e0"
+    },
+    {
+        "name": "Curl_alpn_set_negotiated",
+        "entry_point": "0x81bd0",
+        "end_address": "0x81d0b"
+    },
+    {
+        "name": "Curl_alpn_to_proto_str",
+        "entry_point": "0x81b10",
+        "end_address": "0x81bce"
+    },
+    {
+        "name": "Curl_alpn_to_proto_buf",
+        "entry_point": "0x81a40",
+        "end_address": "0x81b08"
+    },
+    {
+        "name": "Curl_ssl_cfilter_remove",
+        "entry_point": "0x816b0",
+        "end_address": "0x819b6"
+    },
+    {
+        "name": "Curl_ssl_get_internals",
+        "entry_point": "0x81610",
+        "end_address": "0x816a1"
+    },
+    {
+        "name": "Curl_ssl_supports",
+        "entry_point": "0x815f0",
+        "end_address": "0x81602"
+    },
+    {
+        "name": "Curl_cf_ssl_proxy_insert_after",
+        "entry_point": "0x81530",
+        "end_address": "0x815ed"
+    },
+    {
+        "name": "Curl_cf_ssl_insert_after",
+        "entry_point": "0x814c0",
+        "end_address": "0x8152c"
+    },
+    {
+        "name": "Curl_ssl_cfilter_add",
+        "entry_point": "0x81440",
+        "end_address": "0x814ba"
+    },
+    {
+        "name": "ssl_cf_adjust_pollset",
+        "entry_point": "0x7e7c0",
+        "end_address": "0x7e7f2"
+    },
+    {
+        "name": "ssl_cf_recv",
+        "entry_point": "0x7ea90",
+        "end_address": "0x7eb50"
+    },
+    {
+        "name": "ssl_cf_send",
+        "entry_point": "0x7e780",
+        "end_address": "0x7e7bc"
+    },
+    {
+        "name": "ssl_cf_data_pending",
+        "entry_point": "0x7e730",
+        "end_address": "0x7e772"
+    },
+    {
+        "name": "ssl_cf_connect",
+        "entry_point": "0x81230",
+        "end_address": "0x8143f"
+    },
+    {
+        "name": "ssl_cf_close",
+        "entry_point": "0x80f70",
+        "end_address": "0x80fae"
+    },
+    {
+        "name": "ssl_cf_destroy",
+        "entry_point": "0x80fb0",
+        "end_address": "0x80ff7"
+    },
+    {
+        "name": "Curl_ssl_peer_init",
+        "entry_point": "0x81000",
+        "end_address": "0x81227"
+    },
+    {
+        "name": "cf_close",
+        "entry_point": "0x80f30",
+        "end_address": "0x80f69"
+    },
+    {
+        "name": "Curl_ssl_peer_cleanup",
+        "entry_point": "0x80ed0",
+        "end_address": "0x80f28"
+    },
+    {
+        "name": "Curl_init_sslset_nolock",
+        "entry_point": "0x80dc0",
+        "end_address": "0x80ec8"
+    },
+    {
+        "name": "multissl_version",
+        "entry_point": "0x7e880",
+        "end_address": "0x7ea16"
+    },
+    {
+        "name": "Curl_ssl_cleanup",
+        "entry_point": "0x80d80",
+        "end_address": "0x80db1"
+    },
+    {
+        "name": "Curl_none_engines_list",
+        "entry_point": "0x7e720",
+        "end_address": "0x7e727"
+    },
+    {
+        "name": "Curl_none_set_engine_default",
+        "entry_point": "0x7e710",
+        "end_address": "0x7e71a"
+    },
+    {
+        "name": "Curl_none_set_engine",
+        "entry_point": "0x7e700",
+        "end_address": "0x7e70a"
+    },
+    {
+        "name": "Curl_none_data_pending",
+        "entry_point": "0x7e6e0",
+        "end_address": "0x7e6e7"
+    },
+    {
+        "name": "Curl_none_random",
+        "entry_point": "0x7e6c0",
+        "end_address": "0x7e6ca"
+    },
+    {
+        "name": "Curl_none_check_cxn",
+        "entry_point": "0x7e6b0",
+        "end_address": "0x7e6ba"
+    },
+    {
+        "name": "Curl_none_shutdown",
+        "entry_point": "0x7e6a0",
+        "end_address": "0x7e6aa"
+    },
+    {
+        "name": "Curl_none_cleanup",
+        "entry_point": "0x7e690",
+        "end_address": "0x7e695"
+    },
+    {
+        "name": "Curl_none_init",
+        "entry_point": "0x80d60",
+        "end_address": "0x80d6a"
+    },
+    {
+        "name": "Curl_ssl_false_start",
+        "entry_point": "0x80d40",
+        "end_address": "0x80d51"
+    },
+    {
+        "name": "Curl_ssl_cert_status_request",
+        "entry_point": "0x80d30",
+        "end_address": "0x80d3e"
+    },
+    {
+        "name": "Curl_pin_peer_pubkey",
+        "entry_point": "0x80800",
+        "end_address": "0x80d22"
+    },
+    {
+        "name": "Curl_ssl_random",
+        "entry_point": "0x807f0",
+        "end_address": "0x807fe"
+    },
+    {
+        "name": "Curl_ssl_push_certinfo_len",
+        "entry_point": "0x806e0",
+        "end_address": "0x807e5"
+    },
+    {
+        "name": "Curl_ssl_init_certinfo",
+        "entry_point": "0x80680",
+        "end_address": "0x806dc"
+    },
+    {
+        "name": "Curl_ssl_version",
+        "entry_point": "0x80650",
+        "end_address": "0x8065e"
+    },
+    {
+        "name": "Curl_ssl_initsessions",
+        "entry_point": "0x805e0",
+        "end_address": "0x80648"
+    },
+    {
+        "name": "Curl_ssl_engines_list",
+        "entry_point": "0x805c0",
+        "end_address": "0x805d1"
+    },
+    {
+        "name": "Curl_ssl_set_engine_default",
+        "entry_point": "0x805a0",
+        "end_address": "0x805b1"
+    },
+    {
+        "name": "Curl_ssl_set_engine",
+        "entry_point": "0x80580",
+        "end_address": "0x80591"
+    },
+    {
+        "name": "Curl_ssl_adjust_pollset",
+        "entry_point": "0x80460",
+        "end_address": "0x80573"
+    },
+    {
+        "name": "Curl_ssl_close_all",
+        "entry_point": "0x803d0",
+        "end_address": "0x8045e"
+    },
+    {
+        "name": "Curl_ssl_set_sessionid",
+        "entry_point": "0x7ffe0",
+        "end_address": "0x803cf"
+    },
+    {
+        "name": "Curl_ssl_delsessionid",
+        "entry_point": "0x7ff90",
+        "end_address": "0x7ffd1"
+    },
+    {
+        "name": "Curl_ssl_kill_session",
+        "entry_point": "0x7ff20",
+        "end_address": "0x7ff88"
+    },
+    {
+        "name": "Curl_ssl_getsessionid",
+        "entry_point": "0x7fd10",
+        "end_address": "0x7ff18"
+    },
+    {
+        "name": "Curl_ssl_sessionid_unlock",
+        "entry_point": "0x7fce0",
+        "end_address": "0x7fd0a"
+    },
+    {
+        "name": "Curl_ssl_sessionid_lock",
+        "entry_point": "0x7fcb0",
+        "end_address": "0x7fcdf"
+    },
+    {
+        "name": "ssl_prefs_check",
+        "entry_point": "0x7ea20",
+        "end_address": "0x7ea8b"
+    },
+    {
+        "name": "Curl_ssl_init",
+        "entry_point": "0x7fc80",
+        "end_address": "0x7fca6"
+    },
+    {
+        "name": "Curl_ssl_backend",
+        "entry_point": "0x7fc30",
+        "end_address": "0x7fc71"
+    },
+    {
+        "name": "Curl_ssl_conn_config_update",
+        "entry_point": "0x7fbc0",
+        "end_address": "0x7fc28"
+    },
+    {
+        "name": "Curl_ssl_conn_config_cleanup",
+        "entry_point": "0x7fb90",
+        "end_address": "0x7fbb1"
+    },
+    {
+        "name": "Curl_ssl_conn_config_init",
+        "entry_point": "0x7fb30",
+        "end_address": "0x7fb8c"
+    },
+    {
+        "name": "Curl_ssl_easy_config_complete",
+        "entry_point": "0x7f920",
+        "end_address": "0x7fb2d"
+    },
+    {
+        "name": "Curl_free_primary_ssl_config",
+        "entry_point": "0x7e5a0",
+        "end_address": "0x7e687"
+    },
+    {
+        "name": "Curl_ssl_conn_config_match",
+        "entry_point": "0x7f8e0",
+        "end_address": "0x7f913"
+    },
+    {
+        "name": "Curl_ssl_easy_config_init",
+        "entry_point": "0x7f810",
+        "end_address": "0x7f8de"
+    },
+    {
+        "name": "blobdup",
+        "entry_point": "0x7e800",
+        "end_address": "0x7e87c"
+    },
+    {
+        "name": "Curl_conn_may_http3",
+        "entry_point": "0x81d10",
+        "end_address": "0x81d1a"
+    }
+]

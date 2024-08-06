@@ -1,0 +1,178 @@
+[
+    {
+        "name": "altsvc_createid", 
+        "entry_point": "0x0"
+    }, 
+    {
+        "name": "getalnum", 
+        "entry_point": "0x170"
+    }, 
+    {
+        "name": "hostcompare", 
+        "entry_point": "0x210"
+    }, 
+    {
+        "name": "altsvc_flush", 
+        "entry_point": "0x270"
+    }, 
+    {
+        "name": "alpn2alpnid", 
+        "entry_point": "0x310"
+    }, 
+    {
+        "name": "altsvc_add", 
+        "entry_point": "0x370"
+    }, 
+    {
+        "name": "Curl_alpnid2str", 
+        "entry_point": "0x4c0"
+    }, 
+    {
+        "name": "Curl_altsvc_init", 
+        "entry_point": "0x500"
+    }, 
+    {
+        "name": "Curl_altsvc_load", 
+        "entry_point": "0x540"
+    }, 
+    {
+        "name": "Curl_altsvc_ctrl", 
+        "entry_point": "0x640"
+    }, 
+    {
+        "name": "Curl_altsvc_cleanup", 
+        "entry_point": "0x650"
+    }, 
+    {
+        "name": "Curl_altsvc_save", 
+        "entry_point": "0x6d0"
+    }, 
+    {
+        "name": "Curl_altsvc_parse", 
+        "entry_point": "0x9e0"
+    }, 
+    {
+        "name": "Curl_altsvc_lookup", 
+        "entry_point": "0x1190"
+    }, 
+    {
+        "name": "strlen", 
+        "entry_point": "0x2008"
+    }, 
+    {
+        "name": "Curl_memdup0", 
+        "entry_point": "0x2010"
+    }, 
+    {
+        "name": "curlx_ultous", 
+        "entry_point": "0x2018"
+    }, 
+    {
+        "name": "memcpy", 
+        "entry_point": "0x2028"
+    }, 
+    {
+        "name": "curl_strnequal", 
+        "entry_point": "0x2030"
+    }, 
+    {
+        "name": "Curl_llist_remove", 
+        "entry_point": "0x2038"
+    }, 
+    {
+        "name": "curl_strequal", 
+        "entry_point": "0x2040"
+    }, 
+    {
+        "name": "__isoc99_sscanf", 
+        "entry_point": "0x2048"
+    }, 
+    {
+        "name": "Curl_getdate_capped", 
+        "entry_point": "0x2050"
+    }, 
+    {
+        "name": "Curl_llist_append", 
+        "entry_point": "0x2058"
+    }, 
+    {
+        "name": "__stack_chk_fail", 
+        "entry_point": "0x2060"
+    }, 
+    {
+        "name": "Curl_llist_init", 
+        "entry_point": "0x2068"
+    }, 
+    {
+        "name": "fopen", 
+        "entry_point": "0x2078"
+    }, 
+    {
+        "name": "Curl_dyn_init", 
+        "entry_point": "0x2080"
+    }, 
+    {
+        "name": "Curl_get_line", 
+        "entry_point": "0x2088"
+    }, 
+    {
+        "name": "Curl_dyn_ptr", 
+        "entry_point": "0x2090"
+    }, 
+    {
+        "name": "Curl_dyn_free", 
+        "entry_point": "0x2098"
+    }, 
+    {
+        "name": "fclose", 
+        "entry_point": "0x20a0"
+    }, 
+    {
+        "name": "Curl_fopen", 
+        "entry_point": "0x20a8"
+    }, 
+    {
+        "name": "fwrite", 
+        "entry_point": "0x20b0"
+    }, 
+    {
+        "name": "inet_pton", 
+        "entry_point": "0x20b8"
+    }, 
+    {
+        "name": "curl_mfprintf", 
+        "entry_point": "0x20c0"
+    }, 
+    {
+        "name": "Curl_gmtime", 
+        "entry_point": "0x20c8"
+    }, 
+    {
+        "name": "unlink", 
+        "entry_point": "0x20d0"
+    }, 
+    {
+        "name": "Curl_rename", 
+        "entry_point": "0x20d8"
+    }, 
+    {
+        "name": "Curl_infof", 
+        "entry_point": "0x20e0"
+    }, 
+    {
+        "name": "strspn", 
+        "entry_point": "0x20e8"
+    }, 
+    {
+        "name": "strtoul", 
+        "entry_point": "0x20f0"
+    }, 
+    {
+        "name": "time", 
+        "entry_point": "0x20f8"
+    }, 
+    {
+        "name": "__memcpy_chk", 
+        "entry_point": "0x2100"
+    }
+]

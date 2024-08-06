@@ -47,4 +47,5 @@ def extract_function_addresses(filename, output_file):
 
 if __name__ == '__main__':
     # extract_function_addresses('example/main', 'output/src_functions_list.json')
-    extract_function_addresses('/home/lizeren/Downloads/pwgen-2.08/pwgen', 'output/src_functions_list.json')
+    # extract_function_addresses('/home/lizeren/Downloads/pwgen-2.08/pwgen', 'output/src_functions_list.json')
+    extract_function_addresses('/home/lizeren/Downloads/curl-8.9.1/build/lib/libcurl.so', 'output/src_functions_list.json')

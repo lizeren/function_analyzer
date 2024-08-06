@@ -1,0 +1,212 @@
+[
+    {
+        "function_name": "altsvc_createid", 
+        "number_of_parameters": 6, 
+        "total_parameter_stack_size_bytes": 32, 
+        "total_local_variable_stack_size_bytes": 20, 
+        "total_local_variables": 4, 
+        "number_of_meaningful_basic_blocks": 17, 
+        "vector": [
+            6, 
+            32, 
+            20, 
+            4, 
+            17
+        ]
+    }, 
+    {
+        "function_name": "getalnum", 
+        "number_of_parameters": 3, 
+        "total_parameter_stack_size_bytes": 24, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 15, 
+        "vector": [
+            3, 
+            24, 
+            0, 
+            0, 
+            15
+        ]
+    }, 
+    {
+        "function_name": "hostcompare", 
+        "number_of_parameters": 2, 
+        "total_parameter_stack_size_bytes": 16, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 5, 
+        "vector": [
+            2, 
+            16, 
+            0, 
+            0, 
+            5
+        ]
+    }, 
+    {
+        "function_name": "altsvc_flush", 
+        "number_of_parameters": 4, 
+        "total_parameter_stack_size_bytes": 22, 
+        "total_local_variable_stack_size_bytes": 8, 
+        "total_local_variables": 1, 
+        "number_of_meaningful_basic_blocks": 8, 
+        "vector": [
+            4, 
+            22, 
+            8, 
+            1, 
+            8
+        ]
+    }, 
+    {
+        "function_name": "alpn2alpnid", 
+        "number_of_parameters": 1, 
+        "total_parameter_stack_size_bytes": 8, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 4, 
+        "vector": [
+            1, 
+            8, 
+            0, 
+            0, 
+            4
+        ]
+    }, 
+    {
+        "function_name": "altsvc_add", 
+        "number_of_parameters": 2, 
+        "total_parameter_stack_size_bytes": 16, 
+        "total_local_variable_stack_size_bytes": 1145, 
+        "total_local_variables": 12, 
+        "number_of_meaningful_basic_blocks": 8, 
+        "vector": [
+            2, 
+            16, 
+            1145, 
+            12, 
+            8
+        ]
+    }, 
+    {
+        "function_name": "Curl_alpnid2str", 
+        "number_of_parameters": 1, 
+        "total_parameter_stack_size_bytes": 4, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 4, 
+        "vector": [
+            1, 
+            4, 
+            0, 
+            0, 
+            4
+        ]
+    }, 
+    {
+        "function_name": "Curl_altsvc_init", 
+        "number_of_parameters": 0, 
+        "total_parameter_stack_size_bytes": 0, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 3, 
+        "vector": [
+            0, 
+            0, 
+            0, 
+            0, 
+            3
+        ]
+    }, 
+    {
+        "function_name": "Curl_altsvc_load", 
+        "number_of_parameters": 2, 
+        "total_parameter_stack_size_bytes": 16, 
+        "total_local_variable_stack_size_bytes": 40, 
+        "total_local_variables": 2, 
+        "number_of_meaningful_basic_blocks": 16, 
+        "vector": [
+            2, 
+            16, 
+            40, 
+            2, 
+            16
+        ]
+    }, 
+    {
+        "function_name": "Curl_altsvc_ctrl", 
+        "number_of_parameters": 2, 
+        "total_parameter_stack_size_bytes": 16, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 1, 
+        "vector": [
+            2, 
+            16, 
+            0, 
+            0, 
+            1
+        ]
+    }, 
+    {
+        "function_name": "Curl_altsvc_cleanup", 
+        "number_of_parameters": 1, 
+        "total_parameter_stack_size_bytes": 8, 
+        "total_local_variable_stack_size_bytes": 0, 
+        "total_local_variables": 0, 
+        "number_of_meaningful_basic_blocks": 6, 
+        "vector": [
+            1, 
+            8, 
+            0, 
+            0, 
+            6
+        ]
+    }, 
+    {
+        "function_name": "Curl_altsvc_save", 
+        "number_of_parameters": 3, 
+        "total_parameter_stack_size_bytes": 24, 
+        "total_local_variable_stack_size_bytes": 144, 
+        "total_local_variables": 14, 
+        "number_of_meaningful_basic_blocks": 30, 
+        "vector": [
+            3, 
+            24, 
+            144, 
+            14, 
+            30
+        ]
+    }, 
+    {
+        "function_name": "Curl_altsvc_parse", 
+        "number_of_parameters": 6, 
+        "total_parameter_stack_size_bytes": 38, 
+        "total_local_variable_stack_size_bytes": 651, 
+        "total_local_variables": 19, 
+        "number_of_meaningful_basic_blocks": 111, 
+        "vector": [
+            6, 
+            38, 
+            651, 
+            19, 
+            111
+        ]
+    }, 
+    {
+        "function_name": "Curl_altsvc_lookup", 
+        "number_of_parameters": 6, 
+        "total_parameter_stack_size_bytes": 36, 
+        "total_local_variable_stack_size_bytes": 24, 
+        "total_local_variables": 4, 
+        "number_of_meaningful_basic_blocks": 13, 
+        "vector": [
+            6, 
+            36, 
+            24, 
+            4, 
+            13
+        ]
+    }
+]

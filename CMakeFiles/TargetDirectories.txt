@@ -1,0 +1,5 @@
+/home/lizeren/Desktop/static_analyzer/CMakeFiles/rebuild_cache.dir
+/home/lizeren/Desktop/static_analyzer/CMakeFiles/edit_cache.dir
+/home/lizeren/Desktop/static_analyzer/CMakeFiles/MyStaticAnalyzer.dir
+/home/lizeren/Desktop/static_analyzer/CMakeFiles/clang-tablegen-targets.dir
+/home/lizeren/Desktop/static_analyzer/CMakeFiles/intrinsics_gen.dir
