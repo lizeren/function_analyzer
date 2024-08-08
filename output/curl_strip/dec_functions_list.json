@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FUN_00100000", 
+        "entry_point": "0x0"
+    }, 
+    {
+        "name": "FUN_00100210", 
+        "entry_point": "0x210"
+    }, 
+    {
+        "name": "FUN_00100270", 
+        "entry_point": "0x270"
+    }, 
+    {
+        "name": "FUN_00100310", 
+        "entry_point": "0x310"
+    }, 
+    {
+        "name": "FUN_00100370", 
+        "entry_point": "0x370"
+    }
+]

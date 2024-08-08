@@ -4,10 +4,12 @@ import json
 import numpy as np
 
 # Define the target vector
-target_vector = np.array([6,32,24,3,20])
+# Vec:[# of parameters, parameter stack size, local variable stack size, # of local variables,# of basic blocks]​
+# target_vector = np.array([6,32,24,3,20]) # altsvc_createid from altsvc.c
+target_vector = np.array([4,24,49,11,49]) # pw_phonemes from pwgen
 
 # Load JSON data from a file
-with open('output/dec_feature.json', 'r') as file:
+with open('output/pwgen_out/dec_feature.json', 'r') as file:
     data = json.load(file)
 
 vectors = []
